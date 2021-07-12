@@ -102,11 +102,11 @@ class SocialLoginButtonFactory {
         
         var lightImage: SourceImage?
         
-        let appleLogo = Asset.Images.socialLoginButtonApple.image
+       //let appleLogo = Asset.Images.socialLoginButtonApple.image
         
-        if let appleLogoLightStyle = appleLogo.vc_tintedImage(usingColor: .white) {
-            lightImage = .local(appleLogoLightStyle)
-        }
+       // if let appleLogoLightStyle = appleLogo.vc_tintedImage(usingColor: .white) {
+          //  lightImage = .local(appleLogoLightStyle)
+        //}
         
         let lightStyle = SocialLoginButtonStyle(logo: lightImage,
                                                 titleColor: .white,
@@ -115,9 +115,9 @@ class SocialLoginButtonFactory {
         
         var darkImage: SourceImage?
         
-        if let appleLogoDarkStyle = appleLogo.vc_tintedImage(usingColor: .black) {
-            darkImage = .local(appleLogoDarkStyle)
-        }
+//        if let appleLogoDarkStyle = appleLogo.vc_tintedImage(usingColor: .black) {
+//            darkImage = .local(appleLogoDarkStyle)
+//        }
         
         let darkStyle = SocialLoginButtonStyle(logo: darkImage,
                                                titleColor: .black,

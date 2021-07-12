@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "horizontal_logo.png",
+      "filename" : "mybusines_white_icon.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "horizontal_logo@2x.png",
+      "filename" : "mybusines_white_icon-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "horizontal_logo@3x.png",
+      "filename" : "mybusines_white_icon-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

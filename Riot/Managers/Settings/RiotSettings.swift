@@ -97,16 +97,12 @@ final class RiotSettings: NSObject {
     var homeserverUrlString: String {
         get {
             return defaults.string(forKey: UserDefaultsKeys.homeserverUrlString) ?? BuildSettings.serverConfigDefaultHomeserverUrlString
-        } set {
-            defaults.set(newValue, forKey: UserDefaultsKeys.homeserverUrlString)
         }
     }
     
     var identityServerUrlString: String {
         get {
             return defaults.string(forKey: UserDefaultsKeys.identityServerUrlString) ?? BuildSettings.serverConfigDefaultIdentityServerUrlString
-        } set {
-            defaults.set(newValue, forKey: UserDefaultsKeys.identityServerUrlString)
         }
     }
     
