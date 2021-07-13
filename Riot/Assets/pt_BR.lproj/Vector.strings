@@ -51,8 +51,8 @@
 "auth_phone_placeholder" = "Número de telefone";
 "auth_repeat_password_placeholder" = "Repetir senha";
 "auth_repeat_new_password_placeholder" = "Confirmar sua nova senha";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
-"auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
+"auth_home_server_placeholder" = "URL (e.g. https://matrix.m.mybusines.app)";
+"auth_identity_server_placeholder" = "URL (e.g. https://MyBusiness.im)";
 "auth_invalid_login_param" = "Nome de usuária(o) e/ou senha incorretos";
 "auth_invalid_user_name" = "Nomes de usuária(o) podem somente conter letras, números, pontos, hifens e underscores";
 "auth_invalid_password" = "Senha curta demais (mín 6)";
@@ -85,7 +85,7 @@
 "auth_reset_password_email_validation_message" = "Um email tem sido enviado para %@. Uma vez que você tenha seguido o link que ele contém, clique abaixo.";
 "auth_reset_password_next_step_button" = "Eu tenho verificado meu endereço de email";
 "auth_reset_password_error_unauthorized" = "Falha para verificar endereço de email: assegure que você clicou no link no email";
-"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado a uma ID Matrix neste servidorcasa.";
+"auth_reset_password_error_not_found" = "Seu endereço de email não parece estar associado a uma ID MyBusiness neste servidorcasa.";
 "auth_reset_password_success_message" = "Sua senha tem sido resettada.\n\nVocê tem sido feito logout de todas as sessões e não vai mais receber notificações push. Para re-ativar as notificações, refaça login em cada dispositivo.";
 "auth_add_email_and_phone_warning" = "Registro com email e número de telefone ao mesmo tempo não é suportado ainda até que a api exista. Somente o número de telefone vai ser levado em conta. Você pode adicionar seu email a seu perfil em configurações.";
 "room_creation_appearance" = "Aparência";
@@ -139,10 +139,10 @@
 "directory_searching_title" = "Pesquisando diretório…";
 // Contacts
 "contacts_address_book_section" = "CONTATOS LOCAIS";
-"contacts_address_book_matrix_users_toggle" = "Usuários Matrix somente";
+"contacts_address_book_matrix_users_toggle" = "Usuários MyBusiness somente";
 "contacts_address_book_no_contact" = "Nenhum contato local";
 "contacts_address_book_permission_required" = "Permissão requerida para acessar contatos locais";
-"contacts_address_book_permission_denied" = "Você não permitiu Element acessar seus contatos locais";
+"contacts_address_book_permission_denied" = "Você não permitiu MyBusiness acessar seus contatos locais";
 "contacts_user_directory_section" = "DIRETÓRIO DE USUÁRIAS(OS)";
 "contacts_user_directory_offline_section" = "DIRETÓRIO DE USUÁRIAS(OS) (offline)";
 // Chat participants
@@ -187,7 +187,7 @@
 "room_participants_action_unban" = "Desbanir";
 "room_participants_action_ignore" = "Esconder todas as mensagens desta(e) usuária(o)";
 "room_participants_action_unignore" = "Mostrar todas as mensagens desta(e) usuária(o)";
-"room_participants_invite_malformed_id" = "ID malformado. Deveria ser um endereço de email ou uma ID Matrix como '@partlocal:dominio'";
+"room_participants_invite_malformed_id" = "ID malformado. Deveria ser um endereço de email ou uma ID MyBusiness como '@partlocal:dominio'";
 "room_participants_action_set_default_power_level" = "Resettar para usuária(o) normal";
 "room_participants_action_set_moderator" = "Fazer moderador(a)";
 "room_participants_action_set_admin" = "Fazer admin";
@@ -320,7 +320,7 @@
 "settings_global_settings_info" = "Configurações de notificação globais estão disponíveis em seu cliente web %@";
 "settings_on_denied_notification" = "Notificações são negadas para %@, por favor permita-as nas configurações de seu dispositivo";
 "settings_enable_callkit" = "Chamamento integrado";
-"settings_callkit_info" = "Receba chamadas chegando em sua tela de bloqueio. Veja suas chamadas Element no histórico de chamadas do sistema. Se iCloud está ativado, este histórico de chamadas vai ser compartilhado com Apple.";
+"settings_callkit_info" = "Receba chamadas chegando em sua tela de bloqueio. Veja suas chamadas MyBusiness no histórico de chamadas do sistema. Se iCloud está ativado, este histórico de chamadas vai ser compartilhado com Apple.";
 "settings_ui_language" = "Língua";
 "settings_ui_theme" = "Tema";
 "settings_ui_theme_auto" = "Auto";
@@ -445,7 +445,7 @@
 "group_participants_filter_members" = "Filtrar membros de comunidade";
 "group_participants_invite_another_user" = "Pesquisar / convidar por ID de Usuária(o) ou Nome";
 "group_participants_invite_malformed_id_title" = "Erro de Convidar";
-"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID Matrix como '@partlocal:dominio'";
+"group_participants_invite_malformed_id" = "ID malformada. Deveria ser uma ID MyBusiness como '@partlocal:dominio'";
 "group_participants_invited_section" = "CONVIDADAS(OS)";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtrar salas de comunidade";
@@ -462,9 +462,9 @@
 "settings_pin_rooms_with_missed_notif" = "Fixar salas com notificações perdidas";
 "settings_pin_rooms_with_unread" = "Fixar salas com mensagens não-lidas";
 "directory_server_all_rooms" = "Todas as salas em servidor %@";
-"directory_server_all_native_rooms" = "Todas as salas Matrix nativas";
+"directory_server_all_native_rooms" = "Todas as salas MyBusiness nativas";
 "directory_server_type_homeserver" = "Digite um servidorcasa para de onde listar salas públicas";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "MyBusiness.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu mudanças de filiação";
 "event_formatter_widget_added" = "%@ widget adicionado por %@";
@@ -499,7 +499,7 @@
 // Crash report
 "google_analytics_use_prompt" = "Você gostaria de ajudar a melhorar %@ ao reportar automaticamente reportes de crash e dados de uso anônimos?";
 // Crypto
-"e2e_enabling_on_app_update" = "Element agora suporta encriptação ponta-a-ponta mas você precisa fazer login de novo para ativá-la.\n\nVocê pode fazê-lo agora ou mais tarde desde as configurações do aplicativo.";
+"e2e_enabling_on_app_update" = "MyBusiness agora suporta encriptação ponta-a-ponta mas você precisa fazer login de novo para ativá-la.\n\nVocê pode fazê-lo agora ou mais tarde desde as configurações do aplicativo.";
 "e2e_need_log_in_again" = "Você precisa fazer login de volta para gerar chaves de encriptação ponta-a-ponta para esta sessão e submeter a chave pública a seu servidorcasa.\nIsto é só desta vez; desculpe pela inconveniência.";
 // Bug report
 "bug_report_title" = "Report de Bug";
@@ -546,7 +546,7 @@
 "deactivate_account_informations_part2_emphasize" = "Esta ação é irreversível.";
 "deactivate_account_informations_part3" = "\n\nDesativar sua conta ";
 "deactivate_account_informations_part4_emphasize" = "não nos causa por default esquecer mensagens que você tem enviado. ";
-"deactivate_account_informations_part5" = "Se você gostaria que nós esqueçamos suas mensagens, por favor marque a caixa abaixo.\n\nVisibilidade de mensagem em Matrix é similar a email. Nós esquecermos suas mensagens significa que mensagens que você tem enviado não vão ser compartilhadas com nenhum usuária(o) nova(o) ou não-registrada(o), mas usuárias(os) registradas(os) que já têm acesso a estas mensagens vão ainda ter acesso à cópia delas(es).";
+"deactivate_account_informations_part5" = "Se você gostaria que nós esqueçamos suas mensagens, por favor marque a caixa abaixo.\n\nVisibilidade de mensagem em MyBusiness é similar a email. Nós esquecermos suas mensagens significa que mensagens que você tem enviado não vão ser compartilhadas com nenhum usuária(o) nova(o) ou não-registrada(o), mas usuárias(os) registradas(os) que já têm acesso a estas mensagens vão ainda ter acesso à cópia delas(es).";
 "deactivate_account_forget_messages_information_part1" = "Por favor esqueça todas as mensagens que eu tenho enviado quando minha conta for desativada (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Aviso";
 "deactivate_account_forget_messages_information_part3" = ": isto vai causar usuárias/os futuras/os terem uma visualização incompleta de conversas)";
@@ -555,10 +555,10 @@
 "deactivate_account_password_alert_message" = "Para continuar, por favor entre sua senha";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Requisição Enviada";
-"rerequest_keys_alert_message" = "Por favor lance Element num outro dispositivo que possa decriptar a mensagem para que ele possa enviar as chaves para esta sessão.";
+"rerequest_keys_alert_message" = "Por favor lance MyBusiness num outro dispositivo que possa decriptar a mensagem para que ele possa enviar as chaves para esta sessão.";
 // String for App Store
 "store_short_description" = "Chat/VoIP descentralizado e seguro";
-"store_full_description" = "Element is um novo tipo de mensageiro e app de colaboração que:\n\n1. Põe você em controle para preservar sua privacidade\n2. Permite você se comunicar com qualquer pessoa na rede Matrix, e até além ao integrar-se com apps como Slack\n3. Protege você de publicidade, datamining, backdoors e jardins murados\n4. Assegura você através de encriptação ponta-a-pontam com assinatura cruzada para verificar ouras(os)\n\nElement é completamente diferente de outros apps de mensageria e colaboração porque ele é descentralizado e open source.\n\nElement permite você auto-hospedar - ou escolher um host - para que você tenha privacidade, propriedade e controle de seus dados e conversas. Ele dá a você acesso a uma rede aberta; então você não está simplesmente preso falando com outras(os) usuárias(os) Element somente. E ele é muito seguro.\n\nElement é capaz de fazer tudo isso porque ele opera em Matrix - o padrão para comunicação aberta e descentralizada.\n\nElement põe você em controle ao permitir você escolher quem hospeda suas conversas. De seu app Element, você pode escolher hospedar de diferentes maneiras:\n\n1. Pegar uma conta grátis no servidor público matrix.org\n2. Auto-hospedar sua conta ao rodar um servidor em seu próprio hardware\n3. Registrar-se para uma conta num servidor personalizado ao simplesmente assinar a plataforma de hospedagem Element Matrix Services\n\nPorquê escolher Element?\n\nTENHA POSSE DE SEUS DADOS: Você decide onde manter seus dados e mensagens. Você os possui e controla, não alguma MEGACORP que mina seus dados ou dá acesso a terceiros.\n\nMENSAGERIA E COLABORAÇÃO ABERTOS: Você pode fazer chat com qualquer outra pessoa na rede Matrix, caso ela esteja usando Element ou um outro app Matrix, e mesmo se ela estiver usando um sistema de mensageria diferente, do tipo de Slack, IRC ou XMPP.\n\nSUPER-SEGURO: Encriptação ponta-a-ponta real (somente aquelas/es na conversa podem decriptar mensagens), e assinatura cruzada para verificar os dispositivos de participantes de conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensageria, chamadas de voz e vídeo, compartilhamento de arquivo, compartilhamento de tela e um monte de integrações, bots e widgets. Construa salas, comunidades, fique em contato e tenha as coisas feitas.\n\nEM TODO LUGAR ONDE VOCÊ ESTEJA: Fique em contato onde quer que você esteja com histórico de mensagem sincronizado por todos os dispositivos e na web em https://element.io/app.";
+"store_full_description" = "MyBusiness is um novo tipo de mensageiro e app de colaboração que:\n\n1. Põe você em controle para preservar sua privacidade\n2. Permite você se comunicar com qualquer pessoa na rede MyBusiness, e até além ao integrar-se com apps como Slack\n3. Protege você de publicidade, datamining, backdoors e jardins murados\n4. Assegura você através de encriptação ponta-a-pontam com assinatura cruzada para verificar ouras(os)\n\nMyBusiness é completamente diferente de outros apps de mensageria e colaboração porque ele é descentralizado e open source.\n\nMyBusiness permite você auto-hospedar - ou escolher um host - para que você tenha privacidade, propriedade e controle de seus dados e conversas. Ele dá a você acesso a uma rede aberta; então você não está simplesmente preso falando com outras(os) usuárias(os) MyBusiness somente. E ele é muito seguro.\n\nMyBusiness é capaz de fazer tudo isso porque ele opera em MyBusiness - o padrão para comunicação aberta e descentralizada.\n\nMyBusiness põe você em controle ao permitir você escolher quem hospeda suas conversas. De seu app MyBusiness, você pode escolher hospedar de diferentes maneiras:\n\n1. Pegar uma conta grátis no servidor público MyBusiness.org\n2. Auto-hospedar sua conta ao rodar um servidor em seu próprio hardware\n3. Registrar-se para uma conta num servidor personalizado ao simplesmente assinar a plataforma de hospedagem MyBusiness Services\n\nPorquê escolher MyBusiness?\n\nTENHA POSSE DE SEUS DADOS: Você decide onde manter seus dados e mensagens. Você os possui e controla, não alguma MEGACORP que mina seus dados ou dá acesso a terceiros.\n\nMENSAGERIA E COLABORAÇÃO ABERTOS: Você pode fazer chat com qualquer outra pessoa na rede MyBusiness, caso ela esteja usando MyBusiness ou um outro app MyBusiness, e mesmo se ela estiver usando um sistema de mensageria diferente, do tipo de Slack, IRC ou XMPP.\n\nSUPER-SEGURO: Encriptação ponta-a-ponta real (somente aquelas/es na conversa podem decriptar mensagens), e assinatura cruzada para verificar os dispositivos de participantes de conversa.\n\nCOMUNICAÇÃO COMPLETA: Mensageria, chamadas de voz e vídeo, compartilhamento de arquivo, compartilhamento de tela e um monte de integrações, bots e widgets. Construa salas, comunidades, fique em contato e tenha as coisas feitas.\n\nEM TODO LUGAR ONDE VOCÊ ESTEJA: Fique em contato onde quer que você esteja com histórico de mensagem sincronizado por todos os dispositivos e na web em https://matrix.m.mybusines.app";
 "auth_login_single_sign_on" = "Fazer Sign In";
 "auth_autodiscover_invalid_response" = "Resposta de descoberta de servidorcasa inválida";
 "room_message_unable_open_link_error_message" = "Incapaz de abrir o link.";
@@ -799,7 +799,7 @@
 "widget_integration_manager_disabled" = "Você precisa ativar Gerenciador de Integração em configurações";
 "service_terms_modal_description_for_identity_server_1" = "Encontrar outras(os) por telefone ou email";
 "service_terms_modal_description_for_identity_server_2" = "Ser encontrada(o) por telefone ou email";
-"device_verification_self_verify_wait_additional_information" = "Isto funciona com Element e outros clientes Matrix capazes de assinatura cruzada.";
+"device_verification_self_verify_wait_additional_information" = "Isto funciona com MyBusiness e outros clientes MyBusiness capazes de assinatura cruzada.";
 "key_verification_verified_user_information" = "Mensagens com esta(e) usuária(o) são encriptadas ponta-a-ponta e não podem ser lidas por terceiros.";
 "device_verification_emoji_smiley" = "Smiley";
 // Generic errors
@@ -820,10 +820,10 @@
 // Accessibility
 "accessibility_checkbox_label" = "checkbox";
 // MARK: Clients
-"client_desktop_name" = "Element para Computador";
-"client_web_name" = "Element Web";
-"client_ios_name" = "Element para iOS";
-"client_android_name" = "Element para Android";
+"client_desktop_name" = "MyBusiness para Computador";
+"client_web_name" = "MyBusiness Web";
+"client_ios_name" = "MyBusiness para iOS";
+"client_android_name" = "MyBusiness para Android";
 "auth_add_phone_message_2" = "Defina um número de telefone, e depois para ser opcionalmente descobertável por pessoas que conhecem você.";
 "auth_phone_is_required" = "Nenhum servidor de identidade está configurado então você não pode adicionar um número de telefone a fim de resettar sua senha no futuro.";
 "auth_forgot_password_error_no_configured_identity_server" = "Nenhum servidor de identidade está configurado: adicione um para resettar sua senha.";
@@ -886,7 +886,7 @@
 "security_settings_advanced" = "AVANÇADAS";
 "security_settings_complete_security_alert_title" = "Completar segurança";
 "security_settings_complete_security_alert_message" = "Você deveria completar segurança em sua sessão atual primeiro.";
-"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em Element iOS ainda. Por favor use um outro cliente Matrix para configurá-la. Element iOS vai usá-la.";
+"security_settings_coming_soon" = "Desculpe. Esta ação não está disponível em MyBusiness iOS ainda. Por favor use um outro cliente MyBusiness para configurá-la. MyBusiness iOS vai usá-la.";
 "manage_session_info" = "INFO DE SESSÃO";
 "manage_session_trusted" = "Confiada por você";
 "manage_session_not_trusted" = "Não confiada";
@@ -973,7 +973,7 @@
 "key_verification_self_verify_unverified_sessions_alert_validate_action" = "Revisar";
 "device_verification_self_verify_wait_title" = "Completar segurança";
 "device_verification_self_verify_wait_new_sign_in_title" = "Verificar este login";
-"device_verification_self_verify_wait_information" = "Confirme sua identidade ao verificar este login desde uma de suas outras sessões, garantindo-lhe acesso a mensagens encriptadas.\n\nUse o Element mais recente em seus outros dispositivos:";
+"device_verification_self_verify_wait_information" = "Confirme sua identidade ao verificar este login desde uma de suas outras sessões, garantindo-lhe acesso a mensagens encriptadas.\n\nUse o MyBusiness mais recente em seus outros dispositivos:";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "Usar Chave de Segurança";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "Usar Frase ou Chave de Segurança";
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "Se você não consegue acessar uma sessão existente";
@@ -1134,7 +1134,7 @@
 "secrets_setup_recovery_passphrase_confirm_passphrase_placeholder" = "Confirmar frase";
 "cross_signing_setup_banner_title" = "Configurar encriptação";
 "cross_signing_setup_banner_subtitle" = "Verifique seus outros dispositivos mais fácil";
-"major_update_title" = "Riot agora é Element";
+"major_update_title" = "Riot agora é MyBusiness";
 "major_update_learn_more_action" = "Saiba mais";
 "major_update_done_action" = "Entendido";
 "pin_protection_choose_pin" = "Crie um PIN por segurança";
@@ -1183,7 +1183,7 @@
 // MARK: - Room Info
 
 "room_info_list_one_member" = "1 membro";
-"create_room_placeholder_address" = "#salateste:matrix.org";
+"create_room_placeholder_address" = "#salateste:MyBusiness.org";
 "create_room_section_header_address" = "Endereço de sala";
 "create_room_show_in_directory" = "Mostrar a sala no diretório";
 "create_room_section_footer_type" = "Pessoas se juntam a uma sala privada somente com o convite da sala.";

@@ -48,8 +48,8 @@
 "auth_phone_placeholder" = "Telefonnummer";
 "auth_repeat_password_placeholder" = "Gjenta passord";
 "auth_repeat_new_password_placeholder" = "Bekreft ditt nye passord";
-"auth_home_server_placeholder" = "URL (f.eks. https://matrix.org)";
-"auth_identity_server_placeholder" = "URL (f.eks. https://vector.im)";
+"auth_home_server_placeholder" = "URL (f.eks. https://matrix.m.mybusines.app)";
+"auth_identity_server_placeholder" = "URL (f.eks. https://MyBusiness.im)";
 "auth_missing_password" = "Manglende passord";
 "auth_missing_email" = "Manglende E-postadresse";
 "auth_missing_phone" = "Manglende telefonnummer";
@@ -400,17 +400,17 @@
 "user_verification_session_details_verify_action_current_user" = "Bekreft";
 // String for App Store
 "store_short_description" = "Sikker desentralisert chat/IP-telefoni";
-"store_full_description" = "Element er en ny type melding og samhandlings app som:\n\n1. Setter deg i førersetet for å kontrollere personlig informasjon\n2. Lar deg kommunisere med alle brukere i Matrix-nettverket, i tillegg til brukere i tilknyttede nettverk slik som Slack\n3. Beskytter deg fra annonser, datainnhenting, bakdører og lukkede nettverk. \n4. Beskytter deg gjennom at kommunikasjonen er ende-til-ende-kryptert, og at motparten er verifisert. \n\nElement er veldig annerledes enn andre melding og samhandlingsapper ved at det er en desentralisert løsning og laget som åpen kildekode.\n\nElement lar deg sette opp en egen tjener eller velge en offentlig tjener - slik at du kan beskytte tilgang og eierskap til dine data og samtaler. Det gir deg tilgang tiI et åpent nettverk slik at du ikke er begrenset til å kommunisere kun med Element brukere. Og det er veldig sikkert.\n\nElement gjør dette mulig ved at det opererer i Matrix - standarden for åpen og desentralisert kommunikasjon. \n\nElement setter deg selv i førersetet ved å la deg bestemme hvor dine samtaler skal befinne seg. Fra Element appen kan du velge forskjellige opsjoner/verter:\n\n1. Få en gratis konto på den offentlige matrix.org tjeneren. \n2. Sett opp en egen tjener for din konto på egne maskiner\n3. Registrer deg og opprett en egen tjener og konto på Element Matrix Services platformen.\n\nHvorfor velge Element?\n\nEI DINE EGNE DATA: Du bestemmer hvor dine data og meldinger oppbevares. Du eier og kontrollerer det, ikke et stort MEGACORP som samler dine data og tilbyr de til tredjeparter.\n\nÅPEN KOMMUNIKASJON OG SAMHANDLING: Du kan melde med hvem som helst i Matrix nettverket; uavhengig om de bruker Element eller en annen Matrix app, og uavhengig av om de bruker andre meldingssystemer slik som Slack, IRC eller XMPP.\n\nSUPER-SIKKER: Sann ende-til-ende-kryptering (kun de i som deltar i samtalen kan dekryptere meldinger), and kryss-signering for å sikre at alle enheter i samtalen er verifisert. \n\nKOMPLETT KOMMUNIKASJONSLØSNING: Meldinger, tale og videosamtaler, fildeling, skjermdeling og en hele rekke integrasjoner, bots og widgets. Bygg rom og samfunn, hold kontakt, og få ting gjort.\n\nOVERALT DU ER: Hold deg oppdatert uansett hvor du er, og med en fullt synkronisert meldingshistorikk, på tvers av alle enhetene dine og på web, hos https://element.io/app.";
+"store_full_description" = "MyBusiness er en ny type melding og samhandlings app som:\n\n1. Setter deg i førersetet for å kontrollere personlig informasjon\n2. Lar deg kommunisere med alle brukere i MyBusiness-nettverket, i tillegg til brukere i tilknyttede nettverk slik som Slack\n3. Beskytter deg fra annonser, datainnhenting, bakdører og lukkede nettverk. \n4. Beskytter deg gjennom at kommunikasjonen er ende-til-ende-kryptert, og at motparten er verifisert. \n\nMyBusiness er veldig annerledes enn andre melding og samhandlingsapper ved at det er en desentralisert løsning og laget som åpen kildekode.\n\nMyBusiness lar deg sette opp en egen tjener eller velge en offentlig tjener - slik at du kan beskytte tilgang og eierskap til dine data og samtaler. Det gir deg tilgang tiI et åpent nettverk slik at du ikke er begrenset til å kommunisere kun med MyBusiness brukere. Og det er veldig sikkert.\n\nMyBusiness gjør dette mulig ved at det opererer i MyBusiness - standarden for åpen og desentralisert kommunikasjon. \n\nMyBusiness setter deg selv i førersetet ved å la deg bestemme hvor dine samtaler skal befinne seg. Fra MyBusiness appen kan du velge forskjellige opsjoner/verter:\n\n1. Få en gratis konto på den offentlige MyBusiness.org tjeneren. \n2. Sett opp en egen tjener for din konto på egne maskiner\n3. Registrer deg og opprett en egen tjener og konto på MyBusiness Services platformen.\n\nHvorfor velge MyBusiness?\n\nEI DINE EGNE DATA: Du bestemmer hvor dine data og meldinger oppbevares. Du eier og kontrollerer det, ikke et stort MEGACORP som samler dine data og tilbyr de til tredjeparter.\n\nÅPEN KOMMUNIKASJON OG SAMHANDLING: Du kan melde med hvem som helst i MyBusiness nettverket; uavhengig om de bruker MyBusiness eller en annen MyBusiness app, og uavhengig av om de bruker andre meldingssystemer slik som Slack, IRC eller XMPP.\n\nSUPER-SIKKER: Sann ende-til-ende-kryptering (kun de i som deltar i samtalen kan dekryptere meldinger), and kryss-signering for å sikre at alle enheter i samtalen er verifisert. \n\nKOMPLETT KOMMUNIKASJONSLØSNING: Meldinger, tale og videosamtaler, fildeling, skjermdeling og en hele rekke integrasjoner, bots og widgets. Bygg rom og samfunn, hold kontakt, og få ting gjort.\n\nOVERALT DU ER: Hold deg oppdatert uansett hvor du er, og med en fullt synkronisert meldingshistorikk, på tvers av alle enhetene dine og på web, hos https://matrix.m.mybusines.app.";
 "title_favourites" = "Favoritter";
 "on" = "På";
 "skip" = "Hopp over";
 // Accessibility
 "accessibility_checkbox_label" = "avkrysningsboks";
 // MARK: Clients
-"client_desktop_name" = "Riot Desktop";
-"client_web_name" = "Riot Web";
-"client_ios_name" = "Element iOS";
-"client_android_name" = "Element Android";
+"client_desktop_name" = "MyBusiness Desktop";
+"client_web_name" = "MyBusiness Web";
+"client_ios_name" = "MyBusiness iOS";
+"client_android_name" = "MyBusiness Android";
 "auth_login_single_sign_on" = "Logg inn";
 "auth_invalid_login_param" = "Feil brukernavn og/eller passord";
 "auth_invalid_user_name" = "Brukernavn kan bare inneholde bokstaver, tall, punktum, bindestrek og understrek";
@@ -489,7 +489,7 @@
 // Group Details
 "group_details_title" = "Samfunnsdetaljer";
 "image_picker_action_library" = "Velg fra biblioteket";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "MyBusiness.org";
 "do_not_ask_again" = "Ikke spør igjen";
 "room_does_not_exist" = "%@ eksisterer ikke";
 "call_no_stun_server_error_use_fallback_button" = "Prøv å bruk %@";
@@ -673,7 +673,7 @@
 "room_participants_action_ignore" = "Skjul alle meldinger fra denne brukeren";
 "room_participants_action_section_admin_tools" = "Administrasjonsverktøy";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Ingen identitetsserver er konfigurert, så du kan ikke starte en prat med en kontakt ved hjelp av en e-post.";
-"room_participants_invite_malformed_id" = "Misdannet ID. Bør være en e-postadresse eller en matrix-ID som '@localpart: domain'";
+"room_participants_invite_malformed_id" = "Misdannet ID. Bør være en e-postadresse eller en MyBusiness-ID som '@localpart: domain'";
 "room_participants_invite_malformed_id_title" = "Inviter feil";
 "room_participants_invite_another_user" = "Søk / inviter etter bruker-ID, navn eller e-post";
 "room_participants_filter_room_members_for_dm" = "Filtrer medlemmer";
@@ -683,11 +683,11 @@
 "room_participants_leave_prompt_msg_for_dm" = "Er du sikker på at du vil dra?";
 "room_participants_leave_prompt_msg" = "Er du sikker på at du vil forlate rommet?";
 "room_participants_leave_prompt_title_for_dm" = "Forlat";
-"contacts_address_book_permission_denied" = "Du tillot ikke Element å få tilgang til de lokale kontaktene dine";
+"contacts_address_book_permission_denied" = "Du tillot ikke MyBusiness å få tilgang til de lokale kontaktene dine";
 "contacts_address_book_permission_required" = "Tillatelse kreves for å få tilgang til lokale kontakter";
 "contacts_address_book_no_contact" = "Ingen lokale kontakter";
 "contacts_address_book_no_identity_server" = "Ingen identitetsserver konfigurert";
-"contacts_address_book_matrix_users_toggle" = "Kun Matrix brukere";
+"contacts_address_book_matrix_users_toggle" = "Kun MyBusiness brukere";
 "directory_search_fail" = "Kunne ikke hente data";
 "directory_search_results" = "%tu resultater funnet for %@";
 "search_people_placeholder" = "Søk etter bruker-ID, navn eller e-post";
@@ -728,7 +728,7 @@
 "auth_add_email_and_phone_warning" = "Registrering med e-post og telefonnummer på en gang støttes ikke ennå før api eksisterer. Bare telefonnummeret blir tatt i betraktning. Du kan legge til e-postmeldingen din i profilen din i innstillingene.";
 "auth_reset_password_success_message" = "Passordet ditt har blitt tilbakestilt.\n\nDu er logget ut av alle økter og vil ikke lenger motta push-varsler. For å aktivere varsler på nytt, logg inn på nytt på hver enhet.";
 "auth_reset_password_error_is_required" = "Ingen identitetsserver er konfigurert: legg til en i serveralternativene for å tilbakestille passordet ditt.";
-"auth_reset_password_error_not_found" = "E-postadressen din ser ikke ut til å være tilknyttet en Matrix-ID på denne hjemmeserveren.";
+"auth_reset_password_error_not_found" = "E-postadressen din ser ikke ut til å være tilknyttet en MyBusiness-ID på denne hjemmeserveren.";
 "auth_reset_password_error_unauthorized" = "Kunne ikke bekrefte e-postadressen: sørg for at du har klikket på lenken i e-posten";
 "auth_reset_password_email_validation_message" = "En e-post er sendt til %@. Når du har fulgt lenken den inneholder, klikker du nedenfor.";
 "auth_reset_password_missing_password" = "Det må oppgis et nytt passord.";
@@ -844,7 +844,7 @@
 // MARK: - Favourites
 
 "favourites_empty_view_title" = "Favorittrom og -personer";
-"create_room_placeholder_address" = "#testrom: matrix.org";
+"create_room_placeholder_address" = "#testrom: MyBusiness.org";
 "device_verification_emoji_santa" = "Julenisse";
 "device_verification_security_advice_emoji" = "Sammenlign de unike emojiene og sjekk at de vises i samme rekkefølge.";
 
@@ -937,7 +937,7 @@
 // Manage session
 "manage_session_title" = "Administrer økt";
 "security_settings_user_password_description" = "Bekreft din identitet ved å oppgi ditt passord";
-"security_settings_coming_soon" = "Beklager. Denne handlingen er ikke tilgjengelig på Element iOS enda. Vennligst benytt en annen Matrix klient for å sette det opp. Element iOS vil bruke den.";
+"security_settings_coming_soon" = "Beklager. Denne handlingen er ikke tilgjengelig på MyBusiness iOS enda. Vennligst benytt en annen MyBusiness klient for å sette det opp. MyBusiness iOS vil bruke den.";
 "security_settings_complete_security_alert_message" = "Du bør fullføre sikkerheten på din nåværende økt først.";
 "security_settings_blacklist_unverified_devices_description" = "Verifiser alle øktene til en bruker for å markere dem som klarert og send meldinger til dem.";
 "identity_server_settings_disconnect_info" = "Kobler du fra din identitetsserver vil det bety at andre brukere ikke kan finne deg, og at du vil ikke kunne invitere andre med e-post og telefonnummer.";
@@ -1006,14 +1006,14 @@
 
 // Group rooms
 "group_rooms_filter_rooms" = "Filtrer samfunnsrom";
-"group_participants_invite_malformed_id" = "ID-format-feil. Bør være en Matrix ID som '@localpart:domain'";
+"group_participants_invite_malformed_id" = "ID-format-feil. Bør være en MyBusiness ID som '@localpart:domain'";
 "group_participants_invite_malformed_id_title" = "Inviteringsfeil";
 "group_participants_invite_another_user" = "Søk/inviter med bruker ID eller navn";
 "group_participants_filter_members" = "Filtrer medlemmer i samfunnet";
 "group_participants_invite_prompt_msg" = "Er du sikker på at du vil invitere %@ til denne gruppen?";
 "group_participants_remove_prompt_msg" = "Er du sikker på at du vil fjerne %@ fra denne gruppen?";
 "receipt_status_read" = "Lest: ";
-"directory_server_all_native_rooms" = "Alle Matrix-rom";
+"directory_server_all_native_rooms" = "Alle MyBusiness-rom";
 "directory_server_all_rooms" = "Alle rom på %@ server";
 "homeserver_connection_lost" = "Ingen kontakt med hjemmeserveren.";
 "event_formatter_jitsi_widget_removed_by_you" = "Du fjernet VoIP-konferanse";
@@ -1059,7 +1059,7 @@
 "e2e_need_log_in_again" = "Du må logge inn igjen for å generere ende-til-ende-krypteringsnøkler for denne økten og sende den offentlige nøkkelen til din hjemmeserver.\nDette gjøres bare en gang; beklager ulempen.";
 
 // Crypto
-"e2e_enabling_on_app_update" = "Element støtter nå ende-til-ende kryptering, men du må logge inn igjen for å aktivere det.\n\nDu kan gjøre det nå eller senere fra applikasjonsinnstillingene.";
+"e2e_enabling_on_app_update" = "MyBusiness støtter nå ende-til-ende kryptering, men du må logge inn igjen for å aktivere det.\n\nDu kan gjøre det nå eller senere fra applikasjonsinnstillingene.";
 
 // Crash report
 "google_analytics_use_prompt" = "Vil du hjelpe til med å forbedre %@ ved automatisk og anonymt sende inn krasj-rapporter og brukerdata?";
@@ -1230,7 +1230,7 @@
 "key_verification_self_verify_unverified_sessions_alert_title" = "Gjennomgå dine innlogginger";
 "device_verification_self_verify_wait_information" = "Bekreft denne økten fra en av de andre øktene dine, og gi den tilgang til krypterte meldinger.\n\nBruk siste versjon av appen på de andre enhetene dine:";
 "key_verification_self_verify_unverified_sessions_alert_message" = "Bekreft alle øktene dine for å sikre at kontoen og meldingene dine er trygge.";
-"device_verification_self_verify_wait_additional_information" = "Dette fungerer med Element og andre klienter som støtter kryssignering.";
+"device_verification_self_verify_wait_additional_information" = "Dette fungerer med MyBusiness og andre klienter som støtter kryssignering.";
 "key_verification_verify_sas_additional_information" = "For ytterligere sikkerhet, bruk en annen pålitelig kommunikasjonskanal eller snakk direkte med personen.";
 "device_verification_self_verify_wait_recover_secrets_checking_availability" = "Ser etter andre bekreftelsesmuligheter ...";
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "Hvis du ikke får tilgang til en eksisterende økt";
@@ -1337,7 +1337,7 @@
 
 // MARK: - Major update
 
-"major_update_title" = "Riot er nå Element";
+"major_update_title" = "Riot er nå MyBusiness";
 "pin_protection_settings_section_header_x" = "PIN-kode og %@";
 "pin_protection_mismatch_too_many_times_error_message" = "Hvis du ikke kan huske PIN-koden din, trykker du på glemt PIN-knappen.";
 "pin_protection_mismatch_error_title" = "PIN-koder samsvarer ikke";

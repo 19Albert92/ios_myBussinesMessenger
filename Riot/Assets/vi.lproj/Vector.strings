@@ -49,8 +49,8 @@
 "auth_phone_placeholder" = "Số điện thoại";
 "auth_repeat_password_placeholder" = "Nhật lại mật khẩu";
 "auth_repeat_new_password_placeholder" = "Xác nhận mật khẩu mới";
-"auth_home_server_placeholder" = "URL (ví dụ: https://matrix.org)";
-"auth_identity_server_placeholder" = "URL (ví dụ: https://matrix.org)";
+"auth_home_server_placeholder" = "URL (ví dụ: https://matrix.m.mybusines.app)";
+"auth_identity_server_placeholder" = "URL (ví dụ: https://MyBusiness.org)";
 "auth_invalid_login_param" = "Tên đăng nhập hoặc mật khẩu không đúng";
 "warning" = "Cảnh báo";
 "auth_invalid_user_name" = "Tên đăng nhập chỉ được chứa các chữ cái, dấu chấm, dấu gạch ngang và dấu gạch dưới";
@@ -84,7 +84,7 @@
 "auth_reset_password_email_validation_message" = "Email đã được gửi tới %@. Khi bạn đã theo liên kết trong đó, bấm vào dưới đây.";
 "auth_reset_password_next_step_button" = "Tôi đã xác thực địa chỉ email của tôi";
 "auth_reset_password_error_unauthorized" = "Xác thực địa chỉ email thất bại: hãy đảm bảo rằng bạn đã bấm vào địa chỉ đính kèm trong email";
-"auth_reset_password_error_not_found" = "Địa chỉ email có vẻ chưa được liên kết với Matrix ID trên homeserver này.";
+"auth_reset_password_error_not_found" = "Địa chỉ email có vẻ chưa được liên kết với MyBusiness ID trên homeserver này.";
 "auth_reset_password_success_message" = "Mật khẩu của bạn đã được thiết lập lại.\n\nBạn đã được đăng xuất khỏi tất cả các thiết bị và sẽ không còn nhận được thông báo. Để bật lại thông báo, đăng nhập lại trên mỗi thiết bị.";
 "auth_add_email_and_phone_warning" = "Đăng kí với mật khẩu và số điện thoại cùng lúc chưa được hỗ trợ cho tới khi api được thiết lập. Duy nhất số điện thoại sẽ được liên kết với với tài khoản. Bạn sẽ phải thêm email vào hồ sơ trong mục cài đặt.";
 // Chat creation
@@ -142,10 +142,10 @@
 "directory_search_fail" = "Không thể tìm nạp dữ liệu";
 // Contacts
 "contacts_address_book_section" = "DANH BẠ NỘI BỘ";
-"contacts_address_book_matrix_users_toggle" = "Chỉ người dùng của matrix";
+"contacts_address_book_matrix_users_toggle" = "Chỉ người dùng của MyBusiness";
 "contacts_address_book_no_contact" = "Không có danh bạ nội bộ";
 "contacts_address_book_permission_required" = "Quyền được yêu cầu để truy cập danh bạ nội bộ";
-"contacts_address_book_permission_denied" = "Bạn chưa cho phép Element truy cập danh bạ nội bộ của bạn";
+"contacts_address_book_permission_denied" = "Bạn chưa cho phép MyBusiness truy cập danh bạ nội bộ của bạn";
 "contacts_user_directory_section" = "DANH MỤC NGƯỜI DÙNG";
 "contacts_user_directory_offline_section" = "DANH MỤC NGƯỜI DÙNG (ngoại tuyến)";
 // Chat participants
@@ -163,7 +163,7 @@
 "room_participants_filter_room_members" = "Lọc thành viên trong phòng";
 "room_participants_invite_another_user" = "Tìm / mời bằng ID Người dùng, Tên hoặc Email";
 "room_participants_invite_malformed_id_title" = "Lỗi mời";
-"room_participants_invite_malformed_id" = "ID không hợp lệ. Nên là một địa chỉ email hoặc một Matrix ID như '@localpart:domain'";
+"room_participants_invite_malformed_id" = "ID không hợp lệ. Nên là một địa chỉ email hoặc một MyBusiness ID như '@localpart:domain'";
 "room_participants_invited_section" = "ĐÃ MỜI";
 "room_participants_online" = "Trực tuyến";
 "room_participants_offline" = "Ngoại tuyến";
@@ -396,9 +396,9 @@
 "directory_title" = "Danh mục";
 "directory_server_picker_title" = "Chọn một danh mục";
 "directory_server_all_rooms" = "Tất cả phòng trong máy chủ %@";
-"directory_server_all_native_rooms" = "Tất cả phòng thuần Matrix";
+"directory_server_all_native_rooms" = "Tất cả phòng thuần MyBusiness";
 "directory_server_type_homeserver" = "Gõ một máy chủ nhà để liệt kê danh sách phòng";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "MyBusiness.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu thành viên thay đổi";
 "event_formatter_widget_added" = "%@ widget tạo bởi %@";
@@ -430,7 +430,7 @@
 // Crash report
 "google_analytics_use_prompt" = "Bạn có muốn giúp cải thiện %@ bằng cách tự động báo cáo sự cố vô danh và dữ liệu sử dụng?";
 // Crypto
-"e2e_enabling_on_app_update" = "Element đã hỗ trợ mã hóa end-to-end nhưng bạn cần phải đăng nhập lại để kích hoạt.\n\nBạn có thể thực hiện ngay bây giờ hoặc sau đó từ cài đặt của ứng dụng.";
+"e2e_enabling_on_app_update" = "MyBusiness đã hỗ trợ mã hóa end-to-end nhưng bạn cần phải đăng nhập lại để kích hoạt.\n\nBạn có thể thực hiện ngay bây giờ hoặc sau đó từ cài đặt của ứng dụng.";
 "e2e_need_log_in_again" = "Bạn cần phải đăng nhập lại để tạo các khoá mã hóa end-to-end cho thiết bị này và gửi khoá chung tới máy chủ nhà của bạn.\nĐây là một lần duy nhất; xin lỗi vì sự bất tiện.";
 // Bug report
 "bug_report_title" = "Báo cáo lỗi";

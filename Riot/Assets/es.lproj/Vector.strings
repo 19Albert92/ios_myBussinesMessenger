@@ -50,8 +50,8 @@
 "auth_phone_placeholder" = "Número telefónico";
 "auth_repeat_password_placeholder" = "Repite la contraseña";
 "auth_repeat_new_password_placeholder" = "Confirma tu contraseña nueva";
-"auth_home_server_placeholder" = "URL (ej. https://matrix.org)";
-"auth_identity_server_placeholder" = "URL (ej.: https://matrix.org)";
+"auth_home_server_placeholder" = "URL (ej. https://matrix.m.mybusines.app)";
+"auth_identity_server_placeholder" = "URL (ej.: https://MyBusiness.org)";
 "auth_invalid_login_param" = "Nombre de usuario y/o contraseña incorrectos";
 "auth_invalid_user_name" = "Los nombres de usuario solo pueden contener letras, números, puntos, guiones y guiones bajos";
 "auth_invalid_password" = "Contraseña demasiado corta (mínimo 6)";
@@ -66,7 +66,7 @@
 "deactivate_account_password_alert_message" = "Para continuar, ingresa tu contraseña por favor";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Advertencia";
 "deactivate_account_informations_part2_emphasize" = "Esta acción es irreversible.";
-"rerequest_keys_alert_message" = "Por favor, inicia Element en otro dispositivo que pueda descifrar el mensaje para que pueda enviar las claves a este dispositivo.";
+"rerequest_keys_alert_message" = "Por favor, inicia MyBusiness en otro dispositivo que pueda descifrar el mensaje para que pueda enviar las claves a este dispositivo.";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Solicitud Enviada";
 "auth_password_dont_match" = "Las contraseñas no coinciden";
@@ -99,7 +99,7 @@
 "directory_searching_title" = "Buscando directorio…";
 // Contacts
 "contacts_address_book_section" = "CONTACTOS LOCALES";
-"contacts_address_book_matrix_users_toggle" = "Solo usuarios de Matrix";
+"contacts_address_book_matrix_users_toggle" = "Solo usuarios de MyBusiness";
 // Chat participants
 "room_participants_title" = "Participantes";
 "room_participants_add_participant" = "Añadir participante";
@@ -126,7 +126,7 @@
 "auth_reset_password_missing_email" = "Debes ingresar la dirección de correo electrónico vinculada a tu cuenta.";
 "auth_reset_password_email_validation_message" = "Se envió un correo electrónico a %@. Una vez que hayas seguido el enlace que contiene, haz clic a continuación.";
 "auth_reset_password_error_unauthorized" = "No se pudo verificar la dirección de correo electrónico: asegúrate de hacer clic en el enlace del correo electrónico";
-"auth_reset_password_error_not_found" = "Tu dirección de correo electrónico no parece estar asociada a una ID de Matrix en este servidor base.";
+"auth_reset_password_error_not_found" = "Tu dirección de correo electrónico no parece estar asociada a una ID de MyBusiness en este servidor base.";
 "auth_reset_password_success_message" = "Tu contraseña fue restablecida.\n\nSe ha cerrado sesión en todos tus dispositivos y ya no recibirás notificaciones push. Para volver a habilitar las notificaciones, vuelve a iniciar sesión en cada dispositivo.";
 "auth_add_email_and_phone_warning" = "Todavía no es posible registrarse con correo electrónico y número telefónico a la vez, hasta que exista la API. Solo se tendrá en cuenta el número telefónico. Puedes añadir tu correo electrónico a tu perfil en ajustes.";
 // Chat creation
@@ -166,7 +166,7 @@
 "directory_search_fail" = "Error al buscar datos";
 "contacts_address_book_no_contact" = "No hay contactos locales";
 "contacts_address_book_permission_required" = "Se requiere permiso para acceder a tus contactos locales";
-"contacts_address_book_permission_denied" = "No permitiste que Element acceda a tus contactos locales";
+"contacts_address_book_permission_denied" = "No permitiste que MyBusiness acceda a tus contactos locales";
 "contacts_user_directory_section" = "DIRECTORIO DE USUARIOS";
 "contacts_user_directory_offline_section" = "DIRECTORIO DE USUARIOS (desconectados)";
 "room_participants_leave_prompt_title" = "Salir de la sala";
@@ -175,7 +175,7 @@
 "room_participants_filter_room_members" = "Filtrar miembros de la sala";
 "room_participants_invite_another_user" = "Buscar / invitar por ID de Usuario, Nombre o correo electrónico";
 "room_participants_invite_malformed_id_title" = "Error en invitación";
-"room_participants_invite_malformed_id" = "ID mal formada. Debería ser una dirección de correo electrónico o una ID de Matrix como '@partelocal:dominio'";
+"room_participants_invite_malformed_id" = "ID mal formada. Debería ser una dirección de correo electrónico o una ID de MyBusiness como '@partelocal:dominio'";
 "room_participants_invited_section" = "INVITADO";
 "room_participants_online" = "En línea";
 "room_participants_offline" = "Desconectado";
@@ -324,7 +324,7 @@
 "settings_pin_rooms_with_unread" = "Fijar salas con mensajes no leídos";
 "settings_on_denied_notification" = "Las notificaciones están denegadas para %@, por favor habilita notificaciones en los ajustes de tu dispositivo";
 "settings_enable_callkit" = "Integración de llamadas";
-"settings_callkit_info" = "Recibe llamadas entrantes en tu pantalla de bloqueo. Ve tus llamadas de Element en el historial de llamadas del sistema. Si iCloud está habilitado, este historial de llamadas se compartirá con Apple.";
+"settings_callkit_info" = "Recibe llamadas entrantes en tu pantalla de bloqueo. Ve tus llamadas de MyBusiness en el historial de llamadas del sistema. Si iCloud está habilitado, este historial de llamadas se compartirá con Apple.";
 "settings_ui_language" = "Idioma";
 "settings_ui_theme" = "Tema";
 "settings_ui_theme_auto" = "Automático";
@@ -448,7 +448,7 @@
 "group_participants_filter_members" = "Filtrar miembros de la comunidad";
 "group_participants_invite_another_user" = "Buscar / invitar por ID de Usuario o Nombre";
 "group_participants_invite_malformed_id_title" = "Falló la Invitación";
-"group_participants_invite_malformed_id" = "ID mal formada. Debería ser una ID de Matrix como '@partelocal:dominio'";
+"group_participants_invite_malformed_id" = "ID mal formada. Debería ser una ID de MyBusiness como '@partelocal:dominio'";
 "group_participants_invited_section" = "INVITADOS";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtrar salas de la comunidad";
@@ -462,9 +462,9 @@
 "directory_title" = "Directorio";
 "directory_server_picker_title" = "Seleccionar un directorio";
 "directory_server_all_rooms" = "Todas las salas en el servidor %@";
-"directory_server_all_native_rooms" = "Todas las salas nativas de Matrix";
+"directory_server_all_native_rooms" = "Todas las salas nativas de MyBusiness";
 "directory_server_type_homeserver" = "Escribe un servidor doméstico desde donde listar las salas públicas";
-"directory_server_placeholder" = "matrix.org";
+"directory_server_placeholder" = "matrix.m.mybusines.app";
 // Events formatter
 "event_formatter_member_updates" = "%tu cambios de membresía";
 "event_formatter_widget_added" = "componente %@ añadido por %@";
@@ -499,7 +499,7 @@
 // Crash report
 "google_analytics_use_prompt" = "¿Te gustaría ayudar a mejorar %@ enviando automáticamente informes de fallas y datos de uso anónimos?";
 // Crypto
-"e2e_enabling_on_app_update" = "Element ahora admite cifrado de extremo a extremo pero debes volver a iniciar sesión para habilitarlo.\n\nPuedes hacerlo ahora o más tarde desde los ajustes de la aplicación.";
+"e2e_enabling_on_app_update" = "MyBusiness ahora admite cifrado de extremo a extremo pero debes volver a iniciar sesión para habilitarlo.\n\nPuedes hacerlo ahora o más tarde desde los ajustes de la aplicación.";
 "e2e_need_log_in_again" = "Tienes que volver a iniciar sesión para generar claves de cifrado de extremo a extremo para este dispositivo y enviar la clave pública a tu servidor doméstico.\nEsto es por única vez; disculpas por la molestia.";
 // Bug report
 "bug_report_title" = "Informe de Error";
@@ -545,7 +545,7 @@
 "deactivate_account_title" = "Desactivar Cuenta";
 "deactivate_account_informations_part3" = "\n\nDesactivar tu cuenta ";
 "deactivate_account_informations_part4_emphasize" = "no hace que por defecto olvidemos los mensajes que has enviado. ";
-"deactivate_account_informations_part5" = "Si quieres que olvidemos tus mensajes, por favor marca la casilla a continuación\n\nLa visibilidad de mensajes en Matrix es similar a la del correo electrónico. Que olvidemos tus mensajes implica que los mensajes que hayas enviado no se compartirán con ningún usuario nuevo o no registrado, pero aquellos usuarios registrados que ya tengan acceso a estos mensajes seguirán teniendo acceso a su copia.";
+"deactivate_account_informations_part5" = "Si quieres que olvidemos tus mensajes, por favor marca la casilla a continuación\n\nLa visibilidad de mensajes en MyBusiness es similar a la del correo electrónico. Que olvidemos tus mensajes implica que los mensajes que hayas enviado no se compartirán con ningún usuario nuevo o no registrado, pero aquellos usuarios registrados que ya tengan acceso a estos mensajes seguirán teniendo acceso a su copia.";
 "deactivate_account_forget_messages_information_part1" = "Por favor, olvida todos los mensajes enviados al desactivar mi cuenta (";
 "deactivate_account_forget_messages_information_part3" = ": esto provocará que los usuarios futuros vean conversaciones incompletas)";
 // String for App Store
