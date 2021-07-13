@@ -233,7 +233,7 @@ final class BuildSettings: NSObject {
     static let settingsScreenShowUserFirstName: Bool = false
     static let settingsScreenShowUserSurname: Bool = false
     static let settingsScreenAllowAddingEmailThreepids: Bool = true
-    static let settingsScreenAllowAddingPhoneThreepids: Bool = true
+    static let settingsScreenAllowAddingPhoneThreepids: Bool = false
     static let settingsScreenShowThreepidExplanatory: Bool = true
     static let settingsScreenShowDiscoverySettings: Bool = true
     static let settingsScreenAllowIdentityServerConfig: Bool = true
@@ -315,10 +315,10 @@ final class BuildSettings: NSObject {
     
     
     // MARK: - Authentication Screen
-    static let authScreenShowRegister = true
-    static let authScreenShowPhoneNumber = true
+    static let authScreenShowRegister = false
+    static let authScreenShowPhoneNumber = false
     static let authScreenShowForgotPassword = true
-    static let authScreenShowCustomServerOptions = true
+    static let authScreenShowCustomServerOptions = false
     
     // Mark: - Unified Search
     static let unifiedSearchScreenShowPublicDirectory = true
