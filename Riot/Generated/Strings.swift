@@ -82,7 +82,7 @@ internal enum VectorL10n {
   internal static var authForgotPasswordErrorNoConfiguredIdentityServer: String { 
     return VectorL10n.tr("Vector", "auth_forgot_password_error_no_configured_identity_server") 
   }
-  /// URL (e.g. https://matrix.org)
+  /// URL (e.g. https://matrix.m.mybusines.app)
   internal static var authHomeServerPlaceholder: String { 
     return VectorL10n.tr("Vector", "auth_home_server_placeholder") 
   }
@@ -202,7 +202,7 @@ internal enum VectorL10n {
   internal static var authResetPasswordErrorIsRequired: String { 
     return VectorL10n.tr("Vector", "auth_reset_password_error_is_required") 
   }
-  /// Your email address does not appear to be associated with a Matrix ID on this homeserver.
+  /// Your email address does not appear to be associated with a MyBusiness ID on this homeserver.
   internal static var authResetPasswordErrorNotFound: String { 
     return VectorL10n.tr("Vector", "auth_reset_password_error_not_found") 
   }
@@ -542,7 +542,7 @@ internal enum VectorL10n {
   internal static var collapse: String { 
     return VectorL10n.tr("Vector", "collapse") 
   }
-  /// Matrix users only
+  /// MyBusiness users only
   internal static var contactsAddressBookMatrixUsersToggle: String { 
     return VectorL10n.tr("Vector", "contacts_address_book_matrix_users_toggle") 
   }
@@ -554,7 +554,7 @@ internal enum VectorL10n {
   internal static var contactsAddressBookNoIdentityServer: String { 
     return VectorL10n.tr("Vector", "contacts_address_book_no_identity_server") 
   }
-  /// You didn't allow Element to access your local contacts
+  /// You didn't allow MyBusiness to access your local contacts
   internal static var contactsAddressBookPermissionDenied: String { 
     return VectorL10n.tr("Vector", "contacts_address_book_permission_denied") 
   }
@@ -586,7 +586,7 @@ internal enum VectorL10n {
   internal static var createRoomEnableEncryption: String { 
     return VectorL10n.tr("Vector", "create_room_enable_encryption") 
   }
-  /// #testroom:matrix.org
+  /// #testroom:matrix.m.mybusines.app
   internal static var createRoomPlaceholderAddress: String { 
     return VectorL10n.tr("Vector", "create_room_placeholder_address") 
   }
@@ -678,7 +678,7 @@ internal enum VectorL10n {
   internal static var deactivateAccountInformationsPart4Emphasize: String { 
     return VectorL10n.tr("Vector", "deactivate_account_informations_part4_emphasize") 
   }
-  /// If you would like us to forget your messages, please tick the box below\n\nMessage visibility in Matrix is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.
+  /// If you would like us to forget your messages, please tick the box below\n\nMessage visibility in MyBusiness is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.
   internal static var deactivateAccountInformationsPart5: String { 
     return VectorL10n.tr("Vector", "deactivate_account_informations_part5") 
   }
@@ -1014,11 +1014,11 @@ internal enum VectorL10n {
   internal static var deviceVerificationSelfVerifyStartWaiting: String { 
     return VectorL10n.tr("Vector", "device_verification_self_verify_start_waiting") 
   }
-  /// This works with Element and other cross-signing capable Matrix clients.
+  /// This works with MyBusiness and other cross-signing capable MyBusiness clients.
   internal static var deviceVerificationSelfVerifyWaitAdditionalInformation: String { 
     return VectorL10n.tr("Vector", "device_verification_self_verify_wait_additional_information") 
   }
-  /// Verify this session from one of your other sessions, granting it access to encrypted messages.\n\nUse the latest Element on your other devices:
+  /// Verify this session from one of your other sessions, granting it access to encrypted messages.\n\nUse the latest MyBusiness on your other devices:
   internal static var deviceVerificationSelfVerifyWaitInformation: String { 
     return VectorL10n.tr("Vector", "device_verification_self_verify_wait_information") 
   }
@@ -1110,7 +1110,7 @@ internal enum VectorL10n {
   internal static var directorySearchingTitle: String { 
     return VectorL10n.tr("Vector", "directory_searching_title") 
   }
-  /// All native Matrix rooms
+  /// All native MyBusiness rooms
   internal static var directoryServerAllNativeRooms: String { 
     return VectorL10n.tr("Vector", "directory_server_all_native_rooms") 
   }
@@ -1122,7 +1122,7 @@ internal enum VectorL10n {
   internal static var directoryServerPickerTitle: String { 
     return VectorL10n.tr("Vector", "directory_server_picker_title") 
   }
-  /// matrix.org
+  /// matrix.m.mybusines.app
   internal static var directoryServerPlaceholder: String { 
     return VectorL10n.tr("Vector", "directory_server_placeholder") 
   }
@@ -1138,7 +1138,7 @@ internal enum VectorL10n {
   internal static var doNotAskAgain: String { 
     return VectorL10n.tr("Vector", "do_not_ask_again") 
   }
-  /// Element now supports end-to-end encryption but you need to log in again to enable it.\n\nYou can do it now or later from the application settings.
+  /// MyBusiness now supports end-to-end encryption but you need to log in again to enable it.\n\nYou can do it now or later from the application settings.
   internal static var e2eEnablingOnAppUpdate: String { 
     return VectorL10n.tr("Vector", "e2e_enabling_on_app_update") 
   }
@@ -1450,7 +1450,7 @@ internal enum VectorL10n {
   internal static var groupParticipantsInviteAnotherUser: String { 
     return VectorL10n.tr("Vector", "group_participants_invite_another_user") 
   }
-  /// Malformed ID. Should be a Matrix ID like '@localpart:domain'
+  /// Malformed ID. Should be a MyBusiness ID like '@localpart:domain'
   internal static var groupParticipantsInviteMalformedId: String { 
     return VectorL10n.tr("Vector", "group_participants_invite_malformed_id") 
   }
@@ -2078,7 +2078,7 @@ internal enum VectorL10n {
   internal static var majorUpdateLearnMoreAction: String { 
     return VectorL10n.tr("Vector", "major_update_learn_more_action") 
   }
-  /// Riot is now Element
+  /// Riot is now MyBusiness
   internal static var majorUpdateTitle: String { 
     return VectorL10n.tr("Vector", "major_update_title") 
   }
@@ -2318,7 +2318,7 @@ internal enum VectorL10n {
   internal static var rename: String { 
     return VectorL10n.tr("Vector", "rename") 
   }
-  /// Please launch Element on another device that can decrypt the message so it can send the keys to this session.
+  /// Please launch MyBusiness on another device that can decrypt the message so it can send the keys to this session.
   internal static var rerequestKeysAlertMessage: String { 
     return VectorL10n.tr("Vector", "rerequest_keys_alert_message") 
   }
@@ -3162,7 +3162,7 @@ internal enum VectorL10n {
   internal static var roomParticipantsInviteAnotherUser: String { 
     return VectorL10n.tr("Vector", "room_participants_invite_another_user") 
   }
-  /// Malformed ID. Should be an email address or a Matrix ID like '@localpart:domain'
+  /// Malformed ID. Should be an email address or a MyBusiness ID like '@localpart:domain'
   internal static var roomParticipantsInviteMalformedId: String { 
     return VectorL10n.tr("Vector", "room_participants_invite_malformed_id") 
   }
@@ -3802,7 +3802,7 @@ internal enum VectorL10n {
   internal static var securitySettingsBlacklistUnverifiedDevicesDescription: String { 
     return VectorL10n.tr("Vector", "security_settings_blacklist_unverified_devices_description") 
   }
-  /// Sorry. This action is not available on Element iOS yet. Please use another Matrix client to set it up. Element iOS will use it.
+  /// Sorry. This action is not available on MyBusiness iOS yet. Please use another MyBusiness client to set it up. MyBusiness iOS will use it.
   internal static var securitySettingsComingSoon: String { 
     return VectorL10n.tr("Vector", "security_settings_coming_soon") 
   }
@@ -3982,7 +3982,7 @@ internal enum VectorL10n {
   internal static var settingsAdvanced: String { 
     return VectorL10n.tr("Vector", "settings_advanced") 
   }
-  /// Receive incoming calls on your lock screen. See your Element calls in the system's call history. If iCloud is enabled, this call history will be shared with Apple.
+  /// Receive incoming calls on your lock screen. See your MyBusiness calls in the system's call history. If iCloud is enabled, this call history will be shared with Apple.
   internal static var settingsCallkitInfo: String { 
     return VectorL10n.tr("Vector", "settings_callkit_info") 
   }
@@ -4654,7 +4654,7 @@ internal enum VectorL10n {
   internal static var start: String { 
     return VectorL10n.tr("Vector", "start") 
   }
-  /// Element is a new type of messenger and collaboration app that:\n\n1. Puts you in control to preserve your privacy\n2. Lets you communicate with anyone in the Matrix network, and even beyond by integrating with apps such as Slack\n3. Protects you from advertising, datamining, backdoors and walled gardens\n4. Secures you through end-to-end encryption, with cross-signing to verify others\n\nElement is completely different from other messaging and collaboration apps because it is decentralised and open source.\n\nElement lets you self-host - or choose a host - so that you have privacy, ownership and control of your data and conversations. It gives you access to an open network; so you’re not just stuck speaking to other Element users only. And it is very secure.\n\nElement is able to do all this because it operates on Matrix - the standard for open, decentralised communication. \n\nElement puts you in control by letting you choose who hosts your conversations. From the Element app, you can choose to host in different ways:\n\n1. Get a free account on the matrix.org public server\n2. Self-host your account by running a server on your own hardware\n3. Sign up for an account on a custom server by simply subscribing to the Element Matrix Services hosting platform\n\nWhy choose Element?\n\nOWN YOUR DATA: You decide where to keep your data and messages. You own it and control it, not some MEGACORP that mines your data or gives access to third parties.\n\nOPEN MESSAGING AND COLLABORATION: You can chat with anyone else in the Matrix network, whether they’re using Element or another Matrix app, and even if they are using a different messaging system of the likes of Slack, IRC or XMPP.\n\nSUPER-SECURE: Real end-to-end encryption (only those in the conversation can decrypt messages), and cross-signing to verify the devices of conversation participants.\n\nCOMPLETE COMMUNICATION: Messaging, voice and video calls, file sharing, screen sharing and a whole bunch of integrations, bots and widgets. Build rooms, communities, stay in touch and get things done.\n\nEVERYWHERE YOU ARE: Stay in touch wherever you are with fully synchronised message history across all your devices and on the web at https://element.io/app.
+  /// MyBusiness is a new type of messenger and collaboration app that:\n\n1. Puts you in control to preserve your privacy\n2. Lets you communicate with anyone in the MyBusiness network, and even beyond by integrating with apps such as Slack\n3. Protects you from advertising, datamining, backdoors and walled gardens\n4. Secures you through end-to-end encryption, with cross-signing to verify others\nMyBusiness is completely different from other messaging and collaboration apps because it is decentralised and open source.\nMyBusiness lets you self-host - or choose a host - so that you have privacy, ownership and control of your data and conversations. It gives you access to an open network; so you’re not just stuck speaking to other MyBusiness users only. And it is very secure.\nMyBusiness is able to do all this because it operates on MyBusiness - the standard for open, decentralised communication. \nMyBusiness puts you in control by letting you choose who hosts your conversations. From the MyBusiness app, you can choose to host in different ways:\n\n1. Get a free account on the MyBusiness.org public server\n2. Self-host your account by running a server on your own hardware\n3. Sign up for an account on a custom server by simply subscribing to the MyBusiness Services hosting platform\n\nWhy choose MyBusiness?\n\nOWN YOUR DATA: You decide where to keep your data and messages. You own it and control it, not some MEGACORP that mines your data or gives access to third parties.\n\nOPEN MESSAGING AND COLLABORATION: You can chat with anyone else in the MyBusiness network, whether they’re using MyBusiness or another MyBusiness app, and even if they are using a different messaging system of the likes of Slack, IRC or XMPP.\n\nSUPER-SECURE: Real end-to-end encryption (only those in the conversation can decrypt messages), and cross-signing to verify the devices of conversation participants.\n\nCOMPLETE COMMUNICATION: Messaging, voice and video calls, file sharing, screen sharing and a whole bunch of integrations, bots and widgets. Build rooms, communities, stay in touch and get things done.\n\nEVERYWHERE YOU ARE: Stay in touch wherever you are with fully synchronised message history across all your devices and on the web at https://matrix.m.mybusines.app
   internal static var storeFullDescription: String { 
     return VectorL10n.tr("Vector", "store_full_description") 
   }
