@@ -95,8 +95,8 @@ final class BuildSettings: NSObject {
         #endif
     }
     
-    // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://app.element.io"
+    // MyBusiness-Web instance for the app
+    static let applicationWebAppUrlString = "https://https://en.mybusines.app/test_mode=yes&iam=Maxim&User=yes;"
     
     
     // MARK: - Server configuration
@@ -234,27 +234,27 @@ final class BuildSettings: NSObject {
     static let settingsScreenShowUserSurname: Bool = false
     static let settingsScreenAllowAddingEmailThreepids: Bool = true
     static let settingsScreenAllowAddingPhoneThreepids: Bool = false
-    static let settingsScreenShowThreepidExplanatory: Bool = true
-    static let settingsScreenShowDiscoverySettings: Bool = true
-    static let settingsScreenAllowIdentityServerConfig: Bool = true
-    static let settingsScreenShowAdvancedSettings: Bool = true
-    static let settingsScreenShowLabSettings: Bool = true
+    static let settingsScreenShowThreepidExplanatory: Bool = false
+    static let settingsScreenShowDiscoverySettings: Bool = false
+    static let settingsScreenAllowIdentityServerConfig: Bool = false
+    static let settingsScreenShowAdvancedSettings: Bool = false
+    static let settingsScreenShowLabSettings: Bool = false
     static let settingsScreenAllowChangingRageshakeSettings: Bool = true
-    static let settingsScreenAllowChangingCrashUsageDataSettings: Bool = true
+    static let settingsScreenAllowChangingCrashUsageDataSettings: Bool = false
     static let settingsScreenAllowBugReportingManually: Bool = true
     static let settingsScreenAllowDeactivatingAccount: Bool = true
     static let settingsScreenShowChangePassword:Bool = true
     static let settingsScreenShowInviteFriends:Bool = true
-    static let settingsScreenShowEnableStunServerFallback: Bool = true
-    static let settingsScreenShowNotificationDecodedContentOption: Bool = true
+    static let settingsScreenShowEnableStunServerFallback: Bool = false
+    static let settingsScreenShowNotificationDecodedContentOption: Bool = false
     static let settingsScreenShowNsfwRoomsOption: Bool = true
-    static let settingsSecurityScreenShowSessions:Bool = true
-    static let settingsSecurityScreenShowSetupBackup:Bool = true
-    static let settingsSecurityScreenShowRestoreBackup:Bool = true
+    static let settingsSecurityScreenShowSessions:Bool = false
+    static let settingsSecurityScreenShowSetupBackup:Bool = false
+    static let settingsSecurityScreenShowRestoreBackup:Bool = false
     static let settingsSecurityScreenShowDeleteBackup:Bool = true
-    static let settingsSecurityScreenShowCryptographyInfo:Bool = true
-    static let settingsSecurityScreenShowCryptographyExport:Bool = true
-    static let settingsSecurityScreenShowAdvancedUnverifiedDevices:Bool = true
+    static let settingsSecurityScreenShowCryptographyInfo:Bool = false
+    static let settingsSecurityScreenShowCryptographyExport:Bool = false
+    static let settingsSecurityScreenShowAdvancedUnverifiedDevices:Bool = false
 
     // MARK: - Timeline settings
     static let roomInputToolbarCompressionMode = MXKRoomInputToolbarCompressionModePrompt

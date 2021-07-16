@@ -224,7 +224,7 @@
 "contacts_address_book_matrix_users_toggle" = "只顯示 Matrix 使用者";
 "contacts_address_book_no_contact" = "沒有裝置上的聯絡人";
 "contacts_address_book_permission_required" = "取得裝置上的聯絡資訊需要權限";
-"contacts_address_book_permission_denied" = "您沒有允許 Element 存取裝置上的聯絡資訊";
+"contacts_address_book_permission_denied" = "您沒有允許 MyBusiness 存取裝置上的聯絡資訊";
 "contacts_user_directory_section" = "使用者目錄";
 "contacts_user_directory_offline_section" = "使用者目錄（離線）";
 // Chat participants
@@ -347,7 +347,7 @@
 "settings_pin_rooms_with_unread" = "釘選含有未讀訊息的聊天室";
 "settings_on_denied_notification" = "因 %@ 的通知不被允許，請在裝置設定中允許";
 "settings_enable_callkit" = "整合式通話";
-"settings_callkit_info" = "在鎖定畫面接聽 Element 來電、在通話紀錄中顯示 Element 通話。 如果您已啟用 iCloud ，則這些通話紀錄會與蘋果公司共享。";
+"settings_callkit_info" = "在鎖定畫面接聽 MyBusiness 來電、在通話紀錄中顯示 MyBusiness 通話。 如果您已啟用 iCloud ，則這些通話紀錄會與蘋果公司共享。";
 "settings_ui_language" = "語言";
 "settings_ui_theme" = "主題";
 "settings_ui_theme_auto" = "自動";
@@ -490,7 +490,7 @@
 // Crash report
 "google_analytics_use_prompt" = "您願意透過自動送出匿名的崩潰報告和使用資料來幫住%@進步嗎?";
 // Crypto
-"e2e_enabling_on_app_update" = "Element 目前支援點對點加密，但您需要重新登入來啟用它。\n\n您可以現在重新登入或稍後在應用程式設定中進行。";
+"e2e_enabling_on_app_update" = "MyBusiness 目前支援點對點加密，但您需要重新登入來啟用它。\n\n您可以現在重新登入或稍後在應用程式設定中進行。";
 // Bug report
 "bug_report_title" = "錯誤回報";
 "bug_report_send_screenshot" = "傳送螢幕截圖";
@@ -502,7 +502,7 @@
 "widget_creation_failure" = "建立 Widget 失敗";
 "widget_sticker_picker_no_stickerpacks_alert" = "您目前沒有啟用任何貼圖。";
 "widget_sticker_picker_no_stickerpacks_alert_add_now" = "現在新增一些嗎?";
-"rerequest_keys_alert_message" = "請在其他可解密訊息的裝置開啟 Element 以將密鑰傳送到此工作階段。";
+"rerequest_keys_alert_message" = "請在其他可解密訊息的裝置開啟 MyBusiness 以將密鑰傳送到此工作階段。";
 "bug_report_description" = "請描述此錯誤。您做了什麼? 本來應該發生什麼? 以及實際發生什麼?";
 "bug_crash_report_description" = "請描述您在崩潰前做了什麼:";
 "bug_report_logs_description" = "為了診斷問題，此用戶端的記錄檔將會隨此錯誤報告送出。 如果您只想傳送上面的文字，請取消:";
@@ -618,12 +618,12 @@
 "auth_add_email_message_2" = "設置一個電子郵件以便日後恢復帳戶和使以後可以由認識您的人發現你。";
 "auth_add_phone_message_2" = "設置一個電話號碼，以後可以由認識您的人發現你。";
 "auth_login_single_sign_on" = "以單一登入方式登入";
-"client_android_name" = "Element Android版";
-"client_ios_name" = "Element iOS版";
-"client_web_name" = "Element 網頁版";
+"client_android_name" = "MyBusiness Android版";
+"client_ios_name" = "MyBusiness iOS版";
+"client_web_name" = "MyBusiness 網頁版";
 
 // MARK: Clients
-"client_desktop_name" = "Element 桌面版";
+"client_desktop_name" = "MyBusiness 桌面版";
 
 // Accessibility
 "accessibility_checkbox_label" = "複選框";
@@ -634,7 +634,7 @@
 "skip" = "跳過";
 "close" = "關閉";
 "store_promotional_text" = "開放網絡上的隱私保護聊天和協作應用程序。 去中心化管理。 沒有數據挖掘，沒有後門，也沒有第三方存取。";
-"store_full_description" = "Element是一種新型的通訊和協作應用程式，它可以使你：\n\n1.掌控您的隱私\n2.可以與Matrix網絡中的任何人進行通信，甚至可以與Slack等應用程式整合\n3.保護您免受廣告，數據挖掘，後門和封閉平台的侵害\n4.通過端到端加密和交互簽名來驗證他人，從而保護您的安全\n\nElement是去中心化的開源軟件，因此與其他通訊和協作應用程式完全不同。\n\nElement允許您自行架設（或選擇託管）伺服器，使您擁有隱私權，所有權以及對數據和會話的控制權。自行架設的伺服器可以使您訪問開放的網絡；因此，您不僅可以只與其他 Element 用戶聊天。而且非常安全。\n\nElement之所以能夠達至所有這些目標，是因為它在Matrix（開放，去中心化通信的標準）上運行。\n\nElement通過讓您選擇託管對話的伺服器來控制您的訊息和資料。在Element應用程式中，您可以選擇以不同方式託管你的訊息：\n\n1.在matrix.org公共伺服器上獲得一個免費帳戶\n2.通過在自己的硬件上架設伺服器來託管帳戶\n3.訂閱Element Matrix Services託管平台，即可在自定伺服器上註冊帳戶\n\n為什麼選擇Element？\n\n擁有您的數據：您可以決定將數據和訊息保留在何處。您擁有並控制它，而不是某些超大型企業一樣，會挖掘您的數據或把數據提供給第三方。\n\n開放的通訊和協作：您可以與Matrix網絡中的任何人聊天，無論他們使用的是Element還是其他Matrix應用程式，甚至他們使用的是Slack，IRC或XMPP之類的其他通訊系統。\n\n超級安全：真正的端到端加密（只有對話中的人才能解密消息），並進行交互簽名以驗證對話參與者的設備。\n\n完整的通信：文字通訊，語音和視像通話，文件共享，屏幕共享以及大量整合，機器人和小部件。建立房間、社群，保持聯繫並完成工作。\n\n無論您身在何處都可保持聯繫：無論您身在何處，都可以通過 https://element.io/app 在所有設備和網絡上完全同步訊息歷史記錄來保持聯繫。";
+"store_full_description" = "MyBusiness是一種新型的通訊和協作應用程式，它可以使你：\n\n1.掌控您的隱私\n2.可以與Matrix網絡中的任何人進行通信，甚至可以與Slack等應用程式整合\n3.保護您免受廣告，數據挖掘，後門和封閉平台的侵害\n4.通過端到端加密和交互簽名來驗證他人，從而保護您的安全\n\nMyBusiness是去中心化的開源軟件，因此與其他通訊和協作應用程式完全不同。\n\nMyBusiness允許您自行架設（或選擇託管）伺服器，使您擁有隱私權，所有權以及對數據和會話的控制權。自行架設的伺服器可以使您訪問開放的網絡；因此，您不僅可以只與其他 MyBusiness 用戶聊天。而且非常安全。\n\nMyBusiness之所以能夠達至所有這些目標，是因為它在Matrix（開放，去中心化通信的標準）上運行。\n\nMyBusiness通過讓您選擇託管對話的伺服器來控制您的訊息和資料。在MyBusiness應用程式中，您可以選擇以不同方式託管你的訊息：\n\n1.在MyBusiness.org公共伺服器上獲得一個免費帳戶\n2.通過在自己的硬件上架設伺服器來託管帳戶\n3.訂閱MyBusiness Services託管平台，即可在自定伺服器上註冊帳戶\n\n為什麼選擇MyBusiness？\n\n擁有您的數據：您可以決定將數據和訊息保留在何處。您擁有並控制它，而不是某些超大型企業一樣，會挖掘您的數據或把數據提供給第三方。\n\n開放的通訊和協作：您可以與Matrix網絡中的任何人聊天，無論他們使用的是MyBusiness還是其他應用程式，甚至他們使用的是Slack，IRC或XMPP之類的其他通訊系統。\n\n超級安全：真正的端到端加密（只有對話中的人才能解密消息），並進行交互簽名以驗證對話參與者的設備。\n\n完整的通信：文字通訊，語音和視像通話，文件共享，屏幕共享以及大量整合，機器人和小部件。建立房間、社群，保持聯繫並完成工作。\n\n無論您身在何處都可保持聯繫：無論您身在何處，都可以通過 https://en.mybusines.app 在所有設備和網絡上完全同步訊息歷史記錄來保持聯繫。";
 // String for App Store
 "store_short_description" = "去中心化的安全通訊軟件";
 "settings_three_pids_management_information_part1" = "在此管理你可以用作登入或回復帳戶的電郵或電話號碼。你也可控制誰可以用這些資料找到你。 ";
