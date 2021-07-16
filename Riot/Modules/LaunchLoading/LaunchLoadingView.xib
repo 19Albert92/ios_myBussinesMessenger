@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16097"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17701"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,18 +16,28 @@
             <subviews>
                 <view contentMode="scaleAspectFit" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KG-IR-FPV" customClass="ElementView" customModule="Riot" customModuleProvider="target">
                     <rect key="frame" x="95" y="219" width="130" height="130"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="3KG-IR-FPV" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ig4-YX-FoT"/>
                 <constraint firstItem="3KG-IR-FPV" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="r9K-7c-fjh"/>
             </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="3KG-IR-FPV"/>
+                </mask>
+            </variation>
             <connections>
                 <outlet property="animationView" destination="3KG-IR-FPV" id="Are-fn-laY"/>
             </connections>
             <point key="canvasLocation" x="136.875" y="132.5"/>
         </view>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
