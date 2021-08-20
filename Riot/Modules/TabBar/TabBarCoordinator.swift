@@ -154,6 +154,14 @@ final class TabBarCoordinator: NSObject, TabBarCoordinatorType {
             tabBarController.navigationItem.leftBarButtonItem = settingsBarButtonItem
         }
         
+        //
+        let webViewButtonItem: MXKBarButtonItem = MXKBarButtonItem(image: Asset.Images.iconWebviewItem.image, style: .plain) { [weak self] in
+            self?.showSettings()
+        }
+        
+        tabBarController.navigationItem.rightBarButtonItem = webViewButtonItem
+        
+        
         let searchBarButtonItem: MXKBarButtonItem = MXKBarButtonItem(image: Asset.Images.searchIcon.image, style: .plain) { [weak self] in
             self?.showUnifiedSearch()
         }

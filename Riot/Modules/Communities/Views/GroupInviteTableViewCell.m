@@ -92,4 +92,6 @@ NSString *const kGroupInviteTableViewCellRoomKey = @"kGroupInviteTableViewCellRo
     [super render:cellData];
 }
 
+- (IBAction)centerButton:(UIBarButtonItem *)sender {
+}
 @end

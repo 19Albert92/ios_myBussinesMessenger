@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -258,14 +259,21 @@
                                 <segue destination="taU-5Q-sdv" kind="show" identifier="showSettings" id="3jh-kY-vVn"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" image="search_icon" id="pud-Fh-Usd">
-                            <userDefinedRuntimeAttributes>
-                                <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="MasterTabBarControllerSearchBarButton"/>
-                            </userDefinedRuntimeAttributes>
-                            <connections>
-                                <segue destination="nJt-uq-tV9" kind="show" identifier="showUnifiedSearch" id="5no-rS-zX7"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="search_icon" id="pud-Fh-Usd">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="MasterTabBarControllerSearchBarButton"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="nJt-uq-tV9" kind="show" identifier="showUnifiedSearch" id="5no-rS-zX7"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="launch_screen_logo" id="izh-et-M02">
+                                <connections>
+                                    <action selector="centerButton:" destination="xyx-sP-WSH" id="z5f-pJ-s64"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="7jP-3G-C0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -284,8 +292,51 @@
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k1S-FF-3Zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="xyx-sP-WSH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-516" y="-2203"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3dX-QI-uaK">
+            <objects>
+                <viewController id="8Q4-mn-kEN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1LY-2L-NEQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="NTV-ps-7rl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kDq-9n-eJU" customClass="MyBusinessWebView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsf-tr-48q">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="623" id="0tb-C1-rTx"/>
+                                    <constraint firstAttribute="width" constant="343" id="O9B-b7-Da5"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="dsf-tr-48q" firstAttribute="leading" secondItem="kDq-9n-eJU" secondAttribute="leadingMargin" id="6UJ-nP-hID"/>
+                            <constraint firstItem="NTV-ps-7rl" firstAttribute="top" secondItem="dsf-tr-48q" secondAttribute="bottom" id="hM3-um-KQ1"/>
+                            <constraint firstItem="dsf-tr-48q" firstAttribute="top" secondItem="1LY-2L-NEQ" secondAttribute="bottom" id="oni-LR-cCf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dsf-tr-48q" secondAttribute="trailing" id="p3F-h6-1Ap"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="webViewMyBusiness" destination="dsf-tr-48q" id="Dcv-Th-JN3"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="yY7-5X-gHQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MnS-ew-cdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2486" y="-2737"/>
         </scene>
         <!--Authentication View Controller-->
         <scene sceneID="FoA-N2-3aF">
@@ -581,7 +632,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Tfl-tq-LQp"/>
+        <segue reference="bwO-oZ-2vj"/>
         <segue reference="f5u-Y1-7nt"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -595,6 +646,9 @@
         <image name="tab_rooms" width="24" height="24"/>
         <systemColor name="groupTableViewBackgroundColor">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

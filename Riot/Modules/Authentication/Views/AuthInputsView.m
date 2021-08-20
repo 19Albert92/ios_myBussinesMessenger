@@ -16,6 +16,8 @@
  limitations under the License.
  */
 
+//Copyright 2021 QWERTY NETWORKS Lls
+
 #import "AuthInputsView.h"
 
 #import "ThemeService.h"

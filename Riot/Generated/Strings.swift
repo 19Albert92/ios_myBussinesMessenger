@@ -4526,7 +4526,7 @@ internal enum VectorL10n {
   internal static var sideMenuActionFeedback: String { 
     return VectorL10n.tr("Vector", "side_menu_action_feedback") 
   }
-  /// Help
+  /// myBusinessWeb
   internal static var sideMenuActionHelp: String { 
     return VectorL10n.tr("Vector", "side_menu_action_help") 
   }

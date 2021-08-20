@@ -114,6 +114,10 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         self.sideMenuNavigationViewController.pushViewController(viewController, animated: true)
     }
     
+    private func showGoingWebview() {
+    }
+    
+    
     private func showBugReport() {
         let bugReportViewController = BugReportViewController()
         
@@ -124,24 +128,6 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         self.sideMenuNavigationViewController.present(bugReportViewController, animated: true)
     }
     
-    private func showHelp() {
-        guard let helpURL = URL(string: BuildSettings.applicationHelpUrlString) else {
-            return
-        }
-        
-        let safariViewController = SFSafariViewController(url: helpURL)
-        
-        // Show in fullscreen to animate presentation along side menu dismiss
-        safariViewController.modalPresentationStyle = .fullScreen
-        self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
-    }
-    
-    private func showInviteFriends(from sourceView: UIView?) {
-        let myUserId = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
-        
-        let inviteFriendsPresenter = InviteFriendsPresenter()
-        inviteFriendsPresenter.present(for: myUserId, from: self.sideMenuViewController, sourceView: sourceView, animated: true)
-    }
 }
 
 // MARK: - SideMenuViewModelCoordinatorDelegate
@@ -150,12 +136,14 @@ extension SideMenuCoordinator: SideMenuViewModelCoordinatorDelegate {
     func sideMenuViewModel(_ viewModel: SideMenuViewModelType, didTapMenuItem menuItem: SideMenuItem, fromSourceView sourceView: UIView) {
         
         switch menuItem {
-        case .inviteFriends:
-            self.showInviteFriends(from: sourceView)
+//        case .inviteFriends:
+//            self.showInviteFriends(from: sourceView)
         case .settings:
             self.showSettings()
-        case .help:
-            self.showHelp()
+//        case .help:
+//            self.showHelp()
+        case .webVersionMeBusiness:
+            self.showGoingWebview()
         case .feedback:
             self.showBugReport()
         }

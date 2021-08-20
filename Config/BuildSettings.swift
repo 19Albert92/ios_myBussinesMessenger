@@ -96,7 +96,7 @@ final class BuildSettings: NSObject {
     }
     
     // MyBusiness-Web instance for the app
-    static let applicationWebAppUrlString = "https://https://en.mybusines.app/test_mode=yes&iam=Maxim&User=yes;"
+    static let applicationWebAppUrlString = "https://en.mybusines.app/test_mode=yes&iam=Maxim&User=yes;"
     
     
     // MARK: - Server configuration
@@ -115,7 +115,7 @@ final class BuildSettings: NSObject {
     static let applicationPrivacyPolicyUrlString = "https://element.io/privacy"
     static let applicationTermsConditionsUrlString = "https://element.io/terms-of-service"
     static let applicationHelpUrlString =
-    "https://element.io/help"
+    "https://support@qwertynetworks.com"
     
     
     // MARk: - Matrix permalinks
@@ -144,12 +144,12 @@ final class BuildSettings: NSObject {
         return false
         #endif
     }
-    static let stunServerFallbackUrlString: String? = "stun:turn.matrix.org"
+    static let stunServerFallbackUrlString: String? = "Albert.zinnurov2017@yandex.ru" //"support@qwertynetworks.com"
     
     
     // MARK: -  Public rooms Directory
     static let publicRoomsShowDirectory: Bool = true
-    static let publicRoomsAllowServerChange: Bool = true
+    static let publicRoomsAllowServerChange: Bool = false
     // List of homeservers for the public rooms directory
     static let publicRoomsDirectoryServers = [
         "matrix.org",
@@ -239,13 +239,13 @@ final class BuildSettings: NSObject {
     static let settingsScreenAllowIdentityServerConfig: Bool = false
     static let settingsScreenShowAdvancedSettings: Bool = false
     static let settingsScreenShowLabSettings: Bool = false
-    static let settingsScreenAllowChangingRageshakeSettings: Bool = true
+    static let settingsScreenAllowChangingRageshakeSettings: Bool = false
     static let settingsScreenAllowChangingCrashUsageDataSettings: Bool = false
-    static let settingsScreenAllowBugReportingManually: Bool = true
-    static let settingsScreenAllowDeactivatingAccount: Bool = true
+    static let settingsScreenAllowBugReportingManually: Bool = false
+    static let settingsScreenAllowDeactivatingAccount: Bool = false
     static let settingsScreenShowChangePassword:Bool = true
     static let settingsScreenShowInviteFriends:Bool = true
-    static let settingsScreenShowEnableStunServerFallback: Bool = false
+    static let settingsScreenShowEnableStunServerFallback: Bool = true
     static let settingsScreenShowNotificationDecodedContentOption: Bool = false
     static let settingsScreenShowNsfwRoomsOption: Bool = true
     static let settingsSecurityScreenShowSessions:Bool = false

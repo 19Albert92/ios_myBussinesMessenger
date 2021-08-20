@@ -97,10 +97,9 @@ final class SideMenuViewModel: SideMenuViewModelType {
         }
         
         let sideMenuItems: [SideMenuItem] = [
-            .inviteFriends,
             .settings,
-            .help,
-            .feedback
+            .feedback,
+            .webVersionMeBusiness
         ]
         
         let appVersion = self.appInfo.appVersion?.bundleShortVersion
