@@ -128,6 +128,18 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         self.sideMenuNavigationViewController.present(bugReportViewController, animated: true)
     }
     
+    private func showHelp() {
+            guard let helpURL = URL(string: BuildSettings.applicationHelpUrlString) else {
+                return
+            }
+            
+            let safariViewController = SFSafariViewController(url: helpURL)
+            
+            // Show in fullscreen to animate presentation along side menu dismiss
+            safariViewController.modalPresentationStyle = .fullScreen
+            self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
+        }
+    
 }
 
 // MARK: - SideMenuViewModelCoordinatorDelegate
@@ -140,12 +152,12 @@ extension SideMenuCoordinator: SideMenuViewModelCoordinatorDelegate {
 //            self.showInviteFriends(from: sourceView)
         case .settings:
             self.showSettings()
-//        case .help:
-//            self.showHelp()
-        case .webVersionMeBusiness:
-            self.showGoingWebview()
-        case .feedback:
-            self.showBugReport()
+        case .help:
+            self.showHelp()
+//        case .webVersionMeBusiness:
+//            self.showGoingWebview()
+//        case .feedback:
+//            self.showBugReport()
         }
         
         self.delegate?.sideMenuCoordinator(self, didTapMenuItem: menuItem, fromSourceView: sourceView)

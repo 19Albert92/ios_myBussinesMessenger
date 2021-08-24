@@ -19,8 +19,8 @@ import Foundation
 /// SideMenuItem represents side menu actions
 enum SideMenuItem {
     case settings
-    case feedback
-    case webVersionMeBusiness
+//    case feedback
+    case help
 }
 
 extension SideMenuItem {
@@ -33,12 +33,12 @@ extension SideMenuItem {
 //            title = VectorL10n.sideMenuActionInviteFriends
         case .settings:
             title = VectorL10n.sideMenuActionSettings
-//        case .help:
-//            title = VectorL10n.sideMenuActionHelp
-        case .webVersionMeBusiness:
+        case .help:
             title = VectorL10n.sideMenuActionHelp
-        case .feedback:
-            title = VectorL10n.sideMenuActionFeedback
+//        case .webVersionMeBusiness:
+//            title = VectorL10n.sideMenuActionHelp
+//        case .feedback:
+//            title = VectorL10n.sideMenuActionFeedback
         }
         return title
    }
@@ -51,12 +51,12 @@ extension SideMenuItem {
 //            icon = Asset.Images.sideMenuActionIconShare.image
         case .settings:
             icon = Asset.Images.sideMenuActionIconSettings.image
-        case .webVersionMeBusiness:
-            icon = Asset.Images.sideMenuActionIconHelp.image
-//        case .help:
+//        case .webVersionMeBusiness:
 //            icon = Asset.Images.sideMenuActionIconHelp.image
-        case .feedback:
-            icon = Asset.Images.sideMenuActionIconFeedback.image
+        case .help:
+          icon = Asset.Images.sideMenuActionIconHelp.image
+//        case .feedback:
+//            icon = Asset.Images.sideMenuActionIconFeedback.image
        }
 
         return icon

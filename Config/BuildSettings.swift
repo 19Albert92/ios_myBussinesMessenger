@@ -113,7 +113,7 @@ final class BuildSettings: NSObject {
     
     // Note: Set empty strings to hide the related entry in application settings
     static let applicationCopyrightUrlString = "https://element.io/copyright"
-    static let applicationPrivacyPolicyUrlString = "https://element.io/privacy"
+    static let applicationPrivacyPolicyUrlString = "https://mybusines.app/privacy"
     static let applicationTermsConditionsUrlString = "https://element.io/terms-of-service"
     static let applicationHelpUrlString =
     "https://support@qwertynetworks.com"
@@ -199,7 +199,7 @@ final class BuildSettings: NSObject {
     
     static let allowSendingStickers: Bool = true
     
-    static let allowLocalContactsAccess: Bool = true
+    static let allowLocalContactsAccess: Bool = false
     
     static let allowInviteExernalUsers: Bool = true
     
@@ -284,7 +284,7 @@ final class BuildSettings: NSObject {
 
     // MARK: - Room Info Screen
     
-    static let roomInfoScreenShowIntegrations: Bool = true
+    static let roomInfoScreenShowIntegrations: Bool = false
 
     // MARK: - Room Settings Screen
     

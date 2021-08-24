@@ -1,12 +1,9 @@
 /*
  Copyright 2018 New Vector Ltd
-
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
-
  http://www.apache.org/licenses/LICENSE-2.0
-
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -107,7 +104,6 @@ class DarkTheme: NSObject, Theme {
         ]
         navigationBar.barTintColor = self.baseColor
         navigationBar.shadowImage = UIImage() // Remove bottom shadow
-
         // The navigation bar needs to be opaque so that its background color is the expected one
         navigationBar.isTranslucent = false
     }
@@ -117,7 +113,7 @@ class DarkTheme: NSObject, Theme {
         searchBar.barStyle = .black
         searchBar.barTintColor = self.baseColor
         searchBar.isTranslucent = false
-        searchBar.backgroundImage = UIImage() // Remove top and bottom shadow        
+        searchBar.backgroundImage = UIImage() // Remove top and bottom shadow
         searchBar.tintColor = self.tintColor
         
         if #available(iOS 13.0, *) {
