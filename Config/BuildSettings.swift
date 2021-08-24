@@ -115,8 +115,8 @@ final class BuildSettings: NSObject {
     static let applicationCopyrightUrlString = "https://element.io/copyright"
     static let applicationPrivacyPolicyUrlString = "https://mybusines.app/privacy"
     static let applicationTermsConditionsUrlString = "https://element.io/terms-of-service"
-    static let applicationHelpUrlString =
-    "https://support@qwertynetworks.com"
+    static let applicationHelpUrlString = "https://element.io/help"
+//        "https://matrix.to/#/#element-ios:matrix.org"
     
     
     // MARk: - Matrix permalinks

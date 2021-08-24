@@ -2,6 +2,7 @@
 // $ createScreen.sh SideMenu SideMenu
 /*
  Copyright 2020 New Vector Ltd
+ Copyright 2021 QWERTY NETWORKS Llc
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -15,6 +16,7 @@
  See the License for the specific language governing permissions and
  limitations under the License.
  */
+
 
 import Foundation
 import UIKit
@@ -47,7 +49,6 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
     private let sideMenuViewController: SideMenuViewController
     
     // MARK: Public
-
     // Must be used only internally
     var childCoordinators: [Coordinator] = []
     
@@ -65,7 +66,7 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
     
     // MARK: - Public methods
     
-    func start() {            
+    func start() {
         self.sideMenuViewModel.coordinatorDelegate = self
         
         self.sideMenuNavigationViewController.sideMenuDelegate = self
@@ -114,10 +115,6 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         self.sideMenuNavigationViewController.pushViewController(viewController, animated: true)
     }
     
-    private func showGoingWebview() {
-    }
-    
-    
     private func showBugReport() {
         let bugReportViewController = BugReportViewController()
         
@@ -129,17 +126,23 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
     }
     
     private func showHelp() {
-            guard let helpURL = URL(string: BuildSettings.applicationHelpUrlString) else {
-                return
-            }
-            
-            let safariViewController = SFSafariViewController(url: helpURL)
-            
-            // Show in fullscreen to animate presentation along side menu dismiss
-            safariViewController.modalPresentationStyle = .fullScreen
-            self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
+        guard let helpURL = URL(string: BuildSettings.applicationHelpUrlString) else {
+            return
         }
+        
+        let safariViewController = SFSafariViewController(url: helpURL)
+        
+        // Show in fullscreen to animate presentation along side menu dismiss
+        safariViewController.modalPresentationStyle = .fullScreen
+        self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
+    }
     
+    private func showInviteFriends(from sourceView: UIView?) {
+        let myUserId = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
+        
+        let inviteFriendsPresenter = InviteFriendsPresenter()
+        inviteFriendsPresenter.present(for: myUserId, from: self.sideMenuViewController, sourceView: sourceView, animated: true)
+    }
 }
 
 // MARK: - SideMenuViewModelCoordinatorDelegate
@@ -152,10 +155,8 @@ extension SideMenuCoordinator: SideMenuViewModelCoordinatorDelegate {
 //            self.showInviteFriends(from: sourceView)
         case .settings:
             self.showSettings()
-        case .help:
-            self.showHelp()
-//        case .webVersionMeBusiness:
-//            self.showGoingWebview()
+//        case .help:
+//            self.showHelp()
 //        case .feedback:
 //            self.showBugReport()
         }

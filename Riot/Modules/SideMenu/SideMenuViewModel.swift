@@ -2,6 +2,7 @@
 // $ createScreen.sh SideMenu SideMenu
 /*
  Copyright 2020 New Vector Ltd
+ Copyright 2021 QWERTY NETWORKS Llc
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -97,8 +98,7 @@ final class SideMenuViewModel: SideMenuViewModelType {
         }
         
         let sideMenuItems: [SideMenuItem] = [
-            .settings,
-            .help
+            .settings
         ]
         
         let appVersion = self.appInfo.appVersion?.bundleShortVersion

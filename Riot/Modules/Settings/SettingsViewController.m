@@ -2,6 +2,7 @@
  Copyright 2015 OpenMarket Ltd
  Copyright 2017 Vector Creations Ltd
  Copyright 2018 New Vector Ltd
+ Copyright 2021 QWERTY NETWORKS Llc
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -422,14 +423,14 @@ TableViewSectionsDelegate>
         [tmpSections addObject:sectionIgnoredUsers];
     }
     
-    if (RiotSettings.shared.matrixApps)
-    {
-        Section *sectionIntegrations = [Section sectionWithTag:SECTION_TAG_INTEGRATIONS];
-        [sectionIntegrations addRowWithTag:INTEGRATIONS_INDEX];
-        [sectionIntegrations addRowWithTag:INTEGRATIONS_DESCRIPTION_INDEX];
-        sectionIntegrations.headerTitle = NSLocalizedStringFromTable(@"settings_integrations", @"Vector", nil);
-        [tmpSections addObject:sectionIntegrations];
-    }
+//    if (RiotSettings.shared.matrixApps)
+//    {
+//        Section *sectionIntegrations = [Section sectionWithTag:SECTION_TAG_INTEGRATIONS];
+//        [sectionIntegrations addRowWithTag:INTEGRATIONS_INDEX];
+//        [sectionIntegrations addRowWithTag:INTEGRATIONS_DESCRIPTION_INDEX];
+//        sectionIntegrations.headerTitle = NSLocalizedStringFromTable(@"settings_integrations", @"Vector", nil);
+//        [tmpSections addObject:sectionIntegrations];
+//    }
     
     Section *sectionUserInterface = [Section sectionWithTag:SECTION_TAG_USER_INTERFACE];
     [sectionUserInterface addRowWithTag:USER_INTERFACE_LANGUAGE_INDEX];
@@ -1874,92 +1875,92 @@ TableViewSectionsDelegate>
             cell = globalInfoCell;
         }
     }
-    else if (section == SECTION_TAG_DISCOVERY)
-    {
-        cell = [self.settingsDiscoveryTableViewSection cellForRowAtRow:row];
-    }
-    else if (section == SECTION_TAG_IDENTITY_SERVER)
-    {
-        switch (row)
-        {
-            case IDENTITY_SERVER_INDEX:
-            {
-                MXKTableViewCell *isCell = [self getDefaultTableViewCell:tableView];
-
-                if (account.mxSession.identityService.identityServer)
-                {
-                    isCell.textLabel.text = account.mxSession.identityService.identityServer;
-                }
-                else
-                {
-                    isCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_no_is", @"Vector", nil);
-                }
-                [isCell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
-                cell = isCell;
-                break;
-            }
-
-            case IDENTITY_SERVER_DESCRIPTION_INDEX:
-            {
-                MXKTableViewCell *descriptionCell = [self getDefaultTableViewCell:tableView];
-
-                if (account.mxSession.identityService.identityServer)
-                {
-                    descriptionCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_description", @"Vector", nil);
-                }
-                else
-                {
-                    descriptionCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_no_is_description", @"Vector", nil);
-                }
-                descriptionCell.textLabel.numberOfLines = 0;
-                descriptionCell.selectionStyle = UITableViewCellSelectionStyleNone;
-
-                cell = descriptionCell;
-                break;
-            }
-
-            default:
-                break;
-        }
-    }
-    else if (section == SECTION_TAG_INTEGRATIONS)
-    {
-        switch (row) {
-            case INTEGRATIONS_INDEX:
-            {
-                RiotSharedSettings *sharedSettings = [[RiotSharedSettings alloc] initWithSession:session];
-
-                MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
-                labelAndSwitchCell.mxkLabel.text = NSLocalizedStringFromTable(@"settings_integrations_allow_button", @"Vector", nil);
-                labelAndSwitchCell.mxkSwitch.on = sharedSettings.hasIntegrationProvisioningEnabled;
-                labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
-                labelAndSwitchCell.mxkSwitch.enabled = YES;
-                [labelAndSwitchCell.mxkSwitch addTarget:self action:@selector(toggleAllowIntegrations:) forControlEvents:UIControlEventTouchUpInside];
-
-                cell = labelAndSwitchCell;
-                break;
-            }
-
-            case INTEGRATIONS_DESCRIPTION_INDEX:
-            {
-                MXKTableViewCell *descriptionCell = [self getDefaultTableViewCell:tableView];
-
-                NSString *integrationManager = [WidgetManager.sharedManager configForUser:session.myUser.userId].apiUrl;
-                NSString *integrationManagerDomain = [NSURL URLWithString:integrationManager].host;
-
-                NSString *description = [NSString stringWithFormat:NSLocalizedStringFromTable(@"settings_integrations_allow_description", @"Vector", nil), integrationManagerDomain];
-                descriptionCell.textLabel.text = description;
-                descriptionCell.textLabel.numberOfLines = 0;
-                descriptionCell.selectionStyle = UITableViewCellSelectionStyleNone;
-
-                cell = descriptionCell;
-                break;
-            }
-
-            default:
-                break;
-        }
-    }
+//    else if (section == SECTION_TAG_DISCOVERY)
+//    {
+//        cell = [self.settingsDiscoveryTableViewSection cellForRowAtRow:row];
+//    }
+//    else if (section == SECTION_TAG_IDENTITY_SERVER)
+//    {
+//        switch (row)
+//        {
+//            case IDENTITY_SERVER_INDEX:
+//            {
+//                MXKTableViewCell *isCell = [self getDefaultTableViewCell:tableView];
+//
+//                if (account.mxSession.identityService.identityServer)
+//                {
+//                    isCell.textLabel.text = account.mxSession.identityService.identityServer;
+//                }
+//                else
+//                {
+//                    isCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_no_is", @"Vector", nil);
+//                }
+//                [isCell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
+//                cell = isCell;
+//                break;
+//            }
+//
+//            case IDENTITY_SERVER_DESCRIPTION_INDEX:
+//            {
+//                MXKTableViewCell *descriptionCell = [self getDefaultTableViewCell:tableView];
+//
+//                if (account.mxSession.identityService.identityServer)
+//                {
+//                    descriptionCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_description", @"Vector", nil);
+//                }
+//                else
+//                {
+//                    descriptionCell.textLabel.text = NSLocalizedStringFromTable(@"settings_identity_server_no_is_description", @"Vector", nil);
+//                }
+//                descriptionCell.textLabel.numberOfLines = 0;
+//                descriptionCell.selectionStyle = UITableViewCellSelectionStyleNone;
+//
+//                cell = descriptionCell;
+//                break;
+//            }
+//
+//            default:
+//                break;
+//        }
+//    }
+//    else if (section == SECTION_TAG_INTEGRATIONS)
+//    {
+//        switch (row) {
+//            case INTEGRATIONS_INDEX:
+//            {
+//                RiotSharedSettings *sharedSettings = [[RiotSharedSettings alloc] initWithSession:session];
+//
+//                MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
+//                labelAndSwitchCell.mxkLabel.text = NSLocalizedStringFromTable(@"settings_integrations_allow_button", @"Vector", nil);
+//                labelAndSwitchCell.mxkSwitch.on = sharedSettings.hasIntegrationProvisioningEnabled;
+//                labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
+//                labelAndSwitchCell.mxkSwitch.enabled = YES;
+//                [labelAndSwitchCell.mxkSwitch addTarget:self action:@selector(toggleAllowIntegrations:) forControlEvents:UIControlEventTouchUpInside];
+//
+//                cell = labelAndSwitchCell;
+//                break;
+//            }
+//
+//            case INTEGRATIONS_DESCRIPTION_INDEX:
+//            {
+//                MXKTableViewCell *descriptionCell = [self getDefaultTableViewCell:tableView];
+//
+//                NSString *integrationManager = [WidgetManager.sharedManager configForUser:session.myUser.userId].apiUrl;
+//                NSString *integrationManagerDomain = [NSURL URLWithString:integrationManager].host;
+//
+//                NSString *description = [NSString stringWithFormat:NSLocalizedStringFromTable(@"settings_integrations_allow_description", @"Vector", nil), integrationManagerDomain];
+//                descriptionCell.textLabel.text = description;
+//                descriptionCell.textLabel.numberOfLines = 0;
+//                descriptionCell.selectionStyle = UITableViewCellSelectionStyleNone;
+//
+//                cell = descriptionCell;
+//                break;
+//            }
+//
+//            default:
+//                break;
+//        }
+//    }
     else if (section == SECTION_TAG_USER_INTERFACE)
     {
         if (row == USER_INTERFACE_LANGUAGE_INDEX)
