@@ -1148,7 +1148,7 @@
 "secrets_setup_recovery_passphrase_confirm_passphrase_placeholder" = "Phrase bestätigen";
 "cross_signing_setup_banner_title" = "Verschlüsselung einrichten";
 "cross_signing_setup_banner_subtitle" = "Verifiziere deine weiteren Geräte bequemer";
-"major_update_title" = "Riot ist jetzt MyBusiness";
+"major_update_title" = "MyBusiness";
 "major_update_information" = "Wir sind begeistert unsere Namensänderung mitteilen zu können! Deine App ist auf dem neusten Stand und du bist mit deinem Konto angemeldet.";
 "major_update_learn_more_action" = "Mehr erfahren";
 "major_update_done_action" = "Verstanden";

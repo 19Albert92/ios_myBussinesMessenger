@@ -94,7 +94,7 @@
 "directory_cell_description" = "%tu spjallrásir";
 // Contacts
 "contacts_address_book_section" = "TENGILIÐIR Á TÆKI";
-"contacts_address_book_matrix_users_toggle" = "Einungis notendur MyBusiness";
+"contacts_address_book_matrix_users_toggle" = "Einungis notendur Matrix";
 "room_participants_leave_prompt_title" = "Fara af spjallrás";
 "room_participants_leave_prompt_msg" = "Ertu viss um að þú viljir fara út spjallrásinni?";
 "room_participants_remove_prompt_title" = "Staðfesting";
@@ -247,7 +247,7 @@
 "directory_title" = "Mappa";
 "directory_server_picker_title" = "Veldu möppu";
 "directory_server_all_rooms" = "Allar spjallrásir á %@ vefþjóninum";
-"directory_server_all_native_rooms" = "Allar innbyggðar MyBusiness-spjallrásir";
+"directory_server_all_native_rooms" = "Allar innbyggðar Matrix-spjallrásir";
 // Others
 "or" = "eða";
 "you" = "Þú";
@@ -280,8 +280,8 @@
 "active_call_details" = "Virkt samtal (%@)";
 "auth_send_reset_email" = "Senda endurstillingarpóst";
 "auth_return_to_login" = "Fara aftur í innskráningargluggann";
-"auth_home_server_placeholder" = "URL-slóð (t.d. https://matrix.m.mybusines.app)";
-"auth_identity_server_placeholder" = "URL-slóð (t.d. https://matrix.m.mybusines.app)";
+"auth_home_server_placeholder" = "URL-slóð (t.d. https://matrix.org)";
+"auth_identity_server_placeholder" = "URL-slóð (t.d. https://matrix.org)";
 "auth_invalid_email" = "Þetta lítur ekki út eins og gilt tölvupóstfang";
 "auth_invalid_phone" = "Þetta lítur ekki út eins og gilt símanúmer";
 "auth_email_in_use" = "Þetta tölvupóstfang er nú þegar í notkun";
@@ -397,10 +397,10 @@
 "auth_reset_password_success_message" = "Lykilorðið þitt hefur verið endurstillt.\n\nÞú hefur verið skráður út af öllum tækjum og munt ekki lengur fá ýti-tilkynningar. Til að endurvirkja tilkynningar, þarf að skrá sig aftur inn á hverju tæki fyrir sig.";
 "directory_search_results" = "%tu niðurstöður fundust fyrir %@";
 "directory_search_results_more_than" = ">%tu niðurstöður fundust fyrir %@";
-"contacts_address_book_permission_denied" = "Þú heimilaðir MyBusiness ekki aðgang að tengiliðum á tækinu";
+"contacts_address_book_permission_denied" = "Þú heimilaðir My Business ekki aðgang að tengiliðum á tækinu";
 "room_participants_remove_prompt_msg" = "Ertu viss um að þú viljir fjarlægja %@ úr þessu spjalli?";
 "room_participants_invite_prompt_msg" = "Ertu viss um að þú viljir bjóða %@ á þetta spjall?";
-"room_participants_invite_malformed_id" = "Rangt formað auðkenni. Ætti að vera tölvupóstfang eða MyBusiness-auðkenni á borð við'@sérheiti:lén'";
+"room_participants_invite_malformed_id" = "Rangt formað auðkenni. Ætti að vera tölvupóstfang eða Matrix-auðkenni á borð við'@sérheiti:lén'";
 "room_unsent_messages_notification" = "Skilaboð ekki send.";
 "room_unsent_messages_unknown_devices_notification" = "Skilaboð ekki send vegna þess að vart var við óþekkt tæki.";
 "room_ongoing_conference_call" = "Símafundur í gangi. Taka þátt með %@ eða %@.";
@@ -466,8 +466,8 @@
 "room_details_unset_main_address" = "Ekki setja sem aðalvistfang";
 "group_participants_invite_prompt_msg" = "Ertu viss um að þú viljir bjóða %@ í þennan hóp?";
 "group_participants_invite_malformed_id_title" = "Villa við boð";
-"group_participants_invite_malformed_id" = "Rangt formað auðkenni. Ætti að vera MyBusiness-auðkenni á borð við'@sérheiti:lén'";
-"directory_server_placeholder" = "MyBusiness.org";
+"group_participants_invite_malformed_id" = "Rangt formað auðkenni. Ætti að vera Matrix-auðkenni á borð við'@sérheiti:lén'";
+"directory_server_placeholder" = "matrix.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu breytingar á aðild";
 "event_formatter_widget_added" = "%@ viðmótshluta bætt við af %@";

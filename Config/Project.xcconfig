@@ -1,6 +1,7 @@
 // 
 // Copyright 2020 Vector Creations Ltd
-//
+// Copyright 2021 QWERTY NETWORKS Llc
+
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -25,7 +26,7 @@
 KEYCHAIN_ACCESS_GROUP = $(AppIdentifierPrefix)$(BASE_BUNDLE_IDENTIFIER).keychain.shared
 
 // Build settings
-IPHONEOS_DEPLOYMENT_TARGET = 11.0
+IPHONEOS_DEPLOYMENT_TARGET = 12.0
 SDKROOT = iphoneos
 TARGETED_DEVICE_FAMILY = 1,2
 SWIFT_VERSION = 5.3.1

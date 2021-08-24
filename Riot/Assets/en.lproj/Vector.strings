@@ -1,6 +1,8 @@
 /*
  Copyright 2015 OpenMarket Ltd
  Copyright 2017 Vector Creations Ltd
+ Copyright 2021 QWERTY NETWORKS Llc
+
  
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
@@ -17,7 +19,7 @@
 
 // String for App Store
 "store_short_description" = "Secure decentralised chat/VoIP";
-"store_full_description" = "MyBusiness is a new type of messenger and collaboration app that:\n\n1. Puts you in control to preserve your privacy\n2. Lets you communicate with anyone in the MyBusiness network, and even beyond by integrating with apps such as Slack\n3. Protects you from advertising, datamining, backdoors and walled gardens\n4. Secures you through end-to-end encryption, with cross-signing to verify others\n\MyBusiness is completely different from other messaging and collaboration apps because it is decentralised and open source.\n\MyBusiness lets you self-host - or choose a host - so that you have privacy, ownership and control of your data and conversations. It gives you access to an open network; so you’re not just stuck speaking to other MyBusiness users only. And it is very secure.\n\MyBusiness is able to do all this because it operates on MyBusiness - the standard for open, decentralised communication. \n\MyBusiness puts you in control by letting you choose who hosts your conversations. From the MyBusiness app, you can choose to host in different ways:\n\n1. Get a free account on the MyBusiness.org public server\n2. Self-host your account by running a server on your own hardware\n3. Sign up for an account on a custom server by simply subscribing to the MyBusiness Services hosting platform\n\nWhy choose MyBusiness?\n\nOWN YOUR DATA: You decide where to keep your data and messages. You own it and control it, not some MEGACORP that mines your data or gives access to third parties.\n\nOPEN MESSAGING AND COLLABORATION: You can chat with anyone else in the MyBusiness network, whether they’re using MyBusiness or another MyBusiness app, and even if they are using a different messaging system of the likes of Slack, IRC or XMPP.\n\nSUPER-SECURE: Real end-to-end encryption (only those in the conversation can decrypt messages), and cross-signing to verify the devices of conversation participants.\n\nCOMPLETE COMMUNICATION: Messaging, voice and video calls, file sharing, screen sharing and a whole bunch of integrations, bots and widgets. Build rooms, communities, stay in touch and get things done.\n\nEVERYWHERE YOU ARE: Stay in touch wherever you are with fully synchronised message history across all your devices and on the web at https://matrix.m.mybusines.app";
+"store_full_description" = "My Business is a new type of messenger and collaboration app that:\n\n1. Puts you in control to preserve your privacy\n2. Lets you communicate with anyone in the Matrix network, and even beyond by integrating with apps such as Slack\n3. Protects you from advertising, datamining, backdoors and walled gardens\n4. Secures you through end-to-end encryption, with cross-signing to verify others\n\nMy Business is completely different from other messaging and collaboration apps because it is decentralised and open source.\n\nMy Business lets you self-host - or choose a host - so that you have privacy, ownership and control of your data and conversations. It gives you access to an open network; so you’re not just stuck speaking to other My Business users only. And it is very secure.\n\nMy Business is able to do all this because it operates on Matrix - the standard for open, decentralised communication. \n\nMy Business puts you in control by letting you choose who hosts your conversations. From the My Business app, you can choose to host in different ways:\n\n1. Get a free account on the matrix.org public server\n2. Self-host your account by running a server on your own hardware\n3. Sign up for an account on a custom server by simply subscribing to the My Business Matrix Services hosting platform\n\nWhy choose My Business?\n\nOWN YOUR DATA: You decide where to keep your data and messages. You own it and control it, not some MEGACORP that mines your data or gives access to third parties.\n\nOPEN MESSAGING AND COLLABORATION: You can chat with anyone else in the Matrix network, whether they’re using My Business or another Matrix app, and even if they are using a different messaging system of the likes of Slack, IRC or XMPP.\n\nSUPER-SECURE: Real end-to-end encryption (only those in the conversation can decrypt messages), and cross-signing to verify the devices of conversation participants.\n\nCOMPLETE COMMUNICATION: Messaging, voice and video calls, file sharing, screen sharing and a whole bunch of integrations, bots and widgets. Build rooms, communities, stay in touch and get things done.\n\nEVERYWHERE YOU ARE: Stay in touch wherever you are with fully synchronised message history across all your devices and on the web at https://My Business.io/app.";
 "store_promotional_text" = "Privacy-preserving chat and collaboration app, on an open network. Decentralised to put you in control. No datamining, no backdoors and no third party access.";
 
 // Titles
@@ -94,7 +96,7 @@
 "auth_phone_placeholder" = "Phone number";
 "auth_repeat_password_placeholder" = "Repeat password";
 "auth_repeat_new_password_placeholder" = "Confirm your new password";
-"auth_home_server_placeholder" = "URL (e.g. https://matrix.m.mybusines.app)";
+"auth_home_server_placeholder" = "URL (e.g. https://matrix.org)";
 "auth_identity_server_placeholder" = "URL (e.g. https://vector.im)";
 "auth_invalid_login_param" = "Incorrect username and/or password";
 "auth_invalid_user_name" = "User names may only contain letters, numbers, dots, hyphens and underscores";
@@ -130,7 +132,7 @@
 "auth_reset_password_email_validation_message" = "An email has been sent to %@. Once you've followed the link it contains, click below.";
 "auth_reset_password_next_step_button" = "I have verified my email address";
 "auth_reset_password_error_unauthorized" = "Failed to verify email address: make sure you clicked the link in the email";
-"auth_reset_password_error_not_found" = "Your email address does not appear to be associated with a MyBusiness ID on this homeserver.";
+"auth_reset_password_error_not_found" = "Your email address does not appear to be associated with a Matrix ID on this homeserver.";
 "auth_reset_password_error_is_required" = "No identity server is configured: add one in server options to reset your password.";
 "auth_reset_password_success_message" = "Your password has been reset.\n\nYou have been logged out of all sessions and will no longer receive push notifications. To re-enable notifications, re-log in on each device.";
 "auth_add_email_and_phone_warning" = "Registration with email and phone number at once is not supported yet until the api exists. Only the phone number will be taken into account. You may add your email to your profile in settings.";
@@ -237,11 +239,11 @@ Tap the + to start adding people.";
 
 // Contacts
 "contacts_address_book_section" = "LOCAL CONTACTS";
-"contacts_address_book_matrix_users_toggle" = "MyBusiness users only";
+"contacts_address_book_matrix_users_toggle" = "Matrix users only";
 "contacts_address_book_no_identity_server" = "No identity server configured";
 "contacts_address_book_no_contact" = "No local contacts";
 "contacts_address_book_permission_required" = "Permission required to access local contacts";
-"contacts_address_book_permission_denied" = "You didn't allow MyBusiness to access your local contacts";
+"contacts_address_book_permission_denied" = "You didn't allow My Business to access your local contacts";
 "contacts_user_directory_section" = "USER DIRECTORY";
 "contacts_user_directory_offline_section" = "USER DIRECTORY (offline)";
 
@@ -263,7 +265,7 @@ Tap the + to start adding people.";
 "room_participants_filter_room_members_for_dm" = "Filter members";
 "room_participants_invite_another_user" = "Search / invite by User ID, Name or email";
 "room_participants_invite_malformed_id_title" = "Invite Error";
-"room_participants_invite_malformed_id" = "Malformed ID. Should be an email address or a MyBusiness ID like '@localpart:domain'";
+"room_participants_invite_malformed_id" = "Malformed ID. Should be an email address or a Matrix ID like '@localpart:domain'";
 "room_participants_invited_section" = "INVITED";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "No identity server is configured so you cannot start a chat with a contact using an email.";
 
@@ -507,7 +509,7 @@ Tap the + to start adding people.";
 //"settings_call_invitations" = "Call invitations";
 
 "settings_enable_callkit" = "Integrated calling";
-"settings_callkit_info" = "Receive incoming calls on your lock screen. See your MyBusiness calls in the system's call history. If iCloud is enabled, this call history will be shared with Apple.";
+"settings_callkit_info" = "Receive incoming calls on your lock screen. See your My Business calls in the system's call history. If iCloud is enabled, this call history will be shared with Apple.";
 "settings_calls_stun_server_fallback_button" = "Allow fallback call assist server";
 "settings_calls_stun_server_fallback_description" = "Allow fallback call assist server %@ when your homeserver does not offer one (your IP address would be shared during a call).";
 
@@ -651,7 +653,7 @@ Tap the + to start adding people.";
 "security_settings_complete_security_alert_title" = "Complete security";
 "security_settings_complete_security_alert_message" = "You should complete security on your current session first.";
 
-"security_settings_coming_soon" = "Sorry. This action is not available on MyBusiness iOS yet. Please use another MyBusiness client to set it up. MyBusiness iOS will use it.";
+"security_settings_coming_soon" = "Sorry. This action is not available on My Business iOS yet. Please use another Matrix client to set it up. My Business iOS will use it.";
 "security_settings_user_password_description" = "Confirm your identity by entering your account password";
 
 // Manage session
@@ -796,7 +798,7 @@ Tap the + to start adding people.";
 "group_participants_filter_members" = "Filter community members";
 "group_participants_invite_another_user" = "Search / invite by User ID or Name";
 "group_participants_invite_malformed_id_title" = "Invite Error";
-"group_participants_invite_malformed_id" = "Malformed ID. Should be a MyBusiness ID like '@localpart:domain'";
+"group_participants_invite_malformed_id" = "Malformed ID. Should be a Matrix ID like '@localpart:domain'";
 "group_participants_invited_section" = "INVITED";
 
 // Group rooms
@@ -819,9 +821,9 @@ Tap the + to start adding people.";
 "directory_title" = "Directory";
 "directory_server_picker_title" = "Select a directory";
 "directory_server_all_rooms" = "All rooms on %@ server";
-"directory_server_all_native_rooms" = "All native MyBusiness rooms";
+"directory_server_all_native_rooms" = "All native Matrix rooms";
 "directory_server_type_homeserver" = "Type a homeserver to list public rooms from";
-"directory_server_placeholder" = "matrix.m.mybusines.app";
+"directory_server_placeholder" = "matrix.org";
 
 // Events formatter
 "event_formatter_member_updates" = "%tu membership changes";
@@ -897,7 +899,7 @@ Tap the + to start adding people.";
 "google_analytics_use_prompt" = "Would you like to help improve %@ by automatically reporting anonymous crash reports and usage data?";
 
 // Crypto
-"e2e_enabling_on_app_update" = "MyBusiness now supports end-to-end encryption but you need to log in again to enable it.\n\nYou can do it now or later from the application settings.";
+"e2e_enabling_on_app_update" = "My Business now supports end-to-end encryption but you need to log in again to enable it.\n\nYou can do it now or later from the application settings.";
 "e2e_need_log_in_again" = "You need to log back in to generate end-to-end encryption keys for this session and submit the public key to your homeserver.\nThis is a once off; sorry for the inconvenience.";
 
 // Key backup wrong version
@@ -1003,7 +1005,7 @@ Tap the + to start adding people.";
 "deactivate_account_informations_part2_emphasize" = "This action is irreversible.";
 "deactivate_account_informations_part3" = "\n\nDeactivating your account ";
 "deactivate_account_informations_part4_emphasize" = "does not by default cause us to forget messages you have sent. ";
-"deactivate_account_informations_part5" = "If you would like us to forget your messages, please tick the box below\n\nMessage visibility in MyBusiness is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.";
+"deactivate_account_informations_part5" = "If you would like us to forget your messages, please tick the box below\n\nMessage visibility in Matrix is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.";
 
 "deactivate_account_forget_messages_information_part1" = "Please forget all messages I have sent when my account is deactivated (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Warning";
@@ -1016,7 +1018,7 @@ Tap the + to start adding people.";
 
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Request Sent";
-"rerequest_keys_alert_message" = "Please launch MyBusiness on another device that can decrypt the message so it can send the keys to this session.";
+"rerequest_keys_alert_message" = "Please launch My Business on another device that can decrypt the message so it can send the keys to this session.";
 
 // MARK: Secure backup setup
 
@@ -1204,8 +1206,8 @@ Tap the + to start adding people.";
 
 "device_verification_self_verify_wait_title" = "Complete security";
 "device_verification_self_verify_wait_new_sign_in_title" = "Verify this login";
-"device_verification_self_verify_wait_information" = "Verify this session from one of your other sessions, granting it access to encrypted messages.\n\nUse the latest MyBusiness on your other devices:";
-"device_verification_self_verify_wait_additional_information" = "This works with MyBusiness and other cross-signing capable MyBusiness clients.";
+"device_verification_self_verify_wait_information" = "Verify this session from one of your other sessions, granting it access to encrypted messages.\n\nUse the latest My Business on your other devices:";
+"device_verification_self_verify_wait_additional_information" = "This works with My Business and other cross-signing capable Matrix clients.";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "Use Security Key";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "Use Security Phrase or Key";
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "If you can't access an existing session";
@@ -1517,7 +1519,7 @@ Tap the + to start adding people.";
 
 // MARK: - Major update
 
-"major_update_title" = "Riot is now MyBusiness";
+"major_update_title" = "My Business";
 "major_update_information" = "We're excited to announce we've changed name! Your app is up to date and you're signed in to your account.";
 "major_update_learn_more_action" = "Learn more";
 "major_update_done_action" = "Got it";
@@ -1587,7 +1589,7 @@ Tap the + to start adding people.";
 "create_room_section_footer_type" = "People join a private room only with the room invitation.";
 "create_room_show_in_directory" = "Show the room in the directory";
 "create_room_section_header_address" = "Room address";
-"create_room_placeholder_address" = "#testroom:matrix.m.mybusines.app";
+"create_room_placeholder_address" = "#testroom:matrix.org";
 
 // MARK: - Room Info
 
@@ -1665,6 +1667,6 @@ Tap the + to start adding people.";
 "side_menu_reveal_action_accessibility_label" = "Left panel";
 "side_menu_action_invite_friends" = "Invite friends";
 "side_menu_action_settings" = "Settings";
-"side_menu_action_help" = "myBusinessWeb";
+"side_menu_action_help" = "Help";
 "side_menu_action_feedback" = "Feedback";
 "side_menu_app_version" = "Version %@";

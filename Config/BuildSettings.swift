@@ -1,5 +1,6 @@
 // 
 // Copyright 2020 Vector Creations Ltd
+// Copyright 2021 QWERTY NETWORKS Llc
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -144,7 +145,7 @@ final class BuildSettings: NSObject {
         return false
         #endif
     }
-    static let stunServerFallbackUrlString: String? = "Albert.zinnurov2017@yandex.ru" //"support@qwertynetworks.com"
+    static let stunServerFallbackUrlString: String? = "support@qwertynetworks.com"
     
     
     // MARK: -  Public rooms Directory

@@ -79,7 +79,7 @@
 "auth_reset_password_email_validation_message" = "Письмо было отправлено на %@. После перехода по ссылке из письма, нажмите ниже.";
 "auth_reset_password_next_step_button" = "Я подтвердил свой адрес электронной почты";
 "auth_reset_password_error_unauthorized" = "Не удалось проверить адрес электронной почты: убедитесь, что вы нажали на ссылку в письме";
-"auth_reset_password_error_not_found" = "Ваш адрес электронной почты, кажется, не связан с MyBusiness ID на этом домашнем сервере.";
+"auth_reset_password_error_not_found" = "Ваш адрес электронной почты, кажется, не связан с Matrix ID на этом домашнем сервере.";
 "auth_reset_password_success_message" = "Ваш пароль был сброшен.\n\nВы вышли со всех сессий и больше не будете получать push-уведомления. Чтобы вновь активировать уведомления, заново авторизуйтесь на каждом устройстве.";
 "auth_add_email_and_phone_warning" = "Регистрация с электронной почтой и номером телефона одновременно не поддерживается до тех пор, пока не появится API. Будет учитываться только номер телефона. Вы можете добавить свою электронную почту в свой профиль в настройках.";
 // Chat creation
@@ -129,10 +129,10 @@
 "directory_search_fail" = "Не удалось получить данные";
 // Contacts
 "contacts_address_book_section" = "ЛОКАЛЬНЫЕ КОНТАКТЫ";
-"contacts_address_book_matrix_users_toggle" = "Только пользователи MyBusiness";
+"contacts_address_book_matrix_users_toggle" = "Только пользователи Matrix";
 "contacts_address_book_no_contact" = "Нет локальных контактов";
 "contacts_address_book_permission_required" = "Разрешение на доступ к локальным контактам";
-"contacts_address_book_permission_denied" = "Вы не разрешили MyBusiness получить доступ к вашим локальным контактам";
+"contacts_address_book_permission_denied" = "Вы не разрешили My Business получить доступ к вашим локальным контактам";
 // Chat participants
 "room_participants_title" = "Участники";
 "room_participants_add_participant" = "Добавить участника";
@@ -169,7 +169,7 @@
 "directory_search_results_title" = "Просмотр результатов поиска";
 "directory_search_results" = "%tu результатов поиска для %@";
 "directory_search_results_more_than" = ">%tu результатов поиска для %@";
-"room_participants_invite_malformed_id" = "Неверный идентификатор. Должен быть адрес электронной почты или идентификатор MyBusiness, например '@thomas:MyBusiness.org'";
+"room_participants_invite_malformed_id" = "Неверный идентификатор. Должен быть адрес электронной почты или идентификатор Matrix, например '@thomas:matrix.org'";
 "room_participants_now" = "сейчас";
 "room_participants_ago" = "назад";
 "room_participants_action_section_direct_chats" = "Прямые чаты";
@@ -349,9 +349,9 @@
 "directory_title" = "Каталог";
 "directory_server_picker_title" = "Выберите каталог";
 "directory_server_all_rooms" = "Все комнаты на сервере %@";
-"directory_server_all_native_rooms" = "Все местные комнаты MyBusiness";
+"directory_server_all_native_rooms" = "Все местные комнаты Matrix";
 "directory_server_type_homeserver" = "Введите домашний сервер для вывода списка открытых комнат";
-"directory_server_placeholder" = "MyBusiness.org";
+"directory_server_placeholder" = "matrix.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu изменения членства";
 // Others
@@ -373,7 +373,7 @@
 // Crash report
 "google_analytics_use_prompt" = "Вы хотите помочь улучшить %@, автоматически отправляя анонимные отчеты о сбоях и данные об использовании?";
 // Crypto
-"e2e_enabling_on_app_update" = "MyBusiness теперь поддерживает сквозное шифрование, но вам нужно снова войти в систему, чтобы активировать его.\n\nВы можете сделать это сейчас или позже из настроек приложения.";
+"e2e_enabling_on_app_update" = "My Business теперь поддерживает сквозное шифрование, но вам нужно снова войти в систему, чтобы активировать его.\n\nВы можете сделать это сейчас или позже из настроек приложения.";
 "e2e_need_log_in_again" = "Вам нужно войти в систему, чтобы сгенерировать ключи шифрования для этого устройства и отправлять публичный ключ вашему серверу.\nЭто необходимо только один раз; просим прощения за неудобства.";
 // Bug report
 "bug_report_title" = "Сообщить об ошибке";
@@ -410,8 +410,8 @@
 "settings_contacts_phonebook_country" = "Страна телефонной книги";
 "no_voip" = "%@ вызывает вас, но %@ пока не поддерживает вызовы.\nМожно пропустить это уведомление и ответить на звонок с другого устройства, или вы можете отклонить его.";
 "room_participants_remove_third_party_invite_msg" = "Удалить приглашение стороннего сервера невозможно, пока не описан API";
-"auth_home_server_placeholder" = "URL (например https://matrix.m.mybusines.app)";
-"auth_identity_server_placeholder" = "URL (например https://MyBusiness.im)";
+"auth_home_server_placeholder" = "URL (например https://matrix.org)";
+"auth_identity_server_placeholder" = "URL (например https://vector.im)";
 "room_ongoing_conference_call_with_close" = "Текущий групповой звонок. Войдите как %@ или %@. %@.";
 "room_ongoing_conference_call_close" = "Закрыть";
 "room_conference_call_no_power" = "Вам нужно разрешение на управление конференцией в этой комнате";
@@ -448,7 +448,7 @@
 "settings_calls_settings" = "ВЫЗОВЫ";
 "settings_show_decrypted_content" = "Показать расшифрованное содержимое";
 "settings_enable_callkit" = "Интегрированный вызов";
-"settings_callkit_info" = "Прием входящих звонков на экране блокировки. Журнал вызовов MyBusiness будет доступен в истории звонков вашего телефона. Если включен iCloud, то журнал вызовов будет доступен в том числе и Apple.";
+"settings_callkit_info" = "Прием входящих звонков на экране блокировки. Журнал вызовов My Business будет доступен в истории звонков вашего телефона. Если включен iCloud, то журнал вызовов будет доступен в том числе и Apple.";
 "settings_ui_theme" = "Тема";
 "settings_ui_theme_auto" = "Авто";
 "settings_ui_theme_light" = "Светлая";
@@ -499,7 +499,7 @@
 "group_participants_filter_members" = "Фильтр участников сообщества";
 "group_participants_invite_another_user" = "Поиск / приглашение пользователя по ID или имени";
 "group_participants_invite_malformed_id_title" = "Ошибка приглашения";
-"group_participants_invite_malformed_id" = "Неправильный идентификатор. Должен быть MyBusiness ID, такой как '@localpart:domain'";
+"group_participants_invite_malformed_id" = "Неправильный идентификатор. Должен быть Matrix ID, такой как '@localpart:domain'";
 "group_participants_invited_section" = "ПРИГЛАШЕНЫ";
 // Group rooms
 "group_rooms_filter_rooms" = "Фильтр комнат сообщества";
@@ -522,7 +522,7 @@
 "deactivate_account_informations_part2_emphasize" = "Это действие необратимо.";
 "deactivate_account_informations_part3" = "\n\nДеактивация вашего аккаунта ";
 "deactivate_account_informations_part4_emphasize" = "по умолчанию не удаляет отправленные вами сообщения. ";
-"deactivate_account_informations_part5" = "Если вы хотите, чтобы мы удалили все ваши сообщения - поставьте отметку в поле ниже.\n\nВидимость сообщений в MyBusiness похожа на электронную почту. Удаление ваших сообщений означает, что отправленные вами сообщения не будут показаны новым или не зарегистрированным пользователям, но те пользователи, которые уже получили эти сообщения - по прежнему будут их видеть.";
+"deactivate_account_informations_part5" = "Если вы хотите, чтобы мы удалили все ваши сообщения - поставьте отметку в поле ниже.\n\nВидимость сообщений в Matrix похожа на электронную почту. Удаление ваших сообщений означает, что отправленные вами сообщения не будут показаны новым или не зарегистрированным пользователям, но те пользователи, которые уже получили эти сообщения - по прежнему будут их видеть.";
 "deactivate_account_forget_messages_information_part1" = "Пожалуйста, удалите все сообщения, которые я отправил (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Внимание";
 "deactivate_account_forget_messages_information_part3" = ": будущие участники увидят неполное представление разговоров)";
@@ -534,7 +534,7 @@
 "event_formatter_rerequest_keys_part2" = " из других ваших сеансов.";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Запрос отправлен";
-"rerequest_keys_alert_message" = "Запустите MyBusiness на другом устройстве, которое может расшифровать сообщение, чтобы оно могло отправить ключи этому устройству.";
+"rerequest_keys_alert_message" = "Запустите My Business на другом устройстве, которое может расшифровать сообщение, чтобы оно могло отправить ключи этому устройству.";
 "room_message_reply_to_placeholder" = "Отправить ответ (незашифрованный)…";
 "encrypted_room_message_reply_to_placeholder" = "Отправить зашифрованный ответ…";
 "room_message_reply_to_short_placeholder" = "Отправить ответ…";
@@ -669,7 +669,7 @@
 "e2e_key_backup_wrong_version" = "Обнаружена новая резервная копия ключа защищенного сообщения.\n\nЕсли это не вы, установите новый пароль в настройках.";
 // String for App Store
 "store_short_description" = "Безопасный децентрализованный чат/VoIP";
-"store_full_description" = "MyBusiness - это новый тип мессенджера и приложения для совместной работы, которое:\n\n1. Ставит вас под контроль, чтобы сохранить вашу частную жизнь\n2. Позволяет вам общаться с кем угодно в cети MyBusiness и даже за ее пределами, интегрируясь с такими приложениями, как Slack\n3. Защищает вас от рекламы, сбора данных, бэкдоров и огороженных стеной садов\n4. Обеспечивает безопасность с помощью сквозного шифрования с кросс-подписью для проверки других пользователей\n\nMyBusiness полностью отличается от других приложений для обмена сообщениями и совместной работы, поскольку он децентрализован и имеет открытый исходный код.\n\nMyBusiness позволяет вам самостоятельно разместить или выбрать хост так, чтобы у вас была конфиденциальность, право собственности и контроль над вашими данными и разговорами. Это дает вам доступ к открытой сети; так чтобы вы не были ограничены, разговаривая только с другими пользователями MyBusiness. И это очень безопасно.\n\nMyBusiness способен делать все это, потому что он работает на MyBusiness - стандарте открытой, децентрализованной коммуникации.\n\nMyBusiness дает вам возможность контролировать, позволяя вам выбирать, кто будет вести ваши разговоры. В приложении MyBusiness вы можете выбрать размещение различными способами:\n\n1. Получите бесплатный аккаунт на сайте MyBusiness.org - это публичный сервер\n2. Самостоятельно разместите свою учетную запись, запустив сервер на собственном оборудовании\n3. Подпишитесь на учетную запись на пользовательском сервере, просто подписавшись на хостинг-платформу MyBusiness MyBusiness Services\n\nПочему нужно использовать MyBusiness?\n\nВЛАДЕЙТЕ ВАШИМИ ДАННЫМИ: вы сами решаете, где хранить ваши данные и сообщения. Вы владеете ими и контролируете их, а не какая-то мегакорпорация, которая добывает ваши данные или предоставляет к ним доступ третьим лицам.\n\nОТКРЫТОЕ ОБЩЕНИЕ И СОВМЕСТНАЯ РАБОТА: вы можете общаться с кем угодно в сети MyBusiness, независимо от того, используют ли сам MyBusiness или другое приложение MyBusiness, и даже если они используют другую систему обмена сообщениями, такую как Slack, IRC или XMPP.\n\nАБСОЛЮТНАЯ БЕЗОПАСНОСТЬ: реальное сквозное шифрование (только те, кто находится в разговоре, могут расшифровывать сообщения) и кросс-подпись для проверки устройств участников разговора.\n\nСОВЕРШЕННАЯ КОММУНИКАЦИЯ: обмен сообщениями, голосовые и видеозвонки, общий доступ к файлам, общий доступ к экрану и целая куча интеграций, ботов и виджетов. Создавайте комнаты, сообщества, оставайтесь на связи и делайте все возможное.\n\nГДЕ БЫ ВЫ НЕ БЫЛИ: оставайтесь на связи, где бы вы ни находились, с полностью синхронизированной историей сообщений на всех ваших устройствах и в Интернете по адресу https://matrix.m.mybusines.app";
+"store_full_description" = "My Business - это новый тип мессенджера и приложения для совместной работы, которое:\n\n1. Ставит вас под контроль, чтобы сохранить вашу частную жизнь\n2. Позволяет вам общаться с кем угодно в cети Matrix и даже за ее пределами, интегрируясь с такими приложениями, как Slack\n3. Защищает вас от рекламы, сбора данных, бэкдоров и огороженных стеной садов\n4. Обеспечивает безопасность с помощью сквозного шифрования с кросс-подписью для проверки других пользователей\n\nMy Business полностью отличается от других приложений для обмена сообщениями и совместной работы, поскольку он децентрализован и имеет открытый исходный код.\n\nMy Business позволяет вам самостоятельно разместить или выбрать хост так, чтобы у вас была конфиденциальность, право собственности и контроль над вашими данными и разговорами. Это дает вам доступ к открытой сети; так чтобы вы не были ограничены, разговаривая только с другими пользователями My Business. И это очень безопасно.\n\nMy Business способен делать все это, потому что он работает на Matrix - стандарте открытой, децентрализованной коммуникации.\n\nMy Business дает вам возможность контролировать, позволяя вам выбирать, кто будет вести ваши разговоры. В приложении My Business вы можете выбрать размещение различными способами:\n\n1. Получите бесплатный аккаунт на сайте matrix.org - это публичный сервер\n2. Самостоятельно разместите свою учетную запись, запустив сервер на собственном оборудовании\n3. Подпишитесь на учетную запись на пользовательском сервере, просто подписавшись на хостинг-платформу My Business Matrix Services\n\nПочему нужно использовать My Business?\n\nВЛАДЕЙТЕ ВАШИМИ ДАННЫМИ: вы сами решаете, где хранить ваши данные и сообщения. Вы владеете ими и контролируете их, а не какая-то мегакорпорация, которая добывает ваши данные или предоставляет к ним доступ третьим лицам.\n\nОТКРЫТОЕ ОБЩЕНИЕ И СОВМЕСТНАЯ РАБОТА: вы можете общаться с кем угодно в сети Matrix, независимо от того, используют ли сам My Business или другое приложение Matrix, и даже если они используют другую систему обмена сообщениями, такую как Slack, IRC или XMPP.\n\nАБСОЛЮТНАЯ БЕЗОПАСНОСТЬ: реальное сквозное шифрование (только те, кто находится в разговоре, могут расшифровывать сообщения) и кросс-подпись для проверки устройств участников разговора.\n\nСОВЕРШЕННАЯ КОММУНИКАЦИЯ: обмен сообщениями, голосовые и видеозвонки, общий доступ к файлам, общий доступ к экрану и целая куча интеграций, ботов и виджетов. Создавайте комнаты, сообщества, оставайтесь на связи и делайте все возможное.\n\nГДЕ БЫ ВЫ НЕ БЫЛИ: оставайтесь на связи, где бы вы ни находились, с полностью синхронизированной историей сообщений на всех ваших устройствах и в Интернете по адресу https://My Business.io/app.";
 "auth_login_single_sign_on" = "Войти";
 "room_message_unable_open_link_error_message" = "Невозможно открыть ссылку.";
 "auth_autodiscover_invalid_response" = "Неверный ответ обнаружения сервера";
@@ -898,10 +898,10 @@
 "skip" = "Пропустить";
 "store_promotional_text" = "Приложения для чата и совместной работы, сохраняющее конфиденциальность, в открытой сети. Децентрализованное, чтобы предоставить вам контроль. Никакой регистрации данных, никаких черных ходов и доступа третьих лиц.";
 // MARK: Clients
-"client_desktop_name" = "MyBusiness Desktop";
-"client_web_name" = "MyBusiness Web";
-"client_ios_name" = "MyBusiness iOS";
-"client_android_name" = "MyBusiness Android";
+"client_desktop_name" = "My Business Desktop";
+"client_web_name" = "My Business Web";
+"client_ios_name" = "My Business iOS";
+"client_android_name" = "My Business Android";
 "room_participants_action_security_status_complete_security" = "Завершите настройку безопасности";
 "room_participants_action_security_status_loading" = "Загрузка…";
 "room_participants_security_information_room_not_encrypted" = "Сообщения в этой комнате не шифруются сквозным шифрованием.";
@@ -951,7 +951,7 @@
 "security_settings_blacklist_unverified_devices_description" = "Проверьте все сеансы пользователей, чтобы пометить их как доверенные и отправить им сообщения.";
 "security_settings_complete_security_alert_title" = "Завершите настройку безопасности";
 "security_settings_complete_security_alert_message" = "Сначала вы должны завершить настройку безопасности текущего сеанса.";
-"security_settings_coming_soon" = "Извините. Это действие пока недоступно в MyBusiness iOS. Пожалуйста, используйте другой клиент MyBusiness для его настройки. MyBusiness iOS будет его использовать.";
+"security_settings_coming_soon" = "Извините. Это действие пока недоступно в My Business iOS. Пожалуйста, используйте другой клиент Matrix для его настройки. My Business iOS будет его использовать.";
 "security_settings_user_password_description" = "Подтвердите свою личность, введя пароль учетной записи";
 // Manage session
 "manage_session_title" = "Управление сеансами";
@@ -1036,8 +1036,8 @@
 "key_verification_self_verify_unverified_sessions_alert_validate_action" = "Обзор";
 "device_verification_self_verify_wait_title" = "Завершите настройку безопасности";
 "device_verification_self_verify_wait_new_sign_in_title" = "Подтвердите вход";
-"device_verification_self_verify_wait_information" = "Подтвердите этот сеанс на одном из других ваших сеансов, предоставив ему доступ к зашифрованным сообщениям.\n\nИспользуйте последнюю версию MyBusiness на других ваших устройствах:";
-"device_verification_self_verify_wait_additional_information" = "Это работает с MyBusiness и другими клиентами MyBusiness с поддержкой кросс-подписи.";
+"device_verification_self_verify_wait_information" = "Подтвердите этот сеанс на одном из других ваших сеансов, предоставив ему доступ к зашифрованным сообщениям.\n\nИспользуйте последнюю версию My Business на других ваших устройствах:";
+"device_verification_self_verify_wait_additional_information" = "Это работает с My Business и другими клиентами Matrix с поддержкой кросс-подписи.";
 "device_verification_self_verify_wait_recover_secrets_without_passphrase" = "Используйте ключ восстановления";
 "device_verification_self_verify_wait_recover_secrets_with_passphrase" = "Используйте пароль восстановления или ключ";
 "device_verification_self_verify_wait_recover_secrets_additional_information" = "Если вы не можете получить доступ к существующему сеансу";
@@ -1152,7 +1152,7 @@
 "secrets_setup_recovery_passphrase_confirm_passphrase_placeholder" = "Подтвердить парольную фразу";
 "cross_signing_setup_banner_title" = "Настройка шифрования";
 "cross_signing_setup_banner_subtitle" = "Упростите проверку других ваших устройств";
-"major_update_title" = "Riot теперь MyBusiness";
+"major_update_title" = "My Business";
 "major_update_information" = "Мы рады сообщить, что сменили имя! Ваше приложение обновлено, и вы вошли в свою учетную запись.";
 "major_update_learn_more_action" = "Узнать больше";
 "major_update_done_action" = "Понял";
@@ -1210,7 +1210,7 @@
 "create_room_section_footer_type" = "Люди присоединяются к приватной комнате только по приглашению в комнату.";
 "create_room_show_in_directory" = "Показать комнату в списке";
 "create_room_section_header_address" = "Адрес комнаты";
-"create_room_placeholder_address" = "#testroom:MyBusiness.org";
+"create_room_placeholder_address" = "#testroom:matrix.org";
 "room_info_list_room_encrypted" = "Сообщения в этой комнате зашифрованы сквозным шифрованием";
 "room_info_list_one_member" = "1 пользователь";
 "room_info_list_several_members" = "%@ участников";

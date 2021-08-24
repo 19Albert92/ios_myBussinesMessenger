@@ -1,5 +1,4 @@
 // Permissions usage explanations
-//Copyright 2021 QWERTY NETWORKS Lls
 "NSCameraUsageDescription" = "Камерата се използва, за да се правят снимки и видеа, както и да се водят видео разговори.";
 "NSPhotoLibraryUsageDescription" = "Галерията се използва, за да се изпращат снимки и видеа.";
 "NSMicrophoneUsageDescription" = "Микрофонът се използва, за да се правят видеа и да се водят разговори.";

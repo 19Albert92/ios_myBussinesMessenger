@@ -53,8 +53,8 @@
 "auth_phone_placeholder" = "Telefonszám";
 "auth_repeat_password_placeholder" = "Jelszó megerősítés";
 "auth_repeat_new_password_placeholder" = "Új jelszó megerősítés";
-"auth_home_server_placeholder" = "URL (pl. https://matrix.m.mybusines.app)";
-"auth_identity_server_placeholder" = "URL (pl. https://MyBusiness.im)";
+"auth_home_server_placeholder" = "URL (pl. https://matrix.org)";
+"auth_identity_server_placeholder" = "URL (pl. https://vector.im)";
 "auth_invalid_login_param" = "Hibás felhasználói név és/vagy jelszó";
 "auth_invalid_user_name" = "A felhasználói név tartalmazhat betűket, számokat, pontokat, kötőjeleket és aláhúzást";
 "auth_invalid_password" = "Jelszó túl rövid (min. 6 karakter)";
@@ -80,14 +80,14 @@
 "auth_msisdn_validation_title" = "Ellenőrzés folyamatban";
 "auth_msisdn_validation_message" = "Elküldtük az SMS aktivációs kódot. Írd be a kódot ide.";
 "auth_msisdn_validation_error" = "Nem sikerült ellenőrizni a telefonszámot.";
-"auth_recaptcha_message" = "Ez a MyBusiness szerver szeretne megbizonyosodni arról, hogy nem vagy robot";
+"auth_recaptcha_message" = "Ez a Matrix szerver szeretne megbizonyosodni arról, hogy nem vagy robot";
 "auth_reset_password_message" = "A jelszó visszaállításához add meg az e-mail címet amit a felhasználói fiókhoz kötöttél:";
 "auth_reset_password_missing_email" = "A felhasználói fiókodhoz kötött jelszót kell megadni.";
 "auth_reset_password_missing_password" = "Add meg az új jelszót.";
 "auth_reset_password_email_validation_message" = "Az e-mailt elküldtük a %@ címre. Ha rákattintottál a linkre ami benne van utána kattints ide.";
 "auth_reset_password_next_step_button" = "Ellenőriztem az e-mail címet";
 "auth_reset_password_error_unauthorized" = "E-mail cím ellenőrzése nem sikerült: bizonyosodj meg róla, hogy az e-mailben lévő linkre rákattintottál";
-"auth_reset_password_error_not_found" = "Úgy tűnik az e-mail címed nincs összekötve a MyBusiness azonosítóddal a MyBusiness szerveren.";
+"auth_reset_password_error_not_found" = "Úgy tűnik az e-mail címed nincs összekötve a Matrix azonosítóddal a Matrix szerveren.";
 "auth_reset_password_success_message" = "Visszaállítottuk a jelszavad.\n\nKijelentkeztettünk minden munkamenetedből és nem kapsz értesítéseket sem. Az értesítések újra engedélyezéséhez jelentkezz be újra az eszközökön.";
 // Chat creation
 "room_creation_title" = "Új csevegés";
@@ -148,10 +148,10 @@
 "directory_search_fail" = "Az adatot nem sikerült betölteni";
 // Contacts
 "contacts_address_book_section" = "HELYI NÉVJEGYZÉK";
-"contacts_address_book_matrix_users_toggle" = "Csak MyBusiness felhasználók";
+"contacts_address_book_matrix_users_toggle" = "Csak Matrix felhasználók";
 "contacts_address_book_no_contact" = "Nincsenek helyi ismerősök";
 "contacts_address_book_permission_required" = "Jogosultság szükséges a helyi névjegyzék eléréséhez";
-"contacts_address_book_permission_denied" = "Nem engedted meg, hogy az MyBusiness hozzáférjen a helyi névjegyzékhez";
+"contacts_address_book_permission_denied" = "Nem engedted meg, hogy az My Business hozzáférjen a helyi névjegyzékhez";
 "contacts_user_directory_section" = "FELHASZNÁLÓI KÖNYVTÁR";
 "contacts_user_directory_offline_section" = "FELHASZNÁLÓI KÖNYVTÁR (kapcsolat nélküli)";
 // Chat participants
@@ -169,7 +169,7 @@
 "room_participants_filter_room_members" = "Szoba résztvevők szűrése";
 "room_participants_invite_another_user" = "Keresés / meghívás felhasználói név, név vagy e-mail cím alapján";
 "room_participants_invite_malformed_id_title" = "Meghívó hiba";
-"room_participants_invite_malformed_id" = "Érvénytelen azonosító. E-mail címnek vagy MyBusiness azonosítónak kell lennie mint: '@helyirész:domain'";
+"room_participants_invite_malformed_id" = "Érvénytelen azonosító. E-mail címnek vagy Matrix azonosítónak kell lennie mint: '@helyirész:domain'";
 "room_participants_invited_section" = "MEGHÍVOTT";
 "room_participants_online" = "Kapcsolódva";
 "room_participants_offline" = "Kapcsolat nélkül";
@@ -274,7 +274,7 @@
 "settings_config_no_build_info" = "Nincsenek fordítási  információk";
 "settings_mark_all_as_read" = "Minden üzenetet olvasottnak jelöl";
 "settings_report_bug" = "Hiba jelentése";
-"settings_config_home_server" = "MyBusiness szerver: %@";
+"settings_config_home_server" = "Matrix szerver: %@";
 "settings_config_identity_server" = "Azonosító szerver: %@";
 "settings_config_user_id" = "Bejelentkezve mint: %@";
 "settings_user_settings" = "FELHASZNÁLÓI BEÁLLÍTÁSOK";
@@ -314,7 +314,7 @@
 "settings_pin_rooms_with_unread" = "Szobák kitűzése olvasatlan üzenetekkel";
 "settings_on_denied_notification" = "Az értesítések tiltva vannak ehhez: %@, kérlek engedélyezd az eszköz beállításaiban";
 "settings_enable_callkit" = "Beépített hívás";
-"settings_callkit_info" = "Hívások fogadása a zárolt képernyőn. MyBusiness hívások megjelenítése a rendszer hívás naplójában. Ha az iCloud engedélyezett akkor a hívásnapló az Apple-el megosztásra kerül.";
+"settings_callkit_info" = "Hívások fogadása a zárolt képernyőn. My Business hívások megjelenítése a rendszer hívás naplójában. Ha az iCloud engedélyezett akkor a hívásnapló az Apple-el megosztásra kerül.";
 "settings_ui_language" = "Nyelv";
 "settings_ui_theme" = "Téma";
 "settings_ui_theme_auto" = "Autó";
@@ -329,7 +329,7 @@
 "settings_labs_e2e_encryption" = "Végponttól végpontig titkosítás";
 "settings_labs_e2e_encryption_prompt_message" = "A titkosítás beállításának befejezéséhez újra be kell jelentkezni.";
 "settings_labs_room_members_lazy_loading" = "Szoba tagság késleltetett betöltése";
-"settings_labs_room_members_lazy_loading_error_message" = "A MyBusiness szervered még nem támogatja a szoba tagság késleltetett betöltését. Próbáld később.";
+"settings_labs_room_members_lazy_loading_error_message" = "A Matrix szervered még nem támogatja a szoba tagság késleltetett betöltését. Próbáld később.";
 "settings_labs_create_conference_with_jitsi" = "Konferencia hívás indítása Jitsivel";
 "settings_version" = "Verzió %@";
 "settings_olm_version" = "Olm verzió %@";
@@ -436,7 +436,7 @@
 "group_participants_filter_members" = "Közösség tagok szűrése";
 "group_participants_invite_another_user" = "Keresés / meghívás felhasználói azonosító vagy név alapján";
 "group_participants_invite_malformed_id_title" = "Meghívás hiba";
-"group_participants_invite_malformed_id" = "Hibás azonosító. MyBusiness azonosítónak kell lennie mint '@helyirész:domain'";
+"group_participants_invite_malformed_id" = "Hibás azonosító. Matrix azonosítónak kell lennie mint '@helyirész:domain'";
 "group_participants_invited_section" = "MEGHÍVVA";
 // Group rooms
 "group_rooms_filter_rooms" = "Közösségi szobák szűrése";
@@ -450,9 +450,9 @@
 "directory_title" = "Mappa";
 "directory_server_picker_title" = "Mappa kiválasztása";
 "directory_server_all_rooms" = "%@ szerveren az összes szoba";
-"directory_server_all_native_rooms" = "Minden eredeti MyBusiness szoba";
-"directory_server_type_homeserver" = "Add meg a MyBusiness szervert aminek a nyilvános szobáit listázni szeretnéd";
-"directory_server_placeholder" = "matrix.m.mybusines.app";
+"directory_server_all_native_rooms" = "Minden eredeti Matrix szoba";
+"directory_server_type_homeserver" = "Add meg a Matrix szervert aminek a nyilvános szobáit listázni szeretnéd";
+"directory_server_placeholder" = "matrix.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu tagság változás";
 "event_formatter_widget_added" = "%@ kisalkalmazás innen: %@";
@@ -492,8 +492,8 @@
 // Crash report
 "google_analytics_use_prompt" = "Szeretnél segíteni személytelen összeomlás és felhasználási adatok küldésével a(z) %@ fejlesztésében?";
 // Crypto
-"e2e_enabling_on_app_update" = "MyBusiness most már támogatja a végponttól végpontig titkosítást de újra be kell jelentkezned.\n\nMegteheted most vagy később az alkalmazás beállításainál.";
-"e2e_need_log_in_again" = "Vissza kell jelentkezned, hogy a munkamenetedhez a végponttól végpontig titkosítási kulcsokat létrehozzuk és a nyilvános kulcsokat elküldjük a MyBusiness szerverednek.\nEz egy egyszeri alkalom; elnézést a kellemetlenségért.";
+"e2e_enabling_on_app_update" = "My Business most már támogatja a végponttól végpontig titkosítást de újra be kell jelentkezned.\n\nMegteheted most vagy később az alkalmazás beállításainál.";
+"e2e_need_log_in_again" = "Vissza kell jelentkezned, hogy a munkamenetedhez a végponttól végpontig titkosítási kulcsokat létrehozzuk és a nyilvános kulcsokat elküldjük a Matrix szerverednek.\nEz egy egyszeri alkalom; elnézést a kellemetlenségért.";
 // Bug report
 "bug_report_title" = "Hiba bejelentés";
 "bug_report_description" = "Kérlek írd le a hibát. Mit csináltál? Mit szerettél volna, hogy történjen? Végül mi történt?";
@@ -532,14 +532,14 @@
 "e2e_room_key_request_share_without_verifying" = "Megosztás ellenőrzés nélkül";
 "e2e_room_key_request_ignore_request" = "Kérés figyelmen kívül hagyása";
 // GDPR
-"gdpr_consent_not_given_alert_message" = "A %@ MyBusiness szerver további használatához el kell olvasnod és el kell fogadnod a felhasználási feltételeket.";
+"gdpr_consent_not_given_alert_message" = "A %@ Matrix szerver további használatához el kell olvasnod és el kell fogadnod a felhasználási feltételeket.";
 "gdpr_consent_not_given_alert_review_now_action" = "Most átnézem";
 "deactivate_account_title" = "Felhasználói fiók felfüggesztése";
 "deactivate_account_informations_part1" = "Ez a felhasználói fiókodat végleg használhatatlanná teszi. Nem leszel képes újra belépni, és senki más sem lesz képes újra ezzel a felhasználói azonosítóval regisztrálni. Így a felhasználód elhagyja az összes szobát amiben benn volt, és törli a fiók adatokat az azonosító szerverről. ";
 "deactivate_account_informations_part2_emphasize" = "Ez a művelet visszavonhatatlan.";
 "deactivate_account_informations_part3" = "\n\nFelhasználói fiókod felfüggesztése ";
 "deactivate_account_informations_part4_emphasize" = "alapesetben nem jelenti azt, hogy minden eddig küldött üzenetedet elfelejtjük. ";
-"deactivate_account_informations_part5" = "Ha azt szeretnéd, hogy felejtsük el minden üzenetedet, kérlek jelöld meg a jelölőnégyzetet alább\n\nAz üzenet láthatósága a MyBusinessban hasonló mint az e-mail. Az hogy elfelejtjük az üzeneteidet azt jelenti, hogy a továbbiakban az üzeneteket amiket küldtél nem osztjuk meg nem regisztrált felhasználókkal, de azok a regisztrált felhasználók akik már hozzáfértek ezekhez az üzenetekhez továbbra is hozzáférnek a saját másolatukhoz.";
+"deactivate_account_informations_part5" = "Ha azt szeretnéd, hogy felejtsük el minden üzenetedet, kérlek jelöld meg a jelölőnégyzetet alább\n\nAz üzenet láthatósága a Matrixban hasonló mint az e-mail. Az hogy elfelejtjük az üzeneteidet azt jelenti, hogy a továbbiakban az üzeneteket amiket küldtél nem osztjuk meg nem regisztrált felhasználókkal, de azok a regisztrált felhasználók akik már hozzáfértek ezekhez az üzenetekhez továbbra is hozzáférnek a saját másolatukhoz.";
 "deactivate_account_forget_messages_information_part1" = "Kérlek felejtsétek el az összes üzenetet amit küldtem amikor a fiókom felfüggesztem (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Figyelmeztetés";
 "deactivate_account_forget_messages_information_part3" = ": ezzel a jövőben a felhasználók hiányos csevegést fognak csak látni)";
@@ -548,17 +548,17 @@
 "deactivate_account_password_alert_message" = "A folytatáshoz add meg a jelszavadat";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Kérés elküldve";
-"rerequest_keys_alert_message" = "Kérlek indítsd el a MyBusinesset egy másik eszközödön amelyik vissza tudja fejteni az üzenetet, hogy el tudja küldeni a kulcsokat ennek a munkamenetnek.";
+"rerequest_keys_alert_message" = "Kérlek indítsd el a My Businesset egy másik eszközödön amelyik vissza tudja fejteni az üzenetet, hogy el tudja küldeni a kulcsokat ennek a munkamenetnek.";
 "room_recents_server_notice_section" = "RENDSZER FIGYELMEZTETÉSEK";
 "room_resource_limit_exceeded_message_contact_1" = " Kérlek ";
 "room_resource_limit_exceeded_message_contact_2_link" = "vedd fel a kapcsolatot a szolgáltatás adminisztrátorával";
 "room_resource_limit_exceeded_message_contact_3" = " , hogy tovább használhasd a szolgáltatást.";
-"homeserver_connection_lost" = "A MyBusiness szerverhez nem lehet kapcsolódni.";
-"room_resource_usage_limit_reached_message_1_default" = "Ez a MyBusiness szerver túllépte egyik erőforrás korlátját így ";
-"room_resource_usage_limit_reached_message_1_monthly_active_user" = "Ez a MyBusiness szerver elérte a havi aktív felhasználói korlátját, így ";
+"homeserver_connection_lost" = "A Matrix szerverhez nem lehet kapcsolódni.";
+"room_resource_usage_limit_reached_message_1_default" = "Ez a Matrix szerver túllépte egyik erőforrás korlátját így ";
+"room_resource_usage_limit_reached_message_1_monthly_active_user" = "Ez a Matrix szerver elérte a havi aktív felhasználói korlátját, így ";
 "room_resource_usage_limit_reached_message_2" = "néhány felhasználó nem tud majd bejelentkezni.";
 "room_resource_usage_limit_reached_message_contact_3" = " hogy korlátot megemeljék.";
-"auth_accept_policies" = "A MyBusiness szerver felhasználási feltételeit kérlek nézd át és fogadd el:";
+"auth_accept_policies" = "A Matrix szerver felhasználási feltételeit kérlek nézd át és fogadd el:";
 "settings_key_backup" = "KULCS MENTÉS";
 "settings_key_backup_info_checking" = "Ellenőrzés…";
 "settings_key_backup_info_none" = "A kulcsaid nem kerülnek elmentésre erről a munkamenetről.";
@@ -675,8 +675,8 @@
 "store_short_description" = "Biztonságos elosztott csevegés/VoIP";
 "auth_login_single_sign_on" = "Bejelentkezés";
 "room_message_unable_open_link_error_message" = "A linket nem lehet megnyitni.";
-"store_full_description" = "MyBusiness egy újfajta csevegő és együttműködést segítő alkalmazás ami:\n\n1. Visszaadja az irányítást neked, hogy megvédd a magánéleted információit\n2. Lépj kapcsolatba bárkivel a MyBusiness hálózatban, és azon túl alkalmazások integrálásával mint amilyen például a slack\n3. Megvéd a hirdetőktől, adatbányászoktól, hátsó kapuktól és fallal védett rendszerektől\n4. Végpontok közötti titkosítással véd, ahol egymás személyazonosságát ellenőrizhetitek\n\nMyBusiness a többi üzenetküldő és kollaborációs alkalmazástól teljesen eltérő abban a tekintetben, hogy elosztott és nyílt forrású rendszer.\n\nMyBusiness megengedi, hogy saját magadnak üzemeltess szervert vagy válassz szervert tetszés szerint - így biztonságban vagy te vagy a tulajdonosa az üzeneteidnek és te irányítod az adatokat és a beszélgetéseket. Egy nyílt hálózathoz enged hozzáférést; tehát nem csak más MyBusiness felhasználókkal beszélgethetsz. És nagyon biztonságos.\n\nMyBusiness mindezt a miatt tudja ami egy szabványos nyílt és elosztott kommunikációs rendszer.\n\nMyBusiness visszaadja az irányítást azzal, hogy kiválaszthatod ki kezelje a beszélgetéseidet. Az MyBusiness alkalmazásból különbözőképpen választhatod ki a szerverd:\n\n1. Kérj egy ingyenes fiókot a MyBusiness.org nyilvános szerveren\n2. Saját szervert is üzemeltethetsz a fiókodnak saját hardveren\n3. Jelentkezz egy fiókért egy egyedi szerveren az MyBusiness Services hosting platformra való feliratkozással\n\nMiért válasz az MyBusinesset?\n\nAZ ADATOD A TULAJDONOD: Te döntöd el hol tárolod az adataidat és üzeneteidet. A tiéd és nálad az irányítás és nem valami NAGYVÁLLALATNÁL ami elemzi az adataidat és odaadja másoknak.\n\nNYILT ÜZENETKÜLDÉS ÉS KOLLABORÁCIÓ: Bárkivel beszélgethetsz a MyBusiness hálózaton, akár az MyBusinesset használja akár más MyBusiness alkalmazást vagy akár másik üzenetküldő rendszert használ mint például a Slack, IRC vagy XMPP.\n\nSZUPER-BIZTONSÁGOS: Igazi végpontok közötti titkosítás (csak a beszélgetés résztvevői tudják visszafejteni az üzenetet), és kereszt aláírásokkal lehet a beszélgetésben résztvevő eszközöket ellenőrizni.\n\nTELJES KOMMUNIKÁCIÓ: Üzenetküldés, hang és videó hívások, fájl megosztás, képernyő megosztás és egy csomó egyéb integráció, botok és kisalkalmazások. Építs szobákat, közösségeket, maradj kapcsolatban és vigyél véghez dolgokat. \n\nBÁRHOL VAGY: Maradj kapcsolatban akárhol vagy az összes üzeneteddel minden eszközödön vagy a weben a https://matrix.m.mybusines.app -pal.";
-"auth_autodiscover_invalid_response" = "MyBusiness szerver felderítésénél érvénytelen válasz érkezett";
+"store_full_description" = "My Business egy újfajta csevegő és együttműködést segítő alkalmazás ami:\n\n1. Visszaadja az irányítást neked, hogy megvédd a magánéleted információit\n2. Lépj kapcsolatba bárkivel a Matrix hálózatban, és azon túl alkalmazások integrálásával mint amilyen például a slack\n3. Megvéd a hirdetőktől, adatbányászoktól, hátsó kapuktól és fallal védett rendszerektől\n4. Végpontok közötti titkosítással véd, ahol egymás személyazonosságát ellenőrizhetitek\n\nMy Business a többi üzenetküldő és kollaborációs alkalmazástól teljesen eltérő abban a tekintetben, hogy elosztott és nyílt forrású rendszer.\n\nMy Business megengedi, hogy saját magadnak üzemeltess szervert vagy válassz szervert tetszés szerint - így biztonságban vagy te vagy a tulajdonosa az üzeneteidnek és te irányítod az adatokat és a beszélgetéseket. Egy nyílt hálózathoz enged hozzáférést; tehát nem csak más My Business felhasználókkal beszélgethetsz. És nagyon biztonságos.\n\nMy Business mindezt a Matrix miatt tudja ami egy szabványos nyílt és elosztott kommunikációs rendszer.\n\nMy Business visszaadja az irányítást azzal, hogy kiválaszthatod ki kezelje a beszélgetéseidet. Az My Business alkalmazásból különbözőképpen választhatod ki a szerverd:\n\n1. Kérj egy ingyenes fiókot a matrix.org nyilvános szerveren\n2. Saját szervert is üzemeltethetsz a fiókodnak saját hardveren\n3. Jelentkezz egy fiókért egy egyedi szerveren az My Business Matrix Services hosting platformra való feliratkozással\n\nMiért válasz az My Businesset?\n\nAZ ADATOD A TULAJDONOD: Te döntöd el hol tárolod az adataidat és üzeneteidet. A tiéd és nálad az irányítás és nem valami NAGYVÁLLALATNÁL ami elemzi az adataidat és odaadja másoknak.\n\nNYILT ÜZENETKÜLDÉS ÉS KOLLABORÁCIÓ: Bárkivel beszélgethetsz a Matrix hálózaton, akár az My Businesset használja akár más Matrix alkalmazást vagy akár másik üzenetküldő rendszert használ mint például a Slack, IRC vagy XMPP.\n\nSZUPER-BIZTONSÁGOS: Igazi végpontok közötti titkosítás (csak a beszélgetés résztvevői tudják visszafejteni az üzenetet), és kereszt aláírásokkal lehet a beszélgetésben résztvevő eszközöket ellenőrizni.\n\nTELJES KOMMUNIKÁCIÓ: Üzenetküldés, hang és videó hívások, fájl megosztás, képernyő megosztás és egy csomó egyéb integráció, botok és kisalkalmazások. Építs szobákat, közösségeket, maradj kapcsolatban és vigyél véghez dolgokat. \n\nBÁRHOL VAGY: Maradj kapcsolatban akárhol vagy az összes üzeneteddel minden eszközödön vagy a weben a https://My Business.io/app -pal.";
+"auth_autodiscover_invalid_response" = "Matrix szerver felderítésénél érvénytelen válasz érkezett";
 "room_event_action_reply" = "Válasz";
 "room_event_action_edit" = "Szerkeszt";
 "room_event_action_reaction_agree" = "Egyetért %@";
@@ -793,7 +793,7 @@
 "file_upload_error_unsupported_file_type_message" = "A fájl típusa nem támogatott.";
 "auth_softlogout_signed_out" = "Kijelentkeztél";
 "auth_softlogout_sign_in" = "Bejelentkezés";
-"auth_softlogout_reason" = "A MyBusiness szerver (%1$@) adminisztrátora kiléptetett a felhasználói fiókodból %2$@ (%3$@).";
+"auth_softlogout_reason" = "A matrix szerver (%1$@) adminisztrátora kiléptetett a felhasználói fiókodból %2$@ (%3$@).";
 "auth_softlogout_recover_encryption_keys" = "A csak ezen az eszközön meglévő titkosítási kulcsokhoz való hozzáféréshez be kell jelentkezned. Ahhoz hogy bármelyik eszközön elolvashasd a titkosított üzeneteidet szükséged lesz rájuk.";
 "auth_softlogout_clear_data" = "Személyes adatok törlése";
 "auth_softlogout_clear_data_message_1" = "Figyelmeztetés: A személyes adataid (beleértve a titkosítási kulcsokat) továbbra is az eszközön tárolódnak.";
@@ -834,7 +834,7 @@
 "service_terms_modal_description_for_integration_manager" = "Használjon botokat, hidakat, kisalkalmazásokat és matrica csomagokat";
 "room_participants_remove_third_party_invite_prompt_msg" = "Biztos vagy benne, hogy visszavonod ezt a meghívót?";
 // Errors
-"error_user_already_logged_in" = "Úgy tűnik másik MyBusiness szerverhez próbálsz csatlakozni. Ki szeretnél jelentkezni?";
+"error_user_already_logged_in" = "Úgy tűnik másik matrix szerverhez próbálsz csatlakozni. Ki szeretnél jelentkezni?";
 "room_accessiblity_scroll_to_bottom" = "Görgess az aljára";
 "room_accessibility_search" = "Keresés";
 "room_accessibility_integrations" = "Integrációk";
@@ -862,7 +862,7 @@
 "settings_three_pids_management_information_part2" = "Felderítés";
 "settings_three_pids_management_information_part3" = ".";
 "settings_calls_stun_server_fallback_button" = "Másodlagos hívást segítő szerver engedélyezése";
-"settings_calls_stun_server_fallback_description" = "Másodlagos hívást segítő szerver (%@) engedélyezése ha a MyBusiness szervered nem ajánl fel másikat (az IP címed a hívás ideje alatt meg lesz osztva).";
+"settings_calls_stun_server_fallback_description" = "Másodlagos hívást segítő szerver (%@) engedélyezése ha a matrix szervered nem ajánl fel másikat (az IP címed a hívás ideje alatt meg lesz osztva).";
 "settings_devices_description" = "Az munkamenet nyilvános neve látható azoknál az embereknél akikkel beszélgetsz";
 "settings_discovery_no_identity_server" = "Jelenleg nem használsz azonosítási szervert. Ahhoz, hogy az ismerősök megtalálhassanak adj hozzá egyet.";
 "settings_discovery_terms_not_signed" = "Egyetértés az Azonosítási Szerver (%@) Felhasználási Feltételeivel, hogy e-mail címmel vagy telefonszámmal megtalálható lehess.";
@@ -902,7 +902,7 @@
 "identity_server_settings_alert_error_terms_not_accepted" = "Mielőtt beállíthatnád azonosítási szervernek el kell fogadnod a feltételeket: %@.";
 "identity_server_settings_alert_error_invalid_identity_server" = "%@ nem egy érvényes azonosítási szerver.";
 "call_no_stun_server_error_title" = "A hívás a hibásan konfigurált szerver miatt sikertelen";
-"call_no_stun_server_error_message_1" = "Kérlek kérd meg a MyBusiness szervered (%@) adminisztrátorát, hogy állítson be egy TURN szervert a hívások megbízható működéséhez.";
+"call_no_stun_server_error_message_1" = "Kérlek kérd meg a matrix szervered (%@) adminisztrátorát, hogy állítson be egy TURN szervert a hívások megbízható működéséhez.";
 "call_no_stun_server_error_message_2" = "Alternatív megoldásként használhatod a nyilvános szervert itt: %@, de ez lehet, hogy nem lesz annyira megbízható és megosztja az IP címedet a szerverrel. Ezt a Beállításokban módosíthatod";
 "call_no_stun_server_error_use_fallback_button" = "Próbáld használni ezt: %@";
 // Generic errors
@@ -1038,7 +1038,7 @@
 "device_verification_self_verify_start_information" = "Az új munkamenet ellenőrzéséhez használd ezt, amivel hozzáférést adsz a titkosított üzenetekhez.";
 "device_verification_self_verify_start_waiting" = "Várakozik…";
 "device_verification_self_verify_wait_title" = "Biztonság beállítása";
-"device_verification_self_verify_wait_information" = "Ennek a munkamenet ellenőrzéséhez használd valamelyik másik munkamenetedet, amivel hozzáférést adsz a titkosított üzenetekhez.\n\nHasználd a legfrissebb MyBusinesset valamelyik eszközödön:";
+"device_verification_self_verify_wait_information" = "Ennek a munkamenet ellenőrzéséhez használd valamelyik másik munkamenetedet, amivel hozzáférést adsz a titkosított üzenetekhez.\n\nHasználd a legfrissebb My Businesset valamelyik eszközödön:";
 "device_verification_self_verify_wait_waiting" = "Várakozik…";
 // Scanning
 "key_verification_scan_confirmation_scanning_title" = "Majdnem kész! Várakozás a megerősítésre…";
@@ -1050,10 +1050,10 @@
 "key_verification_scan_confirmation_scanned_device_information" = "A másik eszköz is ugyanazt a pajzsot mutatja?";
 "room_participants_action_security_status_complete_security" = "Biztonsági beállítás befejezése";
 // MARK: Clients
-"client_desktop_name" = "Asztali MyBusiness";
-"client_web_name" = "MyBusiness Web";
-"client_ios_name" = "ElemeMyBusinessnt iOS";
-"client_android_name" = "MyBusiness Android";
+"client_desktop_name" = "Asztali My Business";
+"client_web_name" = "My Business Web";
+"client_ios_name" = "My Business iOS";
+"client_android_name" = "My Business Android";
 "security_settings_crosssigning_info_not_bootstrapped" = "Az eszközök közötti hitelesítés nincs még beállítva.";
 "security_settings_crosssigning_info_exists" = "A fiókodban az eszközök közötti aláírás be van állítva, de ebben a munkamenetben még nem ellenőrizted. Végezd el a munkamenet biztonsági beállításait.";
 "security_settings_crosssigning_info_trusted" = "Eszközök közötti hitelesítés engedélyezve van. Megbízhatsz más felhasználókban és a munkameneteidben az aláírást felhasználva de ebből a munkamenetből nem tudsz aláírni mert az eszközök közötti aláíráshoz hiányzik a privát kulcs. Fejezd be a munkamenet biztonsági beállításait.";
@@ -1063,9 +1063,9 @@
 "security_settings_crosssigning_complete_security" = "Biztonsági beállítás befejezése";
 "security_settings_complete_security_alert_title" = "Biztonsági beállítás befejezése";
 "security_settings_complete_security_alert_message" = "Először be kell fejezned ennek a munkamenetnek a biztonsági beállítását.";
-"security_settings_coming_soon" = "Bocsánat. MyBusiness iOS-n ez a művelet egyenlőre nem érhető el. Kérlek használj másik MyBusiness klienst a beállításához. MyBusiness iOS használni fogja.";
+"security_settings_coming_soon" = "Bocsánat. My Business iOS-n ez a művelet egyenlőre nem érhető el. Kérlek használj másik Matrix klienst a beállításához. My Business iOS használni fogja.";
 "device_verification_self_verify_wait_new_sign_in_title" = "Belépés ellenőrzése";
-"device_verification_self_verify_wait_additional_information" = "Ez MyBusinesstel vagy más eszközök közötti hitelesítést támogató MyBusiness klienssel működik.";
+"device_verification_self_verify_wait_additional_information" = "Ez My Businesstel vagy más eszközök közötti hitelesítést támogató Matrix klienssel működik.";
 // MARK: - Device Verification
 "key_verification_other_session_title" = "Munkamenet hitelesítése";
 "key_verification_new_session_title" = "Új munkamenet ellenőrzése";
@@ -1156,7 +1156,7 @@
 "security_settings_crypto_sessions_description_2" = "Ha ez a bejelentkezés nem ismerős, akkor változtasd meg a jelszavad és újra állítsd be a Biztonsági Mentést.";
 "security_settings_secure_backup_description" = "Mentsd el a titkosítási kulcsokat a fiókadatokkal arra az esetre ha elvesztenéd a hozzáférést a munkameneteidhez. A kulcsok egy egyedi Biztonsági Kulccsal lesznek védve.";
 // AuthenticatedSessionViewControllerFactory
-"authenticated_session_flow_not_supported" = "Ez az alkalmazás nem támogatja a MyBusiness szervered azonosítási mechanizmusát.";
+"authenticated_session_flow_not_supported" = "Ez az alkalmazás nem támogatja a matrix szervered azonosítási mechanizmusát.";
 // Events formatter with you
 "event_formatter_widget_added_by_you" = "Hozzáadtad ezt a kisalkalmazást: %@";
 "event_formatter_widget_removed_by_you" = "Törölted ezt a kisalkalmazást: %@";
@@ -1167,7 +1167,7 @@
 "secrets_setup_recovery_key_information" = "A Biztonsági Kulcsot tárold valahol biztonságos helyen. Felhasználható a titkosított üzenetek és adatok hozzáféréshez.";
 "secrets_setup_recovery_key_storage_alert_message" = "✓Nyomtasd ki és tárold biztonságos helyen\n✓Mentsd egy USB kulcsra vagy biztonsági mentésbe\n✓Másold a saját felhő tárhelyedre";
 "secrets_setup_recovery_passphrase_information" = "Add meg a biztonsági jelmondatot amit csak te tudsz és a titkok biztosításához használod a szervereden.";
-"major_update_title" = "Riot mostantól MyBusiness";
+"major_update_title" = "My Business";
 "major_update_learn_more_action" = "Tudj meg többet";
 "major_update_done_action" = "Értem";
 "store_promotional_text" = "Magánéletet tiszteletben tartó csevegő és együttműködést segítő alkalmazás egy nyílt hálózaton. Elosztott rendszer ami visszaadja neked az irányítást. Nincs adathalászat, nincsenek hátsó bejáratok és hozzáférések harmadik fél részére.";
@@ -1246,7 +1246,7 @@
 "create_room_section_footer_type" = "Emberek csak meghívóval csatlakozhatnak a privát szobához.";
 "create_room_show_in_directory" = "A szoba megjelenítése a listában";
 "create_room_section_header_address" = "Szoba címe";
-"create_room_placeholder_address" = "#testroom:MyBusiness.org";
+"create_room_placeholder_address" = "#testroom:matrix.org";
 "room_info_list_one_member" = "1 tag";
 "room_info_list_several_members" = "%@ tag";
 "room_info_list_section_other" = "Más";

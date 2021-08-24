@@ -3,7 +3,7 @@
 "title_favourites" = "Preferiti";
 "title_people" = "Chat dirette";
 "title_rooms" = "Stanze";
-"store_full_description" = "MyBusiness è un nuovo tipo di app di messaggistica e collaborazione che:\n\n1. Ti dà il controllo per preservare la tua privacy\n2. Ti permette di comunicare con chiunque nella rete MyBusiness e anche oltre, integrandosi con app come Slack\n3. Ti protegge da pubblicità, datamining, backdoor ed ecosistemi chiusi\n4. Ti protegge tramite crittografia end-to-end, con la firma incrociata per verificare gli altri\n\nMyBusiness è completamente diverso dalle altre app di messaggistica e collaborazione perchè è decentralizzato e open source.\n\nMyBusiness può essere auto-ospitato - o puoi scegliere un host - in modo da avere privacy, proprietà e controllo dei tuoi dati e delle conversazioni. Ti dà l'accesso a una rete aperta, perciò non sei limitato a parlare solo con gli altri utenti MyBusiness. È anche molto sicuro.\n\nMyBusiness può fare tutto questo perchè opera su MyBusiness - lo standard per le comunicazioni aperte e decentralizzate. \n\nMyBusiness ti dà il controllo lasciandoti scegliere chi ospita le tue conversazioni. Dall'app MyBusiness, puoi scegliere l'host in diversi modi:\n\n1. Ottieni un account gratuito sul server pubblico MyBusiness.org\n2. Auto-ospita il tuo account gestendo un server su tuo hardware personale\n3. Registra un account su un server personalizzato sottoscrivendoti alla piattaforma di hosting MyBusiness Services\n\nPerché scegliere MyBusiness?\n\nPOSSIEDI I TUOI DATI: decidi tu dove tenere i tuoi dati e messaggi. Sei tu che li possiedi e li controlli, non una MEGADITTA che estrae i tuoi dati o ne dà l'accesso a terze parti.\n\nMESSAGGISTICA APERTA E COLLABORAZIONE: puoi parlare con chiunque nella rete MyBusiness, sia che usino MyBusiness o un'altra app MyBusiness, e addirittura anche se usano un altro sistema di messaggistica come Slack, IRC o XMPP.\n\nSUPER SICURO: vera crittografia end-to-end (solo chi è nella conversazione può decifrare i messaggi) e firma incrociata per verificare i dispositivi dei partecipanti alla conversazione.\n\nCOMUNICAZIONE COMPLETA: messaggi, telefonate e videochiamate, condivisione file, condivisione schermo e un sacco di integrazioni, bot e widget. Crea stanze, comunità, resta in contatto e porta a termine le cose.\n\nOVUNQUE TU SIA: resta in contatto ovunque tu sia con la cronologia dei messaggi totalmente sincronizzata tra i tuoi dispositivi e sul web su https://matrix.m.mybusines.app";
+"store_full_description" = "My Business è un nuovo tipo di app di messaggistica e collaborazione che:\n\n1. Ti dà il controllo per preservare la tua privacy\n2. Ti permette di comunicare con chiunque nella rete Matrix e anche oltre, integrandosi con app come Slack\n3. Ti protegge da pubblicità, datamining, backdoor ed ecosistemi chiusi\n4. Ti protegge tramite crittografia end-to-end, con la firma incrociata per verificare gli altri\n\nMy Business è completamente diverso dalle altre app di messaggistica e collaborazione perchè è decentralizzato e open source.\n\nMy Business può essere auto-ospitato - o puoi scegliere un host - in modo da avere privacy, proprietà e controllo dei tuoi dati e delle conversazioni. Ti dà l'accesso a una rete aperta, perciò non sei limitato a parlare solo con gli altri utenti My Business. È anche molto sicuro.\n\nMy Business può fare tutto questo perchè opera su Matrix - lo standard per le comunicazioni aperte e decentralizzate. \n\nMy Business ti dà il controllo lasciandoti scegliere chi ospita le tue conversazioni. Dall'app My Business, puoi scegliere l'host in diversi modi:\n\n1. Ottieni un account gratuito sul server pubblico matrix.org\n2. Auto-ospita il tuo account gestendo un server su tuo hardware personale\n3. Registra un account su un server personalizzato sottoscrivendoti alla piattaforma di hosting My Business Matrix Services\n\nPerché scegliere My Business?\n\nPOSSIEDI I TUOI DATI: decidi tu dove tenere i tuoi dati e messaggi. Sei tu che li possiedi e li controlli, non una MEGADITTA che estrae i tuoi dati o ne dà l'accesso a terze parti.\n\nMESSAGGISTICA APERTA E COLLABORAZIONE: puoi parlare con chiunque nella rete Matrix, sia che usino My Business o un'altra app Matrix, e addirittura anche se usano un altro sistema di messaggistica come Slack, IRC o XMPP.\n\nSUPER SICURO: vera crittografia end-to-end (solo chi è nella conversazione può decifrare i messaggi) e firma incrociata per verificare i dispositivi dei partecipanti alla conversazione.\n\nCOMUNICAZIONE COMPLETA: messaggi, telefonate e videochiamate, condivisione file, condivisione schermo e un sacco di integrazioni, bot e widget. Crea stanze, comunità, resta in contatto e porta a termine le cose.\n\nOVUNQUE TU SIA: resta in contatto ovunque tu sia con la cronologia dei messaggi totalmente sincronizzata tra i tuoi dispositivi e sul web su https://My Business.io/app.";
 "title_groups" = "Comunità";
 "warning" = "Attenzione";
 "next" = "Prossimo";
@@ -35,8 +35,8 @@
 "auth_phone_placeholder" = "Numero di telefono";
 "auth_repeat_password_placeholder" = "Ripeti la password";
 "auth_repeat_new_password_placeholder" = "Conferma la nuova password";
-"auth_home_server_placeholder" = "URL (es. https://matrix.m.mybusines.app)";
-"auth_identity_server_placeholder" = "URL (es. https://MyBusiness.im)";
+"auth_home_server_placeholder" = "URL (es. https://matrix.org)";
+"auth_identity_server_placeholder" = "URL (es. https://vector.im)";
 "auth_invalid_login_param" = "Nome utente e/o password non corretti";
 "auth_invalid_user_name" = "Il nome utente può contenere solo lettere, numeri, punti, trattini e linee basse";
 "auth_invalid_password" = "Password troppo breve (min 6)";
@@ -153,10 +153,10 @@
 "directory_search_fail" = "La ricerca di informazioni è fallita";
 // Contacts
 "contacts_address_book_section" = "CONTATTI LOCALI";
-"contacts_address_book_matrix_users_toggle" = "Solo utenti MyBusiness";
+"contacts_address_book_matrix_users_toggle" = "Solo utenti Matrix";
 "contacts_address_book_no_contact" = "Nessun contatto locale";
-"contacts_address_book_permission_required" = "MyBusiness deve essere autorizzato per poter accedere alla Rubrica locale";
-"contacts_address_book_permission_denied" = "Non hai autorizzato MyBusiness ad accedere alla rubrica locale";
+"contacts_address_book_permission_required" = "My Business deve essere autorizzato per poter accedere alla Rubrica locale";
+"contacts_address_book_permission_denied" = "Non hai autorizzato My Business ad accedere alla rubrica locale";
 "contacts_user_directory_section" = "ELENCO UTENTI";
 "contacts_user_directory_offline_section" = "ELENCO UTENTI (offline)";
 // Chat participants
@@ -245,7 +245,7 @@
 "room_event_action_cancel_send" = "Annulla invio";
 "room_event_action_cancel_download" = "Annulla download";
 "room_event_action_view_encryption" = "Informazioni sulla crittografia";
-"room_warning_about_encryption" = "La crittografia E2E è in fase sperimentale e potrebbe non esser ancora affidabile.\n\nNon dovesti ancora farci affidamento per proteggere i tuoi dati.\n\nI dispositivi non potranno decifrare i messaggi precedenti alla tua entrata nella stanza.\n\nI messaggi cifrati non saranno visibili dalle applicazioni per MyBusiness che non hanno ancora implementato la crittografia.";
+"room_warning_about_encryption" = "La crittografia E2E è in fase sperimentale e potrebbe non esser ancora affidabile.\n\nNon dovesti ancora farci affidamento per proteggere i tuoi dati.\n\nI dispositivi non potranno decifrare i messaggi precedenti alla tua entrata nella stanza.\n\nI messaggi cifrati non saranno visibili dalle applicazioni per Matrix che non hanno ancora implementato la crittografia.";
 "room_event_failed_to_send" = "Invio fallito";
 "room_action_send_photo_or_video" = "Invia foto o video";
 "room_action_send_sticker" = "Invia sticker";
@@ -330,7 +330,7 @@
 "settings_pin_rooms_with_unread" = "Segna le stanze con messaggi non letti";
 "settings_on_denied_notification" = "Le notifiche non sono permesse per %@, abilitale nelle impostazioni del tuo dispositivo";
 "settings_enable_callkit" = "Chiamate integrate";
-"settings_callkit_info" = "Ricevi le chiamate in arrivo sul blocca schermo. Mostra le chiamate MyBusiness nella cronologia di chiamate del dispositivo. Se iCloud è attivo, questa cronologia sarà condivisa con Apple.";
+"settings_callkit_info" = "Ricevi le chiamate in arrivo sul blocca schermo. Mostra le chiamate My Business nella cronologia di chiamate del dispositivo. Se iCloud è attivo, questa cronologia sarà condivisa con Apple.";
 "settings_ui_language" = "Lingua";
 "settings_ui_theme" = "Tema";
 "settings_ui_theme_auto" = "Automatico";
@@ -472,7 +472,7 @@
 "group_participants_filter_members" = "Filtra i membri della comunità";
 "group_participants_invite_another_user" = "Cerca / invita per ID utente o nome";
 "group_participants_invite_malformed_id_title" = "Invito fallito";
-"group_participants_invite_malformed_id" = "ID malformato. Dovrebbe essere ID MyBusiness come '@localpart:domain'";
+"group_participants_invite_malformed_id" = "ID malformato. Dovrebbe essere ID Matrix come '@localpart:domain'";
 "group_participants_invited_section" = "INVITATI";
 // Group rooms
 "group_rooms_filter_rooms" = "Filtra le stanze della comunità";
@@ -486,9 +486,9 @@
 "directory_title" = "Elenco";
 "directory_server_picker_title" = "Seleziona un elenco";
 "directory_server_all_rooms" = "Tutte le stanze sul server %@";
-"directory_server_all_native_rooms" = "Tutte le stanze MyBusiness native";
+"directory_server_all_native_rooms" = "Tutte le stanze Matrix native";
 "directory_server_type_homeserver" = "Digita un Homeserver per vedere l'elenco delle sue stanze pubbliche";
-"directory_server_placeholder" = "MyBusiness.org";
+"directory_server_placeholder" = "matrix.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu cambi d'appartenenza";
 "event_formatter_widget_added" = "%@ widget aggiunto da %@";
@@ -524,7 +524,7 @@
 // Crash report
 "google_analytics_use_prompt" = "Vuoi aiutare a migliorare %@ inviando automaticamente in modo anonimo i dati di utilizzo e le segnalazioni di crash?";
 // Crypto
-"e2e_enabling_on_app_update" = "MyBusiness ora supporta la crittografia da-utente-a-utente ma devi eseguire nuovamente l'accesso per abilitarla.\n\nPuoi farlo ora o più tardi dalle impostazioni dell'applicazione.";
+"e2e_enabling_on_app_update" = "My Business ora supporta la crittografia da-utente-a-utente ma devi eseguire nuovamente l'accesso per abilitarla.\n\nPuoi farlo ora o più tardi dalle impostazioni dell'applicazione.";
 "e2e_need_log_in_again" = "È necessario eseguire nuovamente l'accesso per generare le chiavi di crittografia end-to-end per questa sessione ed inviare la chiave pubblica all'homeserver.\nVa fatto una sola volta; ci scusiamo per il disturbo.";
 // Key backup wrong version
 "e2e_key_backup_wrong_version_title" = "Nuovo Backup delle chiavi";
@@ -536,7 +536,7 @@
 "bug_report_description" = "Per favore descrivi l'errore. Cosa hai fatto? Cosa ti aspettavi dovesse accadere? Cosa è effettivamente successo?";
 "bug_crash_report_title" = "Segnalazione del crash";
 "bug_crash_report_description" = "Per favore descrivi cosa hai fatto prima del crash:";
-"bug_report_logs_description" = "Al fine di diagnosticare i problemi, i registri MyBusiness di questo dispositivo saranno inviati con il rapporto dell'errore. Se preferisci inviare solo il testo soprastante, deseleziona:";
+"bug_report_logs_description" = "Al fine di diagnosticare i problemi, i registri My Business di questo dispositivo saranno inviati con il rapporto dell'errore. Se preferisci inviare solo il testo soprastante, deseleziona:";
 "bug_report_send_logs" = "Invia registri";
 "bug_report_send_screenshot" = "Invia screenshot";
 "bug_report_progress_zipping" = "Ottenimento registri";
@@ -576,7 +576,7 @@
 "deactivate_account_informations_part2_emphasize" = "Questa azione è irreversibile.";
 "deactivate_account_informations_part3" = "\n\nDisattivare il tuo account ";
 "deactivate_account_informations_part4_emphasize" = "non eliminerà in modo automatico i messaggi che hai inviato. ";
-"deactivate_account_informations_part5" = "Se vuoi che i tuoi messaggi siano dimenticati, seleziona la casella qui sotto\n\nLa visibilità dei messaggi in MyBusiness è simile alle email: \"dimenticare i tuoi messaggi\" significa che quelli che hai già inviato non verranno condivisi con nessun utente nuovo o non registrato, ma gli utenti registrati che già hanno avuto accesso ai tuoi messaggi potranno ancora accedere alla loro copia.";
+"deactivate_account_informations_part5" = "Se vuoi che i tuoi messaggi siano dimenticati, seleziona la casella qui sotto\n\nLa visibilità dei messaggi in Matrix è simile alle email: \"dimenticare i tuoi messaggi\" significa che quelli che hai già inviato non verranno condivisi con nessun utente nuovo o non registrato, ma gli utenti registrati che già hanno avuto accesso ai tuoi messaggi potranno ancora accedere alla loro copia.";
 "deactivate_account_forget_messages_information_part1" = "Dal momento in cui disattivo il mio account dimentica tutti i messaggi che ho inviato in precedenza (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Attenzione";
 "deactivate_account_forget_messages_information_part3" = ": gli utenti futuri vedranno un elenco incompleto di conversazioni)";
@@ -585,7 +585,7 @@
 "deactivate_account_password_alert_message" = "Per proseguire, inserisci la tua password";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Richiesta inviata";
-"rerequest_keys_alert_message" = "Avvia MyBusiness su un altro dispositivo che possa decifrare il messaggio, in modo da poter inviare le chiavi a questa sessione.";
+"rerequest_keys_alert_message" = "Avvia My Business su un altro dispositivo che possa decifrare il messaggio, in modo da poter inviare le chiavi a questa sessione.";
 "key_backup_setup_title" = "Backup chiave";
 "key_backup_setup_skip_alert_title" = "Sei sicuro?";
 "key_backup_setup_skip_alert_message" = "Se ti disconnetti oppure perdi il dispositivo potresti perdere i tuoi messaggi crittografati.";
@@ -1000,7 +1000,7 @@
 "device_verification_self_verify_start_waiting" = "In attesa…";
 "skip" = "Salta";
 "device_verification_self_verify_wait_title" = "Completa la sicurezza";
-"device_verification_self_verify_wait_information" = "Verifica questa sessione da una delle tue altre sessioni, dandole l'accesso ai messaggi cifrati.\n\nUsa la versione più recente di MyBusiness sui tuoi altri dispositivi:";
+"device_verification_self_verify_wait_information" = "Verifica questa sessione da una delle tue altre sessioni, dandole l'accesso ai messaggi cifrati.\n\nUsa la versione più recente di My Business sui tuoi altri dispositivi:";
 "device_verification_self_verify_wait_waiting" = "In attesa…";
 "room_member_power_level_admin_in" = "Amministratore in %@";
 "room_member_power_level_moderator_in" = "Moderatore in %@";
@@ -1028,14 +1028,14 @@
 "security_settings_crosssigning_complete_security" = "Completa la sicurezza";
 "security_settings_complete_security_alert_title" = "Completa la sicurezza";
 "security_settings_complete_security_alert_message" = "Dovresti completare la sicurezza prima sulla tua sessione attuale.";
-"security_settings_coming_soon" = "Spiacenti. Questa azione non è ancora disponibile su MyBusiness iOS. Prova ad usare un altro client MyBusiness per farlo. MyBusiness iOS lo userà.";
+"security_settings_coming_soon" = "Spiacenti. Questa azione non è ancora disponibile su My Business iOS. Prova ad usare un altro client Matrix per farlo. My Business iOS lo userà.";
 // MARK: Clients
-"client_desktop_name" = "MyBusiness Desktop";
-"client_web_name" = "MyBusiness Web";
-"client_ios_name" = "MyBusiness iOS";
-"client_android_name" = "MyBusiness Android";
+"client_desktop_name" = "My Business Desktop";
+"client_web_name" = "My Business Web";
+"client_ios_name" = "My Business iOS";
+"client_android_name" = "My Business Android";
 "device_verification_self_verify_wait_new_sign_in_title" = "Verifica questo accesso";
-"device_verification_self_verify_wait_additional_information" = "Funziona con MyBusiness ed altri client MyBusiness che supportino la firma incrociata.";
+"device_verification_self_verify_wait_additional_information" = "Funziona con My Business ed altri client Matrix che supportino la firma incrociata.";
 // MARK: - Device Verification
 "key_verification_other_session_title" = "Verifica sessione";
 "key_verification_new_session_title" = "Verifica la tua nuova sessione";
@@ -1140,7 +1140,7 @@
 "cross_signing_setup_banner_title" = "Imposta la crittografia";
 "cross_signing_setup_banner_subtitle" = "Verifica più facilmente i tuoi altri dispositivi";
 "store_promotional_text" = "App di chat e collaborazione rispettosa della privacy, su una rete aperta. Decentralizzata per darti il controllo. Nessun datamining, backdoor e accessi di terze parti.";
-"major_update_title" = "Riot ora si chiama MyBusiness";
+"major_update_title" = "My Business";
 "major_update_information" = "Siamo entusiasti di annunciare che abbiamo cambiato nome! La tua app è aggiornata e hai fatto l'accesso al tuo account.";
 "major_update_learn_more_action" = "Maggiori informazioni";
 "major_update_done_action" = "Capito";
@@ -1199,7 +1199,7 @@
 "create_room_section_footer_type" = "Le persone entrano in una stanza privata solo su invito.";
 "create_room_show_in_directory" = "Mostra la stanza nell'elenco";
 "create_room_section_header_address" = "Indirizzo stanza";
-"create_room_placeholder_address" = "#stanzatest:MyBusiness.org";
+"create_room_placeholder_address" = "#stanzatest:matrix.org";
 "room_info_list_room_encrypted" = "I messaggi in questa stanza sono cifrati end-to-end";
 "room_info_list_one_member" = "1 membro";
 "room_info_list_several_members" = "%@ membri";

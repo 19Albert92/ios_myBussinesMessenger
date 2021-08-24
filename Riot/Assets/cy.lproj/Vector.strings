@@ -1,6 +1,6 @@
 // String for App Store
 "store_short_description" = "Sgwrs/VoIP datgonoledig a diogel";
-"store_full_description" = "Cyfathrebu, eich ffordd eich hyn.\n\nAp sgwrsio, o dan eich rheolaeth ac yn hollol hyblyg. Mae MyBusiness yn gadael ichi gyfathrebu'r ffordd rydych chi ei eisiau. Wedi'i wneud ar gyfer [MyBusiness] - y safon ar gyfer cyfathrebu agored, datganoledig.\n\nSicrhewch gyfrif MyBusiness.org am ddim, mynnwch eich gweinydd eich hun yn https://ems.MyBusiness.io, neu defnyddiwch weinydd MyBusiness arall.\n\nPam dewis MyBusiness?\n\nCYFATHREBU LLAWN: Adeiladwch ystafelloedd o amgylch eich timau, eich ffrindiau, eich cymuned - sut bynnag yr ydych chi'n hoffi! Sgwrsiwch, rhannwch ffeiliau, ychwanegwch teclynnau a gwnewch galwadau llais a fideo - i gyd yn rhad ac am ddim.\n\nINTEGREIDDIAU GRYMUS: Defnyddiwch MyBusiness gyda'r offer rydych chi'n eu hadnabod ac yn eu caru. Gyda MyBusiness gallwch hyd yn oed sgwrsio â defnyddwyr a grwpiau ar apiau sgwrsio eraill.\n\nPREIFAT A DIOGEL: Cadwch eich sgyrsiau yn gyfrinachol. Mae amgryptio o'r dechrau i'r diwedd o'r radd flaenaf yn sicrhau bod cyfathrebu preifat yn aros yn breifat.\n\nAGORED, NID YN GAËDIG: Ffynhonnell agor, ac wedi'i adeiladu ar MyBusiness. ––Byddwch yn berchen ar eich data eich hun trwy gynnal eich gweinydd eich hun, neu ddewis un rydych chi'n ymddiried ynddo.\n\nBOB MAN YDYCH CHI: Cadwch mewn cysylltiad ble bynnag yr ydych â hanes negeseuon wedi'i gydamseru'n llawn ar draws eich holl ddyfeisiau ac ar-lein yn https://app.MyBusiness.io.";
+"store_full_description" = "Cyfathrebu, eich ffordd eich hyn.\n\nAp sgwrsio, o dan eich rheolaeth ac yn hollol hyblyg. Mae My Business yn gadael ichi gyfathrebu'r ffordd rydych chi ei eisiau. Wedi'i wneud ar gyfer [matrix] - y safon ar gyfer cyfathrebu agored, datganoledig.\n\nSicrhewch gyfrif matrix.org am ddim, mynnwch eich gweinydd eich hun yn https://ems.My Business.io, neu defnyddiwch weinydd Matrix arall.\n\nPam dewis My Business?\n\nCYFATHREBU LLAWN: Adeiladwch ystafelloedd o amgylch eich timau, eich ffrindiau, eich cymuned - sut bynnag yr ydych chi'n hoffi! Sgwrsiwch, rhannwch ffeiliau, ychwanegwch teclynnau a gwnewch galwadau llais a fideo - i gyd yn rhad ac am ddim.\n\nINTEGREIDDIAU GRYMUS: Defnyddiwch My Business gyda'r offer rydych chi'n eu hadnabod ac yn eu caru. Gyda My Business gallwch hyd yn oed sgwrsio â defnyddwyr a grwpiau ar apiau sgwrsio eraill.\n\nPREIFAT A DIOGEL: Cadwch eich sgyrsiau yn gyfrinachol. Mae amgryptio o'r dechrau i'r diwedd o'r radd flaenaf yn sicrhau bod cyfathrebu preifat yn aros yn breifat.\n\nAGORED, NID YN GAËDIG: Ffynhonnell agor, ac wedi'i adeiladu ar Matrix. ––Byddwch yn berchen ar eich data eich hun trwy gynnal eich gweinydd eich hun, neu ddewis un rydych chi'n ymddiried ynddo.\n\nBOB MAN YDYCH CHI: Cadwch mewn cysylltiad ble bynnag yr ydych â hanes negeseuon wedi'i gydamseru'n llawn ar draws eich holl ddyfeisiau ac ar-lein yn https://app.My Business.io.";
 // Titles
 "title_home" = "Hafan";
 "title_favourites" = "Ffefrynnau";
@@ -56,8 +56,8 @@
 "auth_phone_placeholder" = "Rhif ffôn";
 "auth_repeat_password_placeholder" = "Cyfrinair eto";
 "auth_repeat_new_password_placeholder" = "Cadarnhewch eich cyfrinair";
-"auth_home_server_placeholder" = "URL (e.e. https://matrix.m.mybusines.app)";
-"auth_identity_server_placeholder" = "URL (e.e. https://matrix.m.mybusines.app)";
+"auth_home_server_placeholder" = "URL (e.e. https://matrix.org)";
+"auth_identity_server_placeholder" = "URL (e.e. https://vector.im)";
 "auth_invalid_login_param" = "Enw defnyddiwr a/neu cyfrinair anghywir";
 "auth_invalid_user_name" = "Gall enwau defnyddwyr ond cynnwys llythrennau, rhifau, atalnodau-llawn, cysylltnodau a thanlinellau";
 "auth_invalid_password" = "Cyfrinair yn rhy fyr (lleiafswm 6)";
@@ -92,7 +92,7 @@
 "auth_reset_password_email_validation_message" = "Mae e-bost wedi'i anfon at %@. Ar ôl i chi ddilyn y ddolen sydd ynddo, cliciwch isod.";
 "auth_reset_password_next_step_button" = "Rwyf wedi gwirio fy nghyfeiriad e-bost";
 "auth_reset_password_error_unauthorized" = "Methiant gwirio cyfeiriad e-bost: gwnewch yn siŵr eich bod wedi clicio'r ddolen yn yr e-bost";
-"auth_reset_password_error_not_found" = "Nid yw'n ymddangos bod eich cyfeiriad e-bost yn gysylltiedig ag Dynodwr MyBusiness ar y hafanweinydd hwn.";
+"auth_reset_password_error_not_found" = "Nid yw'n ymddangos bod eich cyfeiriad e-bost yn gysylltiedig ag Dynodwr Matrix ar y hafanweinydd hwn.";
 "auth_reset_password_error_is_required" = "Nid oes unrhyw weinydd adnabod wedi'i osod: ychwanegwch un yn opsiynau'r gweinydd i ailosod eich cyfrinair.";
 "auth_reset_password_success_message" = "Mae eich cyfrinair wedi'i ailosod.\n\nRydych wedi cael eich allgofnodi o bob sesiwn ac ni fyddwch yn derbyn hysbysiadau mwyach. I ail-alluogi hysbysiadau, ail-fewngofnodwch ar bob dyfais.";
 "auth_add_email_and_phone_warning" = "Ni chefnogir cofrestru gydag e-bost a rhif ffôn ar yr un pryd nes bod yr api yn bodoli. Dim ond y rhif ffôn fydd yn cael ei ystyried. Gallwch ychwanegu eich e-bost at eich proffil mewn gosodiadau.";
@@ -171,11 +171,11 @@
 "directory_search_fail" = "Methwyd a nôl data";
 // Contacts
 "contacts_address_book_section" = "CYSYLLTIADAU LLEOL";
-"contacts_address_book_matrix_users_toggle" = "Defnyddwyr MyBusiness yn unig";
+"contacts_address_book_matrix_users_toggle" = "Defnyddwyr Matrix yn unig";
 "contacts_address_book_no_identity_server" = "Dim gweinydd adnabod wedi'i osod";
 "contacts_address_book_no_contact" = "Dim cysylltiadau lleol";
 "contacts_address_book_permission_required" = "Mae angen caniatâd i gael mynediad at gysylltiadau lleol";
-"contacts_address_book_permission_denied" = "Gwrthodwyd caniatâd i MyBusiness gael mynediad i'ch cysylltiadau lleol";
+"contacts_address_book_permission_denied" = "Gwrthodwyd caniatâd i My Business gael mynediad i'ch cysylltiadau lleol";
 "contacts_user_directory_section" = "CYFEIRIADUR DEFNYDDWYR";
 "contacts_user_directory_offline_section" = "CYFEIRIADUR DEFNYDDWYR (all-lein)";
 // Chat participants
@@ -193,7 +193,7 @@
 "room_participants_filter_room_members" = "Hidlo aelodau'r ystafell";
 "room_participants_invite_another_user" = "Chwilio / gwahodd yn ôl Dynodwr Defnyddiwr, Enw, new e-bost";
 "room_participants_invite_malformed_id_title" = "Gwall gwahoddiad";
-"room_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn gyfeiriad e-bost neu'n Ddynodwr MyBusiness fel '@localpart:domain'";
+"room_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn gyfeiriad e-bost neu'n Ddynodwr Matrix fel '@localpart:domain'";
 "room_participants_invited_section" = "GWAHODDWYD";
 "room_participants_start_new_chat_error_using_user_email_without_identity_server" = "Nid oes unrhyw weinydd adnabod wedi'i osod felly ni allwch ddechrau sgwrs gyda chyswllt gan ddefnyddio e-bost.";
 "room_participants_online" = "Ar-lein";
@@ -376,7 +376,7 @@
 "settings_pin_rooms_with_unread" = "Pinio ystafelloedd gyda negeseuon heb eu darllen";
 "settings_on_denied_notification" = "Gwrthodir hysbysiadau i %@, caniatewch nhw yn eich gosodiadau dyfais";
 "settings_enable_callkit" = "Galw integredig";
-"settings_callkit_info" = "Derbyn galwadau sy'n dod i mewn ar eich sgrin clo. Gwelwch eich galwadau MyBusiness yn hanes galwadau'r system. Os yw iCloud wedi'i alluogi, bydd yr hanes galw hwn yn cael ei rannu gydag Apple.";
+"settings_callkit_info" = "Derbyn galwadau sy'n dod i mewn ar eich sgrin clo. Gwelwch eich galwadau My Business yn hanes galwadau'r system. Os yw iCloud wedi'i alluogi, bydd yr hanes galw hwn yn cael ei rannu gydag Apple.";
 "settings_calls_stun_server_fallback_button" = "Caniatáu gweinydd cymorth galw wrth gefn";
 "settings_calls_stun_server_fallback_description" = "Caniatáu gweinydd cymorth galw wrth gefn %@ pan nad yw eich hafanweinydd yn cynnig un (byddai eich cyfeiriad IP yn cael ei rannu yn ystod galwad).";
 "settings_ui_language" = "Iaith";
@@ -564,7 +564,7 @@
 "group_participants_filter_members" = "Hidlo aelodau'r cymuned";
 "group_participants_invite_another_user" = "Chwilio / gwahodd yn ôl Dynodwr Defnyddiwr neu Enw";
 "group_participants_invite_malformed_id_title" = "Gwall gwahoddiad";
-"group_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn Ddynodwr MyBusiness fel '@localpart:domain'";
+"group_participants_invite_malformed_id" = "Dynodwr camffurfiedig. Dylai fod yn Ddynodwr Matrix fel '@localpart:domain'";
 "group_participants_invited_section" = "GWAHODDWYD";
 // Group rooms
 "group_rooms_filter_rooms" = "Hidlo ystafelloedd y gymuned";
@@ -582,9 +582,9 @@
 "directory_title" = "Cyfeiriadur";
 "directory_server_picker_title" = "Dewisiwch gyfeiriadur";
 "directory_server_all_rooms" = "Pob ystafell ar weinydd %@";
-"directory_server_all_native_rooms" = "Pob ystafell MyBusiness frodorol";
+"directory_server_all_native_rooms" = "Pob ystafell Matrix frodorol";
 "directory_server_type_homeserver" = "Teipiwch hafanweinydd i restru ystafelloedd cyhoeddus o";
-"directory_server_placeholder" = "MyBusiness.org";
+"directory_server_placeholder" = "matrix.org";
 // Events formatter
 "event_formatter_member_updates" = "%tu newidiadau aelodaeth";
 "event_formatter_widget_added" = "Ychwanegwyd teclyn %@ gan %@";
@@ -627,7 +627,7 @@
 // Crash report
 "google_analytics_use_prompt" = "Hoffech chi helpu i wella %@ trwy gyrru adroddiadau pall a data defnydd dienw yn awtomatig?";
 // Crypto
-"e2e_enabling_on_app_update" = "Mae MyBusiness bellach yn cefnogi amgryptio o'r dechrau i'r diwedd ond mae angen i chi fewngofnodi eto i'w alluogi.\n\nGallwch ei wneud nawr neu'n hwyrach o'r gosodiadau.";
+"e2e_enabling_on_app_update" = "Mae My Business bellach yn cefnogi amgryptio o'r dechrau i'r diwedd ond mae angen i chi fewngofnodi eto i'w alluogi.\n\nGallwch ei wneud nawr neu'n hwyrach o'r gosodiadau.";
 "e2e_need_log_in_again" = "Mae angen i chi fewngofnodi i gynhyrchu allweddi amgryptio o'r dechrau i'r diwedd ar gyfer y sesiwn hon a chyflwyno'r allwedd gyhoeddus i'ch hafanweinydd\nDim ond unwaith fydd rhaid gwneud hyn; sori am yr anghyfleustra.";
 // Key backup wrong version
 "e2e_key_backup_wrong_version_title" = "Copi Allwedd Wrth Gefn Newydd";
@@ -694,7 +694,7 @@
 "deactivate_account_informations_part2_emphasize" = "Ni ellir gwrthdroi'r weithred hon.";
 "deactivate_account_informations_part3" = "\n\nYn dad-actifadu eich cyfrif ";
 "deactivate_account_informations_part4_emphasize" = "nid yw yn ddiofyn yn achosi inni anghofio negeseuon yr ydych wedi'u hanfon. ";
-"deactivate_account_informations_part5" = "Os hoffech i ni anghofio'ch negeseuon, ticiwch y blwch isod\n\nMae gwelededd neges yn MyBusiness yn debyg i e-bost. Mae anghofio'ch negeseuon yn golygu na fydd negeseuon rydych chi wedi'u hanfon yn cael eu rhannu ag unrhyw ddefnyddwyr newydd neu anghofrestredig, ond bydd defnyddwyr cofrestredig sydd eisoes â mynediad at y negeseuon hyn yn dal i gael mynediad i'w copi.";
+"deactivate_account_informations_part5" = "Os hoffech i ni anghofio'ch negeseuon, ticiwch y blwch isod\n\nMae gwelededd neges yn Matrix yn debyg i e-bost. Mae anghofio'ch negeseuon yn golygu na fydd negeseuon rydych chi wedi'u hanfon yn cael eu rhannu ag unrhyw ddefnyddwyr newydd neu anghofrestredig, ond bydd defnyddwyr cofrestredig sydd eisoes â mynediad at y negeseuon hyn yn dal i gael mynediad i'w copi.";
 "deactivate_account_forget_messages_information_part1" = "Anghofiwch yr holl negeseuon yr wyf wedi'u hanfon pan fydd fy nghyfrif yn cael ei ddad-actifadu (";
 "deactivate_account_forget_messages_information_part2_emphasize" = "Rhybudd";
 "deactivate_account_forget_messages_information_part3" = ": bydd hyn yn achosi i ddefnyddwyr y dyfodol weld golwg anghyflawn o sgyrsiau)";
@@ -703,7 +703,7 @@
 "deactivate_account_password_alert_message" = "I barhau, rhowch eich cyfrinair os gwelwch yn dda";
 // Re-request confirmation dialog
 "rerequest_keys_alert_title" = "Anfonwyd y Cais";
-"rerequest_keys_alert_message" = "Lansiwch MyBusiness ar ddyfais arall a all ddadgryptio'r neges fel y gall anfon yr allweddi i'r sesiwn hon.";
+"rerequest_keys_alert_message" = "Lansiwch My Business ar ddyfais arall a all ddadgryptio'r neges fel y gall anfon yr allweddi i'r sesiwn hon.";
 "key_backup_setup_title" = "Allweddi Wrth Gefn";
 "key_backup_setup_skip_alert_title" = "Ydych chi'n siwr?";
 "key_backup_setup_skip_alert_message" = "Efallai y byddwch chi'n colli negeseuon diogel os byddwch chi'n allgofnodi neu'n colli'ch dyfais.";
@@ -983,10 +983,10 @@
 "key_verification_verify_qr_code_scan_other_code_success_message" = "Mae'r côd QR wedi'i brofi'n ddilys.";
 "skip" = "Hepgor";
 // MARK: Clients
-"client_desktop_name" = "MyBusiness Cyfrifiadur";
-"client_web_name" = "MyBusiness Gwê";
-"client_ios_name" = "MyBusiness iOS";
-"client_android_name" = "MyBusiness Android";
+"client_desktop_name" = "My Business Cyfrifiadur";
+"client_web_name" = "My Business Gwê";
+"client_ios_name" = "My Business iOS";
+"client_android_name" = "My Business Android";
 "room_participants_action_security_status_complete_security" = "Cwblhewch diogelwch";
 "room_participants_action_security_status_loading" = "Yn llwytho…";
 "room_member_power_level_admin_in" = "Gweinyddwr yn %@";
@@ -1006,7 +1006,7 @@
 "security_settings_cryptography" = "CRYPTOGRAFFEG";
 "security_settings_complete_security_alert_title" = "Cwblhewch diogelwch";
 "security_settings_complete_security_alert_message" = "Dylech gwblhau diogelwch ar eich sesiwn gyfredol yn gyntaf.";
-"security_settings_coming_soon" = "Sori. Nid yw'r weithred hon ar gael ar MyBusiness iOS eto. Defnyddiwch gleient MyBusiness arall i'w osod. Bydd MyBusiness iOS yn ei ddefnyddio.";
+"security_settings_coming_soon" = "Sori. Nid yw'r weithred hon ar gael ar My Business iOS eto. Defnyddiwch gleient Matrix arall i'w osod. Bydd My Business iOS yn ei ddefnyddio.";
 // Recover from private key
 "key_backup_recover_from_private_key_info" = "Yn adfer copi wrth gefn…";
 "device_verification_self_verify_alert_title" = "Mewngofnodiad Newydd";
