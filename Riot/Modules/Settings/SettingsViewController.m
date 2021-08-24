@@ -449,10 +449,10 @@ TableViewSectionsDelegate>
     Section *sectionOther = [Section sectionWithTag:SECTION_TAG_OTHER];
     [sectionOther addRowWithTag:OTHER_VERSION_INDEX];
     [sectionOther addRowWithTag:OTHER_OLM_VERSION_INDEX];
-    if (BuildSettings.applicationCopyrightUrlString.length)
-    {
-        [sectionOther addRowWithTag:OTHER_COPYRIGHT_INDEX];
-    }
+//    if (BuildSettings.applicationCopyrightUrlString.length)
+//    {
+//        [sectionOther addRowWithTag:OTHER_COPYRIGHT_INDEX];
+//    }
     if (BuildSettings.applicationTermsConditionsUrlString.length)
     {
         [sectionOther addRowWithTag:OTHER_TERM_CONDITIONS_INDEX];
