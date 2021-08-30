@@ -98,7 +98,8 @@ final class SideMenuViewModel: SideMenuViewModelType {
         }
         
         let sideMenuItems: [SideMenuItem] = [
-            .settings
+            .settings,
+            .web
         ]
         
         let appVersion = self.appInfo.appVersion?.bundleShortVersion

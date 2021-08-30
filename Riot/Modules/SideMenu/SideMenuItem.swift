@@ -21,6 +21,7 @@ import Foundation
 enum SideMenuItem {
 //    case inviteFriends
     case settings
+    case web
 //    case help
 //    case feedback
 }
@@ -35,6 +36,8 @@ extension SideMenuItem {
 //            title = VectorL10n.sideMenuActionInviteFriends
         case .settings:
             title = VectorL10n.sideMenuActionSettings
+        case .web :
+            title = "MY BUSINESS"
 //       case .help:
 //           title = VectorL10n.sideMenuActionHelp
 //        case .feedback:
@@ -52,6 +55,8 @@ extension SideMenuItem {
 //            icon = Asset.Images.sideMenuActionIconShare.image
         case .settings:
             icon = Asset.Images.sideMenuActionIconSettings.image
+        case .web:
+            icon = UIImage(named: "icon_webview_item")!
 //       case .help:
 //          icon = Asset.Images.sideMenuActionIconHelp.image
 //        case .feedback:

@@ -15,6 +15,10 @@
  limitations under the License.
  */
 
+
+
+
+
 #import "HomeViewController.h"
 
 #import "Riot-Swift.h"
@@ -71,10 +75,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    printf("1111111");
+   
     
+   //pass2
+   
     self.view.accessibilityIdentifier = @"HomeVCView";
     self.recentsTableView.accessibilityIdentifier = @"HomeVCTableView";
+  
+    // get data from notificenter
     
+   // printf("get data from NC");
     // Tag the recents table with the its recents data source mode.
     // This will be used by the shared RecentsDataSource instance for sanity checks (see UITableViewDataSource methods).
     self.recentsTableView.tag = RecentsDataSourceModeHome;

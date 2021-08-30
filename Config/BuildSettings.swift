@@ -99,7 +99,7 @@ final class BuildSettings: NSObject {
     // MyBusiness-Web instance for the app
     static let applicationWebAppUrlString = "https://en.mybusines.app/test_mode=yes&iam=Maxim&User=yes;"
     
-    
+
     // MARK: - Server configuration
     
     // Default servers proposed on the authentication screen
