@@ -31,12 +31,16 @@ class MyBusinessWebView: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+            let userAgent = "Cron"
             let urlRequest = URL(string: id)!
-            var myUrlRequest = URLRequest(url: urlRequest)
-            myUrlRequest.setValue("cron", forHTTPHeaderField: "user_agent")
+//            var myUrlRequest = URLRequest(url: urlRequest)
+//            myUrlRequest.setValue("Cron", forHTTPHeaderField: "user-agent")
+            webView.customUserAgent = userAgent
+            MXLog.debug(webView.customUserAgent)
+        
             webView.load(URLRequest(url: urlRequest))
             
-            let back = UIBarButtonItem(title:"back", style: .plain, target: webView, action: #selector(webView!.goBack))
+        let back = UIBarButtonItem(title: "back", style: .done, target: webView, action: #selector(webView!.goBack))
             self.navigationItem.rightBarButtonItem = back
             navigationController?.isToolbarHidden = false
         }

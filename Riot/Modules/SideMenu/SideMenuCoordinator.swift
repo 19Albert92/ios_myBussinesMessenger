@@ -187,7 +187,7 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         
         let master_shifr = sifr_3 + sifr_1 + sifr_2
         
-        MXLog.debug(master_shifr)
+//        MXLog.debug(master_shifr)
         
         
         let testWebBusines = MyBusinessWebView()
