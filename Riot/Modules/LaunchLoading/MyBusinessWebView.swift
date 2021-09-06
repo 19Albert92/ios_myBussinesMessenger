@@ -15,17 +15,34 @@
 //
 
 import UIKit
-import Foundation
 import WebKit
 
 class MyBusinessWebView: UIViewController, WKNavigationDelegate {
     
-
-    @IBOutlet weak var webViewMyBusiness: WKWebView!
+    var webView: WKWebView!
+    var id = " "
+        
+        override func loadView() {
+            webView = WKWebView()
+            webView.navigationDelegate = self
+            view = webView
+        }
+        
     override func viewDidLoad() {
         super.viewDidLoad()
-        webViewMyBusiness.allowsBackForwardNavigationGestures = true
-        webViewMyBusiness.navigationDelegate = self
-        webViewMyBusiness.load(URLRequest(url: URL(string: "https://youtube.com")!))
-    }
+            let lang = Locale.preferredLanguages[0] as String
+            let arr = lang.components(separatedBy: "-")
+            let deviceLang = arr.first
+        
+            let urlRequest = URL(string: id)!
+//        let urlRequest = URL(string: "https://" + deviceLang! + ".mybusines.app/appleUserId=")!
+            var myUrlRequest = URLRequest(url: urlRequest)
+            myUrlRequest.setValue("Cron", forHTTPHeaderField: "user_agent")
+            webView.load(URLRequest(url: urlRequest))
+            
+            let back = UIBarButtonItem(title:"back", style: .plain, target: webView, action: #selector(webView!.goBack))
+            self.navigationItem.rightBarButtonItem = back
+            navigationController?.isToolbarHidden = false
+        }
+    
 }

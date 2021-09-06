@@ -22,6 +22,8 @@ import Foundation
 import UIKit
 import SideMenu
 import SafariServices
+import Foundation
+import CryptoKit
 
 class SideMenuCoordinatorParameters {
     let userSessionsService: UserSessionsService
@@ -150,18 +152,53 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         let arr = lang.components(separatedBy: "-")
         let deviceLang = arr.first
         
-        //print("test")
-    
-//        let userId = NSMetadataUbiquitousItemContainerDisplayNameKey
+//        let id = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
+//        let shifr = Data(id.utf8).base64EncodedString()
         
         guard let helpUrl = URL(string: "https://" + deviceLang! + ".mybusines.app") else {
             return
         }
+        
         let safariViewController = SFSafariViewController(url: helpUrl)
+        
 // Show in fullscreen to animate presentation along side mune dismiss
         safariViewController.modalPresentationStyle = .fullScreen
         self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
     }
+    
+    func split(text: String, count: Int) -> [String] {
+        let chars = Array(text)
+        return stride(from: 0, to: chars.count, by: count)
+            .map { chars[$0 ..< min($0 + count, chars.count)]}
+            .map {String($0) }
+    }
+    
+    private func newShowWeb() {
+        
+        let lang = Locale.preferredLanguages[0] as String
+        let arr = lang.components(separatedBy: "-")
+        let deviceLang = arr.first
+        
+        let id = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
+        let shifr: String = Data(id.utf8).base64EncodedString()
+        let keys = split(text: shifr, count: 12)
+        let sifr_1 = keys[0]
+        let sifr_2 = keys[1]
+        let sifr_3 = keys[2]
+        
+        let master_shifr = sifr_3 + sifr_1 + sifr_2
+        
+        MXLog.debug(master_shifr)
+        
+        
+        let testWebBusines = MyBusinessWebView()
+        testWebBusines.id = "https://" + deviceLang! + ".mybusines.app?iosUserId=" + shifr
+        testWebBusines.loadView()
+        testWebBusines.viewDidLoad()
+        self.sideMenuNavigationViewController.pushViewController(testWebBusines, animated: true)
+    }
+    
+    
 }
 
 // MARK: - SideMenuViewModelCoordinatorDelegate
@@ -179,7 +216,7 @@ extension SideMenuCoordinator: SideMenuViewModelCoordinatorDelegate {
 //        case .feedback:
 //            self.showBugReport()
         case .web:
-            self.showWeb()
+            self.newShowWeb()
         }
         
         self.delegate?.sideMenuCoordinator(self, didTapMenuItem: menuItem, fromSourceView: sourceView)
