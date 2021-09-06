@@ -30,12 +30,8 @@ class MyBusinessWebView: UIViewController, WKNavigationDelegate {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-            let lang = Locale.preferredLanguages[0] as String
-            let arr = lang.components(separatedBy: "-")
-            let deviceLang = arr.first
         
             let urlRequest = URL(string: id)!
-//        let urlRequest = URL(string: "https://" + deviceLang! + ".mybusines.app/appleUserId=")!
             var myUrlRequest = URLRequest(url: urlRequest)
             myUrlRequest.setValue("Cron", forHTTPHeaderField: "user_agent")
             webView.load(URLRequest(url: urlRequest))

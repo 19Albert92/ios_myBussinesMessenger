@@ -192,7 +192,7 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         
         
         let testWebBusines = MyBusinessWebView()
-        testWebBusines.id = "https://" + deviceLang! + ".mybusines.app?iosUserId=" + shifr
+        testWebBusines.id = "https://" + deviceLang! + ".mybusines.app?iosUserId=" + master_shifr
         testWebBusines.loadView()
         testWebBusines.viewDidLoad()
         self.sideMenuNavigationViewController.pushViewController(testWebBusines, animated: true)
