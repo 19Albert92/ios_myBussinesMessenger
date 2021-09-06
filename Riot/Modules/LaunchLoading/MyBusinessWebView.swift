@@ -1,5 +1,5 @@
 // 
-// Copyright 2021 New Vector Ltd
+// Copyright 2021  Llc
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@ class MyBusinessWebView: UIViewController, WKNavigationDelegate {
         
             let urlRequest = URL(string: id)!
             var myUrlRequest = URLRequest(url: urlRequest)
-            myUrlRequest.setValue("Cron", forHTTPHeaderField: "user_agent")
+            myUrlRequest.setValue("cron", forHTTPHeaderField: "user_agent")
             webView.load(URLRequest(url: urlRequest))
             
             let back = UIBarButtonItem(title:"back", style: .plain, target: webView, action: #selector(webView!.goBack))

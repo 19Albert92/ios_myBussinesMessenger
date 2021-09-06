@@ -22,7 +22,6 @@ import Foundation
 import UIKit
 import SideMenu
 import SafariServices
-import Foundation
 import CryptoKit
 
 class SideMenuCoordinatorParameters {
@@ -145,27 +144,27 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
         let inviteFriendsPresenter = InviteFriendsPresenter()
         inviteFriendsPresenter.present(for: myUserId, from: self.sideMenuViewController, sourceView: sourceView, animated: true)
     }
-    private func showWeb() {
-        
-//        язык
-        let lang = Locale.preferredLanguages[0] as String
-        let arr = lang.components(separatedBy: "-")
-        let deviceLang = arr.first
-        
-//        let id = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
-//        let shifr = Data(id.utf8).base64EncodedString()
-        
-        guard let helpUrl = URL(string: "https://" + deviceLang! + ".mybusines.app") else {
-            return
-        }
-        
-        let safariViewController = SFSafariViewController(url: helpUrl)
-        
-// Show in fullscreen to animate presentation along side mune dismiss
-        safariViewController.modalPresentationStyle = .fullScreen
-        self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
-    }
-    
+//    private func showWeb() {
+//
+////        язык
+//        let lang = Locale.preferredLanguages[0] as String
+//        let arr = lang.components(separatedBy: "-")
+//        let deviceLang = arr.first
+//
+////        let id = self.parameters.userSessionsService.mainUserSession?.userId ?? ""
+////        let shifr = Data(id.utf8).base64EncodedString()
+//
+//        guard let helpUrl = URL(string: "https://" + deviceLang! + ".mybusines.app") else {
+//            return
+//        }
+//
+//        let safariViewController = SFSafariViewController(url: helpUrl)
+//
+//// Show in fullscreen to animate presentation along side mune dismiss
+//        safariViewController.modalPresentationStyle = .fullScreen
+//        self.sideMenuNavigationViewController.present(safariViewController, animated: true, completion: nil)
+//    }
+//
     func split(text: String, count: Int) -> [String] {
         let chars = Array(text)
         return stride(from: 0, to: chars.count, by: count)
