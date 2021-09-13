@@ -494,6 +494,7 @@ TableViewSectionsDelegate>
             [tmpSections addObject:sectionLabs];
         }
     }
+
     
     if ([groupsDataSource numberOfSectionsInTableView:self.tableView] && groupsDataSource.joinedGroupsSection != -1)
     {
@@ -2092,12 +2093,13 @@ TableViewSectionsDelegate>
         else if (row == OTHER_OLM_VERSION_INDEX)
         {
             MXKTableViewCell *versionCell = [self getDefaultTableViewCell:tableView];
-            
-            versionCell.textLabel.text = [NSString stringWithFormat:NSLocalizedStringFromTable(@"settings_olm_version", @"Vector", nil), [OLMKit versionString]];
-            
+
+            versionCell.textLabel.text = @"About us";
+
             versionCell.selectionStyle = UITableViewCellSelectionStyleNone;
-            
+
             cell = versionCell;
+    
         }
         else if (row == OTHER_TERM_CONDITIONS_INDEX)
         {
@@ -2132,12 +2134,13 @@ TableViewSectionsDelegate>
         else if (row == OTHER_THIRD_PARTY_INDEX)
         {
             MXKTableViewCell *thirdPartyCell = [self getDefaultTableViewCell:tableView];
-            
+
             thirdPartyCell.textLabel.text = NSLocalizedStringFromTable(@"settings_third_party_notices", @"Vector", nil);
-            
+
             [thirdPartyCell vc_setAccessoryDisclosureIndicatorWithCurrentTheme];
-            
+
             cell = thirdPartyCell;
+            
         }
         else if (row == OTHER_SHOW_NSFW_ROOMS_INDEX)
         {
@@ -2583,10 +2586,11 @@ TableViewSectionsDelegate>
             }
             else if (row == OTHER_PRIVACY_INDEX)
             {
-                WebViewViewController *webViewViewController = [[WebViewViewController alloc] initWithURL:BuildSettings.applicationPrivacyPolicyUrlString];
-                
+                WebViewViewController *webViewViewController = [[WebViewViewController alloc]
+                                    initWithURL:BuildSettings.applicationPrivacyPolicyUrlString];
+
                 webViewViewController.title = NSLocalizedStringFromTable(@"settings_privacy_policy", @"Vector", nil);
-                
+
                 [self pushViewController:webViewViewController];
             }
             else if (row == OTHER_THIRD_PARTY_INDEX)

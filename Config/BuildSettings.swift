@@ -113,6 +113,12 @@ final class BuildSettings: NSObject {
     
     // Note: Set empty strings to hide the related entry in application settings
     static let applicationCopyrightUrlString = "https://element.io/copyright"
+    
+    let lang = Locale.preferredLanguages[0] as String
+    let lang_code = Locale.current.identifier
+    let la = NSLocale.current.languageCode!
+
+    
     static let applicationPrivacyPolicyUrlString = "https://mybusines.app/privacy"
     static let applicationTermsConditionsUrlString = "https://mybusines.app/agreement"
     static let applicationHelpUrlString = "https://element.io/help"

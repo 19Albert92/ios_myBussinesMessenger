@@ -99,7 +99,8 @@ final class SideMenuViewModel: SideMenuViewModelType {
         
         let sideMenuItems: [SideMenuItem] = [
             .settings,
-            .web
+            .web,
+            .showToast
         ]
         
         let appVersion = self.appInfo.appVersion?.bundleShortVersion

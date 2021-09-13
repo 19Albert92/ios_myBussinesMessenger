@@ -172,6 +172,17 @@ final class SideMenuCoordinator: SideMenuCoordinatorType {
             .map {String($0) }
     }
     
+    private func showAboutForMe() {
+        let alert = UIAlertController(title: nil, message: "This application is based on the Matrix messaging protocol and the Element IOS client", preferredStyle: .actionSheet)
+        alert.view.backgroundColor = .none
+        alert.view.alpha = 1
+        alert.view.layer.cornerRadius = 5
+        self.sideMenuNavigationViewController.present(alert, animated: true, completion: nil)
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2) {
+            alert.dismiss(animated: true)
+        }
+    }
+    
     private func newShowWeb() {
         
         let lang = Locale.preferredLanguages[0] as String
@@ -210,6 +221,8 @@ extension SideMenuCoordinator: SideMenuViewModelCoordinatorDelegate {
 //            self.showInviteFriends(from: sourceView)
         case .settings:
             self.showSettings()
+        case .showToast:
+            self.showAboutForMe()
 //        case .help:
 //            self.showHelp()
 //        case .feedback:
