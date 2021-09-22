@@ -1772,6 +1772,7 @@ TableViewSectionsDelegate>
             
             cell = inviteFriendsCell;
         }
+    
         else if (row == USER_SETTINGS_CHANGE_PASSWORD_INDEX)
         {
             MXKTableViewCellWithLabelAndTextField *passwordCell = [self getLabelAndTextFieldCell:tableView forIndexPath:indexPath];
@@ -1783,6 +1784,7 @@ TableViewSectionsDelegate>
             
             cell = passwordCell;
         }
+    
     }
     else if (section == SECTION_TAG_NOTIFICATIONS)
     {
@@ -1795,6 +1797,7 @@ TableViewSectionsDelegate>
             labelAndSwitchCell.mxkSwitch.onTintColor = ThemeService.shared.theme.tintColor;
             labelAndSwitchCell.mxkSwitch.enabled = YES;
             [labelAndSwitchCell.mxkSwitch addTarget:self action:@selector(togglePushNotifications:) forControlEvents:UIControlEventTouchUpInside];
+           
             
             cell = labelAndSwitchCell;
         }
@@ -1851,6 +1854,14 @@ TableViewSectionsDelegate>
     }
     else if (section == SECTION_TAG_CALLS)
     {
+        MXKTableViewCell *versionCell = [self getDefaultTableViewCell:tableView];
+
+        versionCell.textLabel.text = session.myUser.userId;
+        NSString *myUserId = session.myUser.userId;
+
+        versionCell.selectionStyle = UITableViewCellSelectionStyleNone;
+
+        cell = versionCell;
         if (row == CALLS_ENABLE_STUN_SERVER_FALLBACK_INDEX)
         {
             MXKTableViewCellWithLabelAndSwitch* labelAndSwitchCell = [self getLabelAndSwitchCell:tableView forIndexPath:indexPath];
@@ -1879,6 +1890,7 @@ TableViewSectionsDelegate>
 //    else if (section == SECTION_TAG_DISCOVERY)
 //    {
 //        cell = [self.settingsDiscoveryTableViewSection cellForRowAtRow:row];
+//
 //    }
 //    else if (section == SECTION_TAG_IDENTITY_SERVER)
 //    {
@@ -2094,8 +2106,8 @@ TableViewSectionsDelegate>
         {
             MXKTableViewCell *versionCell = [self getDefaultTableViewCell:tableView];
 
-            versionCell.textLabel.text = @"About us";
-
+            versionCell.textLabel.text = session.myUser.userId;
+           
             versionCell.selectionStyle = UITableViewCellSelectionStyleNone;
 
             cell = versionCell;
